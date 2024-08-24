@@ -1,0 +1,8 @@
+{
+    "name": "nox",
+    "image_path": "images/alice.png",
+    "age": 25,
+    "height": 170,
+    "weight": 60,
+    "say": "안녕하세요! 저는 알리스를 만나서 반가워요."
+}
