@@ -2,9 +2,749 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 294: end of line expected.
-    show t_default_def at top center
-                              ^
+File "game/chapter0.rpy", line 3: Line with id chapter_0_fb387712 appears twice. The other line is game/chapter/chapter0.rpy:3
+
+File "game/chapter0.rpy", line 4: Line with id chapter_0_91503c24 appears twice. The other line is game/chapter/chapter0.rpy:4
+
+File "game/chapter0.rpy", line 5: Line with id chapter_0_0ce7a552 appears twice. The other line is game/chapter/chapter0.rpy:5
+
+File "game/chapter0.rpy", line 7: Line with id chapter_0_83606f59 appears twice. The other line is game/chapter/chapter0.rpy:7
+
+File "game/chapter0.rpy", line 9: Line with id chapter_0_3684ea71 appears twice. The other line is game/chapter/chapter0.rpy:9
+
+File "game/chapter0.rpy", line 10: Line with id chapter_0_812bafdd appears twice. The other line is game/chapter/chapter0.rpy:10
+
+File "game/chapter0.rpy", line 11: Line with id chapter_0_a1c87906 appears twice. The other line is game/chapter/chapter0.rpy:11
+
+File "game/chapter0.rpy", line 12: Line with id chapter_0_0659f3f5 appears twice. The other line is game/chapter/chapter0.rpy:12
+
+File "game/chapter0.rpy", line 13: Line with id chapter_0_ab7c2f13 appears twice. The other line is game/chapter/chapter0.rpy:13
+
+File "game/chapter0.rpy", line 15: Line with id chapter_0_470ac5c4 appears twice. The other line is game/chapter/chapter0.rpy:15
+
+File "game/chapter0.rpy", line 16: Line with id chapter_0_837ed4ac appears twice. The other line is game/chapter/chapter0.rpy:16
+
+File "game/chapter0.rpy", line 18: Line with id chapter_0_0aa8f29b appears twice. The other line is game/chapter/chapter0.rpy:18
+
+File "game/chapter0.rpy", line 19: Line with id chapter_0_e483fb4d appears twice. The other line is game/chapter/chapter0.rpy:19
+
+File "game/chapter0.rpy", line 20: Line with id chapter_0_09c74729 appears twice. The other line is game/chapter/chapter0.rpy:20
+
+File "game/chapter0.rpy", line 21: Line with id chapter_0_72b595c0 appears twice. The other line is game/chapter/chapter0.rpy:21
+
+File "game/chapter0.rpy", line 23: Line with id chapter_0_c8077278 appears twice. The other line is game/chapter/chapter0.rpy:23
+
+File "game/chapter0.rpy", line 25: Line with id chapter_0_c174baf7 appears twice. The other line is game/chapter/chapter0.rpy:25
+
+File "game/chapter0.rpy", line 26: Line with id chapter_0_573fa771 appears twice. The other line is game/chapter/chapter0.rpy:26
+
+File "game/chapter0.rpy", line 31: Line with id chapter_0_03be870c appears twice. The other line is game/chapter/chapter0.rpy:31
+
+File "game/chapter0.rpy", line 35: Line with id chapter_0_048531a5 appears twice. The other line is game/chapter/chapter0.rpy:35
+
+File "game/chapter0.rpy", line 38: Line with id chapter_0_286782a0 appears twice. The other line is game/chapter/chapter0.rpy:38
+
+File "game/chapter0.rpy", line 40: Line with id chapter_0_ea9042c3 appears twice. The other line is game/chapter/chapter0.rpy:40
+
+File "game/chapter0.rpy", line 42: Line with id chapter_0_e6c3df9b appears twice. The other line is game/chapter/chapter0.rpy:42
+
+File "game/chapter0.rpy", line 44: Line with id chapter_0_c9da445b appears twice. The other line is game/chapter/chapter0.rpy:44
+
+File "game/chapter0.rpy", line 47: Line with id chapter_0_19c2bcc7 appears twice. The other line is game/chapter/chapter0.rpy:47
+
+File "game/chapter0.rpy", line 48: Line with id chapter_0_a886d922 appears twice. The other line is game/chapter/chapter0.rpy:48
+
+File "game/chapter0.rpy", line 50: Line with id chapter_0_794ce110 appears twice. The other line is game/chapter/chapter0.rpy:50
+
+File "game/chapter0.rpy", line 52: Line with id chapter_0_81174d98 appears twice. The other line is game/chapter/chapter0.rpy:52
+
+File "game/chapter0.rpy", line 54: Line with id chapter_0_d980ea11 appears twice. The other line is game/chapter/chapter0.rpy:54
+
+File "game/chapter0.rpy", line 56: Line with id chapter_0_24dd94a5 appears twice. The other line is game/chapter/chapter0.rpy:56
+
+File "game/chapter0.rpy", line 59: Line with id chapter_0_a9583dfc appears twice. The other line is game/chapter/chapter0.rpy:59
+
+File "game/chapter0.rpy", line 60: Line with id chapter_0_a20cefa7 appears twice. The other line is game/chapter/chapter0.rpy:60
+
+File "game/chapter0.rpy", line 62: Line with id chapter_0_962a0be0 appears twice. The other line is game/chapter/chapter0.rpy:62
+
+File "game/chapter0.rpy", line 64: Line with id chapter_0_42f40d41 appears twice. The other line is game/chapter/chapter0.rpy:64
+
+File "game/chapter0.rpy", line 67: Line with id chapter_0_491ab753 appears twice. The other line is game/chapter/chapter0.rpy:67
+
+File "game/chapter0.rpy", line 69: Line with id chapter_0_9be5697b appears twice. The other line is game/chapter/chapter0.rpy:69
+
+File "game/chapter0.rpy", line 71: Line with id chapter_0_18f78d96 appears twice. The other line is game/chapter/chapter0.rpy:71
+
+File "game/chapter0.rpy", line 72: Line with id chapter_0_86e873a1 appears twice. The other line is game/chapter/chapter0.rpy:72
+
+File "game/chapter0.rpy", line 74: Line with id chapter_0_2ea9a8bd appears twice. The other line is game/chapter/chapter0.rpy:74
+
+File "game/chapter0.rpy", line 76: Line with id chapter_0_0cda5c31 appears twice. The other line is game/chapter/chapter0.rpy:76
+
+File "game/chapter0.rpy", line 78: Line with id chapter_0_04371ffc appears twice. The other line is game/chapter/chapter0.rpy:78
+
+File "game/chapter0.rpy", line 80: Line with id chapter_0_d8335be3 appears twice. The other line is game/chapter/chapter0.rpy:80
+
+File "game/chapter0.rpy", line 81: Line with id chapter_0_20b4cbac appears twice. The other line is game/chapter/chapter0.rpy:81
+
+File "game/chapter0.rpy", line 83: Line with id chapter_0_3c5634e1 appears twice. The other line is game/chapter/chapter0.rpy:83
+
+File "game/chapter0.rpy", line 85: Line with id chapter_0_3f6ca9db appears twice. The other line is game/chapter/chapter0.rpy:85
+
+File "game/chapter0.rpy", line 86: Line with id chapter_0_d741a3f2 appears twice. The other line is game/chapter/chapter0.rpy:86
+
+File "game/chapter0.rpy", line 87: Line with id chapter_0_0e3eb02d appears twice. The other line is game/chapter/chapter0.rpy:87
+
+File "game/chapter0.rpy", line 88: Line with id chapter_0_e5877c32 appears twice. The other line is game/chapter/chapter0.rpy:88
+
+File "game/chapter0.rpy", line 90: Line with id chapter_0_d6da8561 appears twice. The other line is game/chapter/chapter0.rpy:90
+
+File "game/chapter0.rpy", line 92: Line with id chapter_0_f821e7d1 appears twice. The other line is game/chapter/chapter0.rpy:92
+
+File "game/chapter0.rpy", line 94: Line with id chapter_0_48cbda0d appears twice. The other line is game/chapter/chapter0.rpy:94
+
+File "game/chapter0.rpy", line 96: Line with id chapter_0_53f959cd appears twice. The other line is game/chapter/chapter0.rpy:96
+
+File "game/chapter0.rpy", line 97: Line with id chapter_0_367377b8 appears twice. The other line is game/chapter/chapter0.rpy:97
+
+File "game/chapter0.rpy", line 99: Line with id chapter_0_1e18e0c1 appears twice. The other line is game/chapter/chapter0.rpy:99
+
+File "game/chapter0.rpy", line 99: Line with id chapter_0_81de10a6 appears twice. The other line is game/chapter/chapter0.rpy:99
+
+File "game/chapter0.rpy", line 105: Line with id chapter_0_3fd42ccc appears twice. The other line is game/chapter/chapter0.rpy:105
+
+File "game/chapter0.rpy", line 107: Line with id chapter_0_cc498e68 appears twice. The other line is game/chapter/chapter0.rpy:107
+
+File "game/chapter0.rpy", line 109: Line with id chapter_0_0251f0e0 appears twice. The other line is game/chapter/chapter0.rpy:109
+
+File "game/chapter0.rpy", line 111: Line with id chapter_0_b57d3312 appears twice. The other line is game/chapter/chapter0.rpy:111
+
+File "game/chapter0.rpy", line 113: Line with id chapter_0_5cbfd91c appears twice. The other line is game/chapter/chapter0.rpy:113
+
+File "game/chapter0.rpy", line 113: Line with id chapter_0_749a6e4a appears twice. The other line is game/chapter/chapter0.rpy:113
+
+File "game/chapter0.rpy", line 117: Line with id chapter_0_129c338a appears twice. The other line is game/chapter/chapter0.rpy:117
+
+File "game/chapter0.rpy", line 119: Line with id chapter_0_2d164831 appears twice. The other line is game/chapter/chapter0.rpy:119
+
+File "game/chapter0.rpy", line 121: Line with id chapter_0_3c45525d appears twice. The other line is game/chapter/chapter0.rpy:121
+
+File "game/chapter0.rpy", line 122: Line with id chapter_0_71d32ce3 appears twice. The other line is game/chapter/chapter0.rpy:122
+
+File "game/chapter0.rpy", line 124: Line with id chapter_0_442941ca appears twice. The other line is game/chapter/chapter0.rpy:124
+
+File "game/chapter0.rpy", line 124: Line with id chapter_0_ca34b6c3 appears twice. The other line is game/chapter/chapter0.rpy:124
+
+File "game/chapter0.rpy", line 124: Line with id chapter_0_1d8cfe74 appears twice. The other line is game/chapter/chapter0.rpy:124
+
+File "game/chapter0.rpy", line 124: Line with id chapter_0_c87683f3 appears twice. The other line is game/chapter/chapter0.rpy:124
+
+File "game/chapter0.rpy", line 132: Line with id chapter_0_f79fb347 appears twice. The other line is game/chapter/chapter0.rpy:132
+
+File "game/chapter0.rpy", line 134: Line with id chapter_0_38709c84 appears twice. The other line is game/chapter/chapter0.rpy:134
+
+File "game/chapter0.rpy", line 136: Line with id chapter_0_b52bba6e appears twice. The other line is game/chapter/chapter0.rpy:136
+
+File "game/chapter0.rpy", line 137: Line with id chapter_0_efebea1a appears twice. The other line is game/chapter/chapter0.rpy:137
+
+File "game/chapter0.rpy", line 139: Line with id chapter_0_f01a7562 appears twice. The other line is game/chapter/chapter0.rpy:139
+
+File "game/chapter0.rpy", line 141: Line with id chapter_0_e99e47e7 appears twice. The other line is game/chapter/chapter0.rpy:141
+
+File "game/chapter0.rpy", line 143: Line with id chapter_0_da5e1274 appears twice. The other line is game/chapter/chapter0.rpy:143
+
+File "game/chapter0.rpy", line 144: Line with id chapter_0_7f141de2 appears twice. The other line is game/chapter/chapter0.rpy:144
+
+File "game/chapter0.rpy", line 145: Line with id chapter_0_c766dc7e appears twice. The other line is game/chapter/chapter0.rpy:145
+
+File "game/chapter0.rpy", line 147: Line with id chapter_0_8fac3257 appears twice. The other line is game/chapter/chapter0.rpy:147
+
+File "game/chapter0.rpy", line 149: Line with id chapter_0_e5bac61e appears twice. The other line is game/chapter/chapter0.rpy:149
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_140141ca appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_b34244a7 appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_e71ea4a0 appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_dfa47381 appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_9590ec70 appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_6c4da730 appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 151: Line with id chapter_0_a20cefa7_1 appears twice. The other line is game/chapter/chapter0.rpy:151
+
+File "game/chapter0.rpy", line 166: Line with id chapter_0_185bcdda appears twice. The other line is game/chapter/chapter0.rpy:166
+
+File "game/chapter0.rpy", line 168: Line with id chapter_0_c20281a6 appears twice. The other line is game/chapter/chapter0.rpy:168
+
+File "game/chapter0.rpy", line 168: Line with id chapter_0_401643ce appears twice. The other line is game/chapter/chapter0.rpy:168
+
+File "game/chapter0.rpy", line 168: Line with id chapter_0_b4c0acc8 appears twice. The other line is game/chapter/chapter0.rpy:168
+
+File "game/chapter0.rpy", line 168: Line with id chapter_0_15b80010 appears twice. The other line is game/chapter/chapter0.rpy:168
+
+File "game/chapter0.rpy", line 177: Line with id chapter_0_ff954ca1 appears twice. The other line is game/chapter/chapter0.rpy:177
+
+File "game/chapter0.rpy", line 179: Line with id chapter_0_8633005d appears twice. The other line is game/chapter/chapter0.rpy:179
+
+File "game/chapter0.rpy", line 181: Line with id chapter_0_c9da445b_1 appears twice. The other line is game/chapter/chapter0.rpy:181
+
+File "game/chapter0.rpy", line 183: Line with id chapter_0_36034816 appears twice. The other line is game/chapter/chapter0.rpy:183
+
+File "game/chapter0.rpy", line 185: Line with id chapter_0_7e6b8527 appears twice. The other line is game/chapter/chapter0.rpy:185
+
+File "game/chapter0.rpy", line 187: Line with id chapter_0_f6e313c4 appears twice. The other line is game/chapter/chapter0.rpy:187
+
+File "game/chapter0.rpy", line 189: Line with id chapter_0_78b3ebb4 appears twice. The other line is game/chapter/chapter0.rpy:189
+
+File "game/chapter0.rpy", line 191: Line with id chapter_0_af9cb1a4 appears twice. The other line is game/chapter/chapter0.rpy:191
+
+File "game/chapter0.rpy", line 191: Line with id chapter_0_af72b173 appears twice. The other line is game/chapter/chapter0.rpy:191
+
+File "game/chapter0.rpy", line 191: Line with id chapter_0_c59db2c2 appears twice. The other line is game/chapter/chapter0.rpy:191
+
+File "game/chapter0.rpy", line 197: Line with id chapter_0_3f94969f appears twice. The other line is game/chapter/chapter0.rpy:197
+
+File "game/chapter0.rpy", line 197: Line with id chapter_0_091940ac appears twice. The other line is game/chapter/chapter0.rpy:197
+
+File "game/chapter0.rpy", line 201: Line with id chapter_0_ea60c816 appears twice. The other line is game/chapter/chapter0.rpy:201
+
+File "game/chapter0.rpy", line 206: Line with id chapter_0_7755dd3d appears twice. The other line is game/chapter/chapter0.rpy:206
+
+File "game/chapter0.rpy", line 206: Line with id chapter_0_1e447f66 appears twice. The other line is game/chapter/chapter0.rpy:206
+
+File "game/chapter0.rpy", line 206: Line with id chapter_0_ce08f7e3 appears twice. The other line is game/chapter/chapter0.rpy:206
+
+File "game/chapter0.rpy", line 206: Line with id chapter_0_b19fde76 appears twice. The other line is game/chapter/chapter0.rpy:206
+
+File "game/chapter0.rpy", line 206: Line with id chapter_0_03d8d982 appears twice. The other line is game/chapter/chapter0.rpy:206
+
+File "game/chapter0.rpy", line 206: Line with id chapter_0_369b41cd appears twice. The other line is game/chapter/chapter0.rpy:206
+
+File "game/chapter0.rpy", line 219: Line with id chapter_0_db992e13 appears twice. The other line is game/chapter/chapter0.rpy:219
+
+File "game/chapter0.rpy", line 221: Line with id chapter_0_753c865b appears twice. The other line is game/chapter/chapter0.rpy:221
+
+File "game/chapter0.rpy", line 222: Line with id chapter_0_69ff90b0 appears twice. The other line is game/chapter/chapter0.rpy:222
+
+File "game/chapter0.rpy", line 223: Line with id chapter_0_3fe2c027 appears twice. The other line is game/chapter/chapter0.rpy:223
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_bd457fcd appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_e6ac52bd appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_04626742 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_8a80ca78 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_15c953b6 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_0d0de126 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_1300fb88 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_5a0af3e4 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 227: Line with id chapter_0_a19a5706 appears twice. The other line is game/chapter/chapter0.rpy:227
+
+File "game/chapter0.rpy", line 246: Line with id chapter_0_e458eca2 appears twice. The other line is game/chapter/chapter0.rpy:246
+
+File "game/chapter0.rpy", line 246: Line with id chapter_0_3b5da47d appears twice. The other line is game/chapter/chapter0.rpy:246
+
+File "game/chapter0.rpy", line 246: Line with id chapter_0_5d5bfe23 appears twice. The other line is game/chapter/chapter0.rpy:246
+
+File "game/chapter0.rpy", line 246: Line with id chapter_0_596ef3a4 appears twice. The other line is game/chapter/chapter0.rpy:246
+
+File "game/chapter1.rpy", line 4: Line with id chapter_1_336da3b7 appears twice. The other line is game/chapter/chapter1.rpy:4
+
+File "game/chapter1.rpy", line 6: Line with id chapter_1_89ed73e4 appears twice. The other line is game/chapter/chapter1.rpy:6
+
+File "game/chapter1.rpy", line 6: Line with id chapter_1_e587adf8 appears twice. The other line is game/chapter/chapter1.rpy:6
+
+File "game/chapter1.rpy", line 10: Line with id chapter_1_6324cd10 appears twice. The other line is game/chapter/chapter1.rpy:10
+
+File "game/chapter1.rpy", line 10: Line with id chapter_1_6cdd8a85 appears twice. The other line is game/chapter/chapter1.rpy:10
+
+File "game/chapter1.rpy", line 10: Line with id chapter_1_f25cac87 appears twice. The other line is game/chapter/chapter1.rpy:10
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_cb574d2c appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_13c7b0e6 appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_4df63173 appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_361091aa appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_5fbaf24f appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_155ddc1c appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 19: Line with id chapter_1_2a976837 appears twice. The other line is game/chapter/chapter1.rpy:19
+
+File "game/chapter1.rpy", line 37: Line with id chapter_1_f879d640 appears twice. The other line is game/chapter/chapter1.rpy:37
+
+File "game/chapter1.rpy", line 38: Line with id chapter_1_9ea1d34d appears twice. The other line is game/chapter/chapter1.rpy:38
+
+File "game/chapter1.rpy", line 39: Line with id chapter_1_66c78d8e appears twice. The other line is game/chapter/chapter1.rpy:39
+
+File "game/chapter1.rpy", line 40: Line with id chapter_1_69e9a758 appears twice. The other line is game/chapter/chapter1.rpy:40
+
+File "game/chapter1.rpy", line 44: Line with id chapter_1_5bf64d83 appears twice. The other line is game/chapter/chapter1.rpy:44
+
+File "game/chapter1.rpy", line 46: Line with id chapter_1_ff57a62a appears twice. The other line is game/chapter/chapter1.rpy:46
+
+File "game/chapter1.rpy", line 48: Line with id chapter_1_54271faa appears twice. The other line is game/chapter/chapter1.rpy:48
+
+File "game/chapter1.rpy", line 50: Line with id chapter_1_c1998fd8 appears twice. The other line is game/chapter/chapter1.rpy:50
+
+File "game/chapter1.rpy", line 50: Line with id chapter_1_4c8e98d6 appears twice. The other line is game/chapter/chapter1.rpy:50
+
+File "game/chapter1.rpy", line 50: Line with id chapter_1_ee5a17d0 appears twice. The other line is game/chapter/chapter1.rpy:50
+
+File "game/chapter1.rpy", line 50: Line with id chapter_1_db66bd4c appears twice. The other line is game/chapter/chapter1.rpy:50
+
+File "game/chapter1.rpy", line 50: Line with id chapter_1_6747ede2 appears twice. The other line is game/chapter/chapter1.rpy:50
+
+File "game/chapter1.rpy", line 50: Line with id chapter_1_0763d8ae appears twice. The other line is game/chapter/chapter1.rpy:50
+
+File "game/chapter1.rpy", line 63: Line with id chapter_1_44f802b7 appears twice. The other line is game/chapter/chapter1.rpy:63
+
+File "game/chapter1.rpy", line 65: Line with id chapter_1_66a09bcb appears twice. The other line is game/chapter/chapter1.rpy:65
+
+File "game/chapter1.rpy", line 65: Line with id chapter_1_b8b55aea appears twice. The other line is game/chapter/chapter1.rpy:65
+
+File "game/chapter1.rpy", line 65: Line with id chapter_1_1dd34dad appears twice. The other line is game/chapter/chapter1.rpy:65
+
+File "game/chapter1.rpy", line 71: Line with id chapter_1_acdf2c8a appears twice. The other line is game/chapter/chapter1.rpy:71
+
+File "game/chapter1.rpy", line 73: Line with id chapter_1_3c2751be appears twice. The other line is game/chapter/chapter1.rpy:73
+
+File "game/chapter1.rpy", line 73: Line with id chapter_1_6cc0ff10 appears twice. The other line is game/chapter/chapter1.rpy:73
+
+File "game/chapter1.rpy", line 78: Line with id chapter_1_4c3c6a68 appears twice. The other line is game/chapter/chapter1.rpy:78
+
+File "game/chapter1.rpy", line 81: Line with id chapter_1_4c771878 appears twice. The other line is game/chapter/chapter1.rpy:81
+
+File "game/chapter1.rpy", line 84: Line with id chapter_1_91d698d8 appears twice. The other line is game/chapter/chapter1.rpy:84
+
+File "game/chapter1.rpy", line 86: Line with id chapter_1_274cd2d7 appears twice. The other line is game/chapter/chapter1.rpy:86
+
+File "game/chapter1.rpy", line 89: Line with id chapter_1_1028b895 appears twice. The other line is game/chapter/chapter1.rpy:89
+
+File "game/chapter1.rpy", line 92: Line with id chapter_1_4a5ef886 appears twice. The other line is game/chapter/chapter1.rpy:92
+
+File "game/chapter1.rpy", line 95: Line with id chapter_1_943ba3ce appears twice. The other line is game/chapter/chapter1.rpy:95
+
+File "game/chapter1.rpy", line 98: Line with id chapter_1_7a5f683e appears twice. The other line is game/chapter/chapter1.rpy:98
+
+File "game/chapter1.rpy", line 101: Line with id chapter_1_dfdb1d80 appears twice. The other line is game/chapter/chapter1.rpy:101
+
+File "game/chapter1.rpy", line 104: Line with id chapter_1_77de277b appears twice. The other line is game/chapter/chapter1.rpy:104
+
+File "game/chapter1.rpy", line 107: Line with id chapter_1_1b38bbfa appears twice. The other line is game/chapter/chapter1.rpy:107
+
+File "game/chapter1.rpy", line 109: Line with id chapter_1_4fbcfa5d appears twice. The other line is game/chapter/chapter1.rpy:109
+
+File "game/chapter1.rpy", line 109: Line with id chapter_1_004243af appears twice. The other line is game/chapter/chapter1.rpy:109
+
+File "game/chapter1.rpy", line 109: Line with id chapter_1_4dc6c60f appears twice. The other line is game/chapter/chapter1.rpy:109
+
+File "game/chapter1.rpy", line 109: Line with id chapter_1_97543229 appears twice. The other line is game/chapter/chapter1.rpy:109
+
+File "game/chapter1.rpy", line 109: Line with id chapter_1_dbc61104 appears twice. The other line is game/chapter/chapter1.rpy:109
+
+File "game/chapter1.rpy", line 120: Line with id chapter_1_bcc21b9e appears twice. The other line is game/chapter/chapter1.rpy:120
+
+File "game/chapter1.rpy", line 122: Line with id chapter_1_cb126477 appears twice. The other line is game/chapter/chapter1.rpy:122
+
+File "game/chapter1.rpy", line 124: Line with id chapter_1_71f0794a appears twice. The other line is game/chapter/chapter1.rpy:124
+
+File "game/chapter1.rpy", line 126: Line with id chapter_1_f44d3cac appears twice. The other line is game/chapter/chapter1.rpy:126
+
+File "game/chapter1.rpy", line 126: Line with id chapter_1_386b33b8 appears twice. The other line is game/chapter/chapter1.rpy:126
+
+File "game/chapter1.rpy", line 126: Line with id chapter_1_41d3b409 appears twice. The other line is game/chapter/chapter1.rpy:126
+
+File "game/chapter1.rpy", line 134: Line with id chapter_1_7b81bd3d appears twice. The other line is game/chapter/chapter1.rpy:134
+
+File "game/chapter1.rpy", line 136: Line with id chapter_1_2d90f101 appears twice. The other line is game/chapter/chapter1.rpy:136
+
+File "game/chapter1.rpy", line 136: Line with id chapter_1_27284764 appears twice. The other line is game/chapter/chapter1.rpy:136
+
+File "game/chapter1.rpy", line 136: Line with id chapter_1_759b1fb3 appears twice. The other line is game/chapter/chapter1.rpy:136
+
+File "game/chapter1.rpy", line 144: Line with id chapter_1_8a49308d appears twice. The other line is game/chapter/chapter1.rpy:144
+
+File "game/chapter1.rpy", line 146: Line with id chapter_1_910448ad appears twice. The other line is game/chapter/chapter1.rpy:146
+
+File "game/chapter1.rpy", line 148: Line with id chapter_1_3b60648a appears twice. The other line is game/chapter/chapter1.rpy:148
+
+File "game/chapter1.rpy", line 150: Line with id chapter_1_27ba14d2 appears twice. The other line is game/chapter/chapter1.rpy:150
+
+File "game/chapter1.rpy", line 152: Line with id chapter_1_858ffe43 appears twice. The other line is game/chapter/chapter1.rpy:152
+
+File "game/chapter1.rpy", line 152: Line with id chapter_1_f51cfa10 appears twice. The other line is game/chapter/chapter1.rpy:152
+
+File "game/chapter1.rpy", line 158: Line with id chapter_1_0196bc73 appears twice. The other line is game/chapter/chapter1.rpy:158
+
+File "game/chapter1.rpy", line 160: Line with id chapter_1_4e56c48e appears twice. The other line is game/chapter/chapter1.rpy:160
+
+File "game/chapter1.rpy", line 160: Line with id chapter_1_c0db7a0a appears twice. The other line is game/chapter/chapter1.rpy:160
+
+File "game/chapter1.rpy", line 160: Line with id chapter_1_85c578c6 appears twice. The other line is game/chapter/chapter1.rpy:160
+
+File "game/chapter1.rpy", line 160: Line with id chapter_1_d156e253 appears twice. The other line is game/chapter/chapter1.rpy:160
+
+File "game/chapter1.rpy", line 170: Line with id chapter_1_931cabd0 appears twice. The other line is game/chapter/chapter1.rpy:170
+
+File "game/chapter1.rpy", line 172: Line with id chapter_1_5a72302f appears twice. The other line is game/chapter/chapter1.rpy:172
+
+File "game/chapter1.rpy", line 174: Line with id chapter_1_846593d0 appears twice. The other line is game/chapter/chapter1.rpy:174
+
+File "game/chapter1.rpy", line 176: Line with id chapter_1_fd3201ad appears twice. The other line is game/chapter/chapter1.rpy:176
+
+File "game/chapter1.rpy", line 178: Line with id chapter_1_11bce9a8 appears twice. The other line is game/chapter/chapter1.rpy:178
+
+File "game/chapter1.rpy", line 181: Line with id chapter_1_15c2629f appears twice. The other line is game/chapter/chapter1.rpy:181
+
+File "game/chapter1.rpy", line 183: Line with id chapter_1_b927c25b appears twice. The other line is game/chapter/chapter1.rpy:183
+
+File "game/chapter1.rpy", line 185: Line with id chapter_1_3e418e10 appears twice. The other line is game/chapter/chapter1.rpy:185
+
+File "game/chapter1.rpy", line 185: Line with id chapter_1_00bc5376 appears twice. The other line is game/chapter/chapter1.rpy:185
+
+File "game/chapter1.rpy", line 185: Line with id chapter_1_55125801 appears twice. The other line is game/chapter/chapter1.rpy:185
+
+File "game/chapter1.rpy", line 185: Line with id chapter_1_fd394085 appears twice. The other line is game/chapter/chapter1.rpy:185
+
+File "game/chapter1.rpy", line 193: Line with id chapter_1_675b4b1c appears twice. The other line is game/chapter/chapter1.rpy:193
+
+File "game/chapter1.rpy", line 194: Line with id chapter_1_e5dde00a appears twice. The other line is game/chapter/chapter1.rpy:194
+
+File "game/chapter1.rpy", line 196: Line with id chapter_1_4924a2d4 appears twice. The other line is game/chapter/chapter1.rpy:196
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_c2bccb0e appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_942eed4d appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_61f68601 appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_a985287f appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_7de9370e appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_26cb0a32 appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_f0c5579b appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 197: Line with id chapter_1_27a0849f appears twice. The other line is game/chapter/chapter1.rpy:197
+
+File "game/chapter1.rpy", line 214: Line with id chapter_1_73aca027 appears twice. The other line is game/chapter/chapter1.rpy:214
+
+File "game/chapter1.rpy", line 216: Line with id chapter_1_bb5934e0 appears twice. The other line is game/chapter/chapter1.rpy:216
+
+File "game/chapter1.rpy", line 218: Line with id chapter_1_f752312a appears twice. The other line is game/chapter/chapter1.rpy:218
+
+File "game/chapter1.rpy", line 220: Line with id chapter_1_f524d5ef appears twice. The other line is game/chapter/chapter1.rpy:220
+
+File "game/chapter1.rpy", line 222: Line with id chapter_1_454871b2 appears twice. The other line is game/chapter/chapter1.rpy:222
+
+File "game/chapter1.rpy", line 224: Line with id chapter_1_e7b595cc appears twice. The other line is game/chapter/chapter1.rpy:224
+
+File "game/chapter1.rpy", line 226: Line with id chapter_1_63c9a965 appears twice. The other line is game/chapter/chapter1.rpy:226
+
+File "game/chapter1.rpy", line 228: Line with id chapter_1_3a6e2a3f appears twice. The other line is game/chapter/chapter1.rpy:228
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_c9dc8819 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_7555c10e appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_a6349c45 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_4861e952 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_c2b1bd1f appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_6c9a1448 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_93996a08 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_266453b2 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_63ae36a7 appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 232: Line with id chapter_1_983c0beb appears twice. The other line is game/chapter/chapter1.rpy:232
+
+File "game/chapter1.rpy", line 252: Line with id chapter_1_89b2c4a4 appears twice. The other line is game/chapter/chapter1.rpy:252
+
+File "game/chapter1.rpy", line 254: Line with id chapter_1_9a1c4fb7 appears twice. The other line is game/chapter/chapter1.rpy:254
+
+File "game/chapter1.rpy", line 256: Line with id chapter_1_686259cd appears twice. The other line is game/chapter/chapter1.rpy:256
+
+File "game/chapter1.rpy", line 258: Line with id chapter_1_629d441b appears twice. The other line is game/chapter/chapter1.rpy:258
+
+File "game/chapter1.rpy", line 260: Line with id chapter_1_dccfb5e7 appears twice. The other line is game/chapter/chapter1.rpy:260
+
+File "game/chapter1.rpy", line 262: Line with id chapter_1_d3161dca appears twice. The other line is game/chapter/chapter1.rpy:262
+
+File "game/chapter1.rpy", line 266: Line with id chapter_1_19cdbe8f appears twice. The other line is game/chapter/chapter1.rpy:266
+
+File "game/chapter1.rpy", line 266: Line with id chapter_1_2edce445 appears twice. The other line is game/chapter/chapter1.rpy:266
+
+File "game/chapter1.rpy", line 273: Line with id chapter_1_957b4c20 appears twice. The other line is game/chapter/chapter1.rpy:273
+
+File "game/chapter1.rpy", line 275: Line with id chapter_1_ee2ffb8f appears twice. The other line is game/chapter/chapter1.rpy:275
+
+File "game/chapter1.rpy", line 276: Line with id chapter_1_68472487 appears twice. The other line is game/chapter/chapter1.rpy:276
+
+File "game/chapter1.rpy", line 278: Line with id chapter_1_7af2aed4 appears twice. The other line is game/chapter/chapter1.rpy:278
+
+File "game/chapter1.rpy", line 281: Line with id chapter_1_f76aeca0 appears twice. The other line is game/chapter/chapter1.rpy:281
+
+File "game/chapter1.rpy", line 283: Line with id chapter_1_5ed51257 appears twice. The other line is game/chapter/chapter1.rpy:283
+
+File "game/chapter1.rpy", line 285: Line with id chapter_1_8d7d2cda appears twice. The other line is game/chapter/chapter1.rpy:285
+
+File "game/chapter1.rpy", line 287: Line with id chapter_1_2b7095b4 appears twice. The other line is game/chapter/chapter1.rpy:287
+
+File "game/chapter1.rpy", line 289: Line with id chapter_1_c5b37a5d appears twice. The other line is game/chapter/chapter1.rpy:289
+
+File "game/chapter1.rpy", line 291: Line with id chapter_1_fa101b46 appears twice. The other line is game/chapter/chapter1.rpy:291
+
+File "game/chapter1.rpy", line 293: Line with id chapter_1_9626837a appears twice. The other line is game/chapter/chapter1.rpy:293
+
+File "game/chapter1.rpy", line 293: Line with id chapter_1_5ba19dc0 appears twice. The other line is game/chapter/chapter1.rpy:293
+
+File "game/chapter1.rpy", line 297: Line with id chapter_1_e1554201 appears twice. The other line is game/chapter/chapter1.rpy:297
+
+File "game/chapter1.rpy", line 301: Line with id chapter_1_66e2db26 appears twice. The other line is game/chapter/chapter1.rpy:301
+
+File "game/chapter1.rpy", line 301: Line with id chapter_1_d3aa091c appears twice. The other line is game/chapter/chapter1.rpy:301
+
+File "game/chapter1.rpy", line 301: Line with id chapter_1_cf40626c appears twice. The other line is game/chapter/chapter1.rpy:301
+
+File "game/chapter1.rpy", line 301: Line with id chapter_1_b2d75db7 appears twice. The other line is game/chapter/chapter1.rpy:301
+
+File "game/chapter1.rpy", line 301: Line with id chapter_1_2b7bb033 appears twice. The other line is game/chapter/chapter1.rpy:301
+
+File "game/chapter1.rpy", line 301: Line with id chapter_1_5951c991 appears twice. The other line is game/chapter/chapter1.rpy:301
+
+File "game/chapter1.rpy", line 315: Line with id chapter_1_69ff70ab appears twice. The other line is game/chapter/chapter1.rpy:315
+
+File "game/chapter1.rpy", line 317: Line with id chapter_1_40ed99f0 appears twice. The other line is game/chapter/chapter1.rpy:317
+
+File "game/chapter1.rpy", line 319: Line with id chapter_1_83942802 appears twice. The other line is game/chapter/chapter1.rpy:319
+
+File "game/chapter1.rpy", line 319: Line with id chapter_1_6591f608 appears twice. The other line is game/chapter/chapter1.rpy:319
+
+File "game/chapter1.rpy", line 319: Line with id chapter_1_eabb65e7 appears twice. The other line is game/chapter/chapter1.rpy:319
+
+File "game/chapter1.rpy", line 326: Line with id chapter_1_3e96db34 appears twice. The other line is game/chapter/chapter1.rpy:326
+
+File "game/chapter1.rpy", line 329: Line with id chapter_1_m1_932c8d0e appears twice. The other line is game/chapter/chapter1.rpy:329
+
+File "game/chapter1.rpy", line 331: Line with id chapter_1_m1_76f8d6a0 appears twice. The other line is game/chapter/chapter1.rpy:331
+
+File "game/chapter1.rpy", line 333: Line with id chapter_1_m1_7c279645 appears twice. The other line is game/chapter/chapter1.rpy:333
+
+File "game/chapter1.rpy", line 336: Line with id chapter_1_m1_522dc8c3 appears twice. The other line is game/chapter/chapter1.rpy:336
+
+File "game/chapter1.rpy", line 336: Line with id chapter_1_m1_85159ad8 appears twice. The other line is game/chapter/chapter1.rpy:336
+
+File "game/chapter1.rpy", line 336: Line with id chapter_1_m1_20600798 appears twice. The other line is game/chapter/chapter1.rpy:336
+
+File "game/chapter1.rpy", line 342: Line with id chapter_1_m1_086cfc77 appears twice. The other line is game/chapter/chapter1.rpy:342
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_64989732 appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_7d7f708d appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_603eb312 appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_5681a277 appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_67ddc71a appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_f3ad1fcc appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 345: Line with id chapter_1_m1_9e3c8d59 appears twice. The other line is game/chapter/chapter1.rpy:345
+
+File "game/chapter1.rpy", line 361: Line with id chapter_1_m2_f7334c51 appears twice. The other line is game/chapter/chapter1.rpy:361
+
+File "game/chapter1.rpy", line 368: Line with id chapter_1_m2_c5f21e17 appears twice. The other line is game/chapter/chapter1.rpy:368
+
+File "game/chapter1.rpy", line 370: Line with id chapter_1_m2_679f73a0 appears twice. The other line is game/chapter/chapter1.rpy:370
+
+File "game/chapter1.rpy", line 372: Line with id chapter_1_m2_7c279645 appears twice. The other line is game/chapter/chapter1.rpy:372
+
+File "game/chapter1.rpy", line 374: Line with id chapter_1_m2_94f8e845 appears twice. The other line is game/chapter/chapter1.rpy:374
+
+File "game/chapter1.rpy", line 376: Line with id chapter_1_m2_fb1251c6 appears twice. The other line is game/chapter/chapter1.rpy:376
+
+File "game/chapter1.rpy", line 378: Line with id chapter_1_m2_2ecc0dc7 appears twice. The other line is game/chapter/chapter1.rpy:378
+
+File "game/chapter1.rpy", line 378: Line with id chapter_1_m2_4801053a appears twice. The other line is game/chapter/chapter1.rpy:378
+
+File "game/chapter1.rpy", line 383: Line with id chapter_1_m2_6d60c6fb appears twice. The other line is game/chapter/chapter1.rpy:383
+
+File "game/chapter1.rpy", line 383: Line with id chapter_1_m2_1bd774fa appears twice. The other line is game/chapter/chapter1.rpy:383
+
+File "game/chapter1.rpy", line 383: Line with id chapter_1_m2_501358f8 appears twice. The other line is game/chapter/chapter1.rpy:383
+
+File "game/chapter1.rpy", line 383: Line with id chapter_1_m2_9594477f appears twice. The other line is game/chapter/chapter1.rpy:383
+
+File "game/chapter1.rpy", line 383: Line with id chapter_1_m2_cb9c6af8 appears twice. The other line is game/chapter/chapter1.rpy:383
+
+File "game/chapter1.rpy", line 383: Line with id chapter_1_m2_3ed7233d appears twice. The other line is game/chapter/chapter1.rpy:383
+
+File "game/chapter1.rpy", line 396: Line with id chapter_1_m2_8c5624f6 appears twice. The other line is game/chapter/chapter1.rpy:396
+
+File "game/chapter1.rpy", line 396: Line with id chapter_1_m2_ee497102 appears twice. The other line is game/chapter/chapter1.rpy:396
+
+File "game/chapter1.rpy", line 396: Line with id chapter_1_m2_c1380405 appears twice. The other line is game/chapter/chapter1.rpy:396
+
+File "game/chapter1.rpy", line 396: Line with id chapter_1_m2_4decc27f appears twice. The other line is game/chapter/chapter1.rpy:396
+
+File "game/chapter1.rpy", line 405: Line with id chapter_1_m2_c0187e21 appears twice. The other line is game/chapter/chapter1.rpy:405
+
+File "game/chapter1.rpy", line 406: Line with id chapter_1_m2_a6bc54d5 appears twice. The other line is game/chapter/chapter1.rpy:406
+
+File "game/chapter1.rpy", line 408: Line with id chapter_1_m2_4ab60e03 appears twice. The other line is game/chapter/chapter1.rpy:408
+
+File "game/chapter1.rpy", line 410: Line with id chapter_1_m2_5979173c appears twice. The other line is game/chapter/chapter1.rpy:410
+
+File "game/chapter1.rpy", line 411: Line with id chapter_1_m2_248d9ffd appears twice. The other line is game/chapter/chapter1.rpy:411
+
+File "game/chapter1.rpy", line 412: Line with id chapter_1_m2_7b3a6aa1 appears twice. The other line is game/chapter/chapter1.rpy:412
+
+File "game/chapter1.rpy", line 414: Line with id chapter_1_m2_2f7aa1f0 appears twice. The other line is game/chapter/chapter1.rpy:414
+
+File "game/chapter1.rpy", line 415: Line with id chapter_1_m2_e3f54295 appears twice. The other line is game/chapter/chapter1.rpy:415
+
+File "game/chapter1.rpy", line 417: Line with id chapter_1_m2_61d55a09 appears twice. The other line is game/chapter/chapter1.rpy:417
+
+File "game/chapter1.rpy", line 419: Line with id chapter_1_m2_418b4083 appears twice. The other line is game/chapter/chapter1.rpy:419
+
+File "game/chapter1.rpy", line 419: Line with id chapter_1_m2_1d54b576 appears twice. The other line is game/chapter/chapter1.rpy:419
+
+File "game/chapter1.rpy", line 419: Line with id chapter_1_m2_9b1f525e appears twice. The other line is game/chapter/chapter1.rpy:419
+
+File "game/chapter1.rpy", line 419: Line with id chapter_1_m2_d25a599f appears twice. The other line is game/chapter/chapter1.rpy:419
+
+File "game/chapter1.rpy", line 427: Line with id chapter_1_m2_8b76b56c appears twice. The other line is game/chapter/chapter1.rpy:427
+
+File "game/chapter1.rpy", line 427: Line with id chapter_1_m2_b94589cd appears twice. The other line is game/chapter/chapter1.rpy:427
+
+File "game/chapter1.rpy", line 427: Line with id chapter_1_m2_a04e5e46 appears twice. The other line is game/chapter/chapter1.rpy:427
+
+File "game/chapter1.rpy", line 434: Line with id chapter_1_m2_d58b75b4 appears twice. The other line is game/chapter/chapter1.rpy:434
+
+File "game/chapter1.rpy", line 434: Line with id chapter_1_m2_2e123570 appears twice. The other line is game/chapter/chapter1.rpy:434
+
+File "game/chapter1.rpy", line 434: Line with id chapter_1_m2_2686ab28 appears twice. The other line is game/chapter/chapter1.rpy:434
+
+File "game/chapter1.rpy", line 434: Line with id chapter_1_m2_51e055b0 appears twice. The other line is game/chapter/chapter1.rpy:434
+
+File "game/chapter1.rpy", line 442: Line with id chapter_1_m2_33aaa0c2 appears twice. The other line is game/chapter/chapter1.rpy:442
+
+File "game/chapter1.rpy", line 445: Line with id chapter_1_m2_8281eb4e appears twice. The other line is game/chapter/chapter1.rpy:445
+
+File "game/chapter1.rpy", line 447: Line with id chapter_1_m2_05006ff9 appears twice. The other line is game/chapter/chapter1.rpy:447
+
+File "game/chapter1.rpy", line 447: Line with id chapter_1_m2_b3c7674f appears twice. The other line is game/chapter/chapter1.rpy:447
+
+File "game/chapter1.rpy", line 452: Line with id chapter_1_m2_afa126bc appears twice. The other line is game/chapter/chapter1.rpy:452
+
+File "game/chapter1.rpy", line 454: Line with id chapter_1_m2_b50e5706 appears twice. The other line is game/chapter/chapter1.rpy:454
+
+File "game/chapter1.rpy", line 456: Line with id chapter_1_m2_729ff430 appears twice. The other line is game/chapter/chapter1.rpy:456
+
+File "game/chapter1.rpy", line 458: Line with id chapter_1_m2_33576acb appears twice. The other line is game/chapter/chapter1.rpy:458
+
+File "game/chapter1.rpy", line 460: Line with id chapter_1_m2_ed5b2c83 appears twice. The other line is game/chapter/chapter1.rpy:460
+
+File "game/chapter1.rpy", line 462: Line with id chapter_1_m2_fb55ce69 appears twice. The other line is game/chapter/chapter1.rpy:462
+
+File "game/chapter1.rpy", line 464: Line with id chapter_1_m2_e3180b07 appears twice. The other line is game/chapter/chapter1.rpy:464
+
+File "game/chapter1.rpy", line 466: Line with id chapter_1_m2_40ae417c appears twice. The other line is game/chapter/chapter1.rpy:466
+
+File "game/chapter1.rpy", line 468: Line with id chapter_1_m2_875f7f2b appears twice. The other line is game/chapter/chapter1.rpy:468
+
+File "game/chapter1.rpy", line 470: Line with id chapter_1_m2_235b1341 appears twice. The other line is game/chapter/chapter1.rpy:470
+
+File "game/chapter1.rpy", line 472: Line with id chapter_1_m2_28cb199b appears twice. The other line is game/chapter/chapter1.rpy:472
+
+File "game/chapter1.rpy", line 475: Line with id chapter_1_m2_24d81da5 appears twice. The other line is game/chapter/chapter1.rpy:475
+
+File "game/chapter1.rpy", line 475: Line with id chapter_1_m2_c7c57439 appears twice. The other line is game/chapter/chapter1.rpy:475
+
+File "game/chapter1.rpy", line 475: Line with id chapter_1_m2_886395ae appears twice. The other line is game/chapter/chapter1.rpy:475
+
+File "game/chapter1.rpy", line 482: Line with id chapter_1_m2_52a0c621 appears twice. The other line is game/chapter/chapter1.rpy:482
+
+File "game/chapter1.rpy", line 484: Line with id chapter_1_m2_a4f74b37 appears twice. The other line is game/chapter/chapter1.rpy:484
+
+File "game/chapter1.rpy", line 486: Line with id chapter_1_m2_f3444c04 appears twice. The other line is game/chapter/chapter1.rpy:486
+
+File "game/chapter1.rpy", line 487: Line with id chapter_1_m2_18006976 appears twice. The other line is game/chapter/chapter1.rpy:487
+
+File "game/chapter1.rpy", line 489: Line with id chapter_1_m2_c4f4beb6 appears twice. The other line is game/chapter/chapter1.rpy:489
+
+File "game/chapter1.rpy", line 491: Line with id chapter_1_m2_f34847b7 appears twice. The other line is game/chapter/chapter1.rpy:491
+
+File "game/chapter1.rpy", line 492: Line with id chapter_1_m2_3fc574fb appears twice. The other line is game/chapter/chapter1.rpy:492
+
+File "game/chapter1.rpy", line 495: Line with id chapter_1_m3_e6180637 appears twice. The other line is game/chapter/chapter1.rpy:495
+
+File "game/chapter1.rpy", line 505: Line with id chapter_1_jump1_662f7640 appears twice. The other line is game/chapter/chapter1.rpy:505
+
+File "game/chapter1.rpy", line 507: Line with id chapter_1_jump1_706f5601 appears twice. The other line is game/chapter/chapter1.rpy:507
+
+File "game/chapter1.rpy", line 507: Line with id chapter_1_jump1_58e3bbc9 appears twice. The other line is game/chapter/chapter1.rpy:507
+
+File "game/chapter1.rpy", line 512: Line with id chapter_1_jump1_e6af41fb appears twice. The other line is game/chapter/chapter1.rpy:512
+
+File "game/chapter1.rpy", line 512: Line with id chapter_1_jump1_738cb255 appears twice. The other line is game/chapter/chapter1.rpy:512
+
+File "game/chapter1.rpy", line 516: Line with id chapter_1_jump1_5299ced4 appears twice. The other line is game/chapter/chapter1.rpy:516
+
+File "game/chapter1.rpy", line 518: Line with id chapter_1_jump1_761bd7d3 appears twice. The other line is game/chapter/chapter1.rpy:518
+
+File "game/chapter1.rpy", line 520: Line with id chapter_1_jump1_c1a27e27 appears twice. The other line is game/chapter/chapter1.rpy:520
+
+File "game/chapter1.rpy", line 525: Line with id chapter_1_jump2_da931cea appears twice. The other line is game/chapter/chapter1.rpy:525
+
+File "game/chapter1.rpy", line 527: Line with id chapter_1_jump2_70d79d75 appears twice. The other line is game/chapter/chapter1.rpy:527
+
+File "game/chapter1.rpy", line 529: Line with id chapter_1_jump2_0d838def appears twice. The other line is game/chapter/chapter1.rpy:529
+
+File "game/chapter1.rpy", line 533: Line with id chapter_1_jump3_fb8df0d5 appears twice. The other line is game/chapter/chapter1.rpy:533
+
+File "game/chapter1.rpy", line 535: Line with id chapter_1_jump3_ff776d76 appears twice. The other line is game/chapter/chapter1.rpy:535
+
+File "game/chapter1.rpy", line 536: Line with id chapter_1_jump3_d77736d9 appears twice. The other line is game/chapter/chapter1.rpy:536
+
+File "game/chapter1.rpy", line 538: Line with id chapter_1_jump3_7c279645 appears twice. The other line is game/chapter/chapter1.rpy:538
+
+File "game/chapter1.rpy", line 540: Line with id chapter_1_jump3_526aae79 appears twice. The other line is game/chapter/chapter1.rpy:540
+
+File "game/chapter1.rpy", line 540: Line with id chapter_1_jump3_214693c2 appears twice. The other line is game/chapter/chapter1.rpy:540
+
+File "game/chapter1.rpy", line 540: Line with id chapter_1_jump3_ab6c7c9b appears twice. The other line is game/chapter/chapter1.rpy:540
+
+File "game/chapter1.rpy", line 540: Line with id chapter_1_jump3_dcfdb19f appears twice. The other line is game/chapter/chapter1.rpy:540
+
+File "game/chapter1.rpy", line 550: Line with id chapter_1_jump4_706331e4 appears twice. The other line is game/chapter/chapter1.rpy:550
+
+File "game/chapter1.rpy", line 552: Line with id chapter_1_jump4_9315e27f appears twice. The other line is game/chapter/chapter1.rpy:552
+
+File "game/chapter1.rpy", line 552: Line with id chapter_1_jump4_a4ac8f44 appears twice. The other line is game/chapter/chapter1.rpy:552
+
+File "game/chapter1.rpy", line 552: Line with id chapter_1_jump4_a49d0857 appears twice. The other line is game/chapter/chapter1.rpy:552
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Wed Aug 28 16:06:16 2024
+Wed Aug 28 17:54:11 2024
