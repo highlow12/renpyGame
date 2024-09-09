@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 발칙한 고백"""
+label chapter_19:
+    #"""제목 : 발칙한 고백"""
 
     scene bg forest night
     play music "bgm/comfort7.mp3"

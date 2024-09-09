@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 숨겨진 진실"""
+label chapter_18:
+    #"""제목 : 숨겨진 진실"""
 
     scene bg kingdom table
     play music "bgm/ptsd7.mp3"

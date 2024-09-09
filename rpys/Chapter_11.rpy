@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 혼란의 씨앗"""
+label chapter_11:
+    #"""제목 : 혼란의 씨앗"""
 
     play music "bgm/ptsd2.mp3"
     """황제가 서거하였다."""

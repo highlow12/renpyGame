@@ -1,5 +1,5 @@
 label chapter_0:
-    """제목 : 죽고 싶지 않다면"""
+    #"""제목 : 죽고 싶지 않다면"""
 
     scene black
     play music "bgm/ptsd3.mp3"

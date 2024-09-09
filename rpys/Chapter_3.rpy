@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 정체불명의 마법사와 공자"""
+label chapter_3:
+    #"""제목 : 정체불명의 마법사와 공자"""
 
     scene bg kingdom way
     play sound "sfx/sword_throw1.mp3"

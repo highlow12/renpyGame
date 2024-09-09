@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 알 수 없는 마음"""
+label chapter_6:
+    #"""제목 : 알 수 없는 마음"""
 
     scene bg camp out night
     play music "bgm/hean1.mp3"

@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 마지막 비호"""
+label chapter_20:
+    #"""제목 : 마지막 비호"""
 
     scene bg kingdom way
     play music "bgm/dis.mp3"

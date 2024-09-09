@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목: 최대의 용기"""
+label chapter_13:
+    #"""제목: 최대의 용기"""
 
     scene bg tower in
     play music "bgm/romantic5.mp3"

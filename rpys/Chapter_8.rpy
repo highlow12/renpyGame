@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 전쟁의 민낯"""
+label chapter_8:
+    #"""제목 : 전쟁의 민낯"""
 
     scene black
     play music "bgm/sad4.mp3"

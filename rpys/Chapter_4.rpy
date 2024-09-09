@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 절벽 아래에서"""
+label chapter_4:
+    #"""제목 : 절벽 아래에서"""
 
     scene bg forest winter night
     play music "bgm/ptsd3.mp3"

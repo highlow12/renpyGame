@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 마법사의 밤"""
+label chapter_12:
+    #"""제목 : 마법사의 밤"""
 
     scene black
     play music "bgm/comfort4.mp3"

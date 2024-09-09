@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 예상치 못한 사건"""
+label chapter_10:
+    #"""제목 : 예상치 못한 사건"""
 
     scene black
     play music "bgm/comfort7.mp3"

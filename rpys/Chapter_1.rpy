@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 에런과 재회하다"""
+label chapter_1:
+    #"""제목 : 에런과 재회하다"""
 
     scene bg kingdom throne day
     play music "bgm/ptsd3.mp3"

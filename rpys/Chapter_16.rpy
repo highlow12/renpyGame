@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목: 금빛 여명"""
+label chapter_16:
+    #"""제목: 금빛 여명"""
 
     scene bg forest day
     play music "bgm/comfort7.mp3"

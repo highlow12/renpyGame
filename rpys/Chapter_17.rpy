@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 신의 축복"""
+label chapter_17:
+    #"""제목 : 신의 축복"""
 
     scene black
     play music "bgm/dis.mp3"

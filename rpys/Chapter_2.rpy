@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 첫 번째 임무 - 반란군을 진압하라"""
+label chapter_2:
+    #"""제목 : 첫 번째 임무 - 반란군을 진압하라"""
 
     scene bg kingdom throne day
     play music "bgm/ptsd2.mp3"

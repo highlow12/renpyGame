@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 내 진정한 목표는"""
+label chapter_5:
+    #"""제목 : 내 진정한 목표는"""
 
     scene black
     play music "bgm/comfort3.mp3"

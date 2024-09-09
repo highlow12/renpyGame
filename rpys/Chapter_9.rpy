@@ -1,5 +1,5 @@
-label chapter_0:
-    """제목 : 도움을 받는다는 것은"""
+label chapter_9:
+    #"""제목 : 도움을 받는다는 것은"""
 
     scene black
     play sound "sfx/clothes.mp3"
