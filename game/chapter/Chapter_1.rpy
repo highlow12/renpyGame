@@ -1,4 +1,4 @@
-label chapter_0:
+label chapter_1:
     #"""제목 : 에런과 재회하다"""
 
     scene bg kingdom throne day
@@ -20,7 +20,7 @@ label chapter_0:
 
     """에프탈 제국이 주변 왕국의 힘을 흡수해 이대로 막강한 부와 명예를 얻을 수 있다면, 자신들에게도 분명 이득이 될 것으로 생각했기 때문이었다."""
 
-    scene bg black
+    scene black
     """그러나 황제의 예상과는 달리 전쟁은 시간이 지날수록 지체되기 시작했다."""
 
     """제국에게 침략당한 소국들의 소식에 주변에 있는 아디크 왕국과 프라타히라 왕국은 국경을 봉쇄해 굳건한 방어 지지를 구축했다."""
@@ -54,7 +54,7 @@ label chapter_0:
     show char nobility1 at top
     Character('귀족2') "내 말이, 어쩌면 전쟁이 장기전이 될 수도 있는 거 아닐까?"
 
-    scene bg black
+    scene black
     play music "bgm/village1.mp3"
 
     scene bg camp out
@@ -328,7 +328,7 @@ label chapter_0:
     show char s default emb at top
     s "네? 뭐라고요?"
 
-    scene bg black
+    scene black
 
     scene bg kingdom way
     hide char
@@ -405,7 +405,7 @@ label chapter_0:
     show char q default smi at top
     Character('황후 카일라') "그러고 보니, 이 자와 오랜만에 보겠구나? 자 인사라도 하지 그래?"
 
-    menu m0:
+    menu .m0:
         Character('q') "오랜만입니다, 세레나···."
         "보고 싶었습니다, 스승님.":
             "보고 싶었습니다, 스승님."
@@ -420,7 +420,7 @@ label chapter_0:
     show char e default def at top
     e "(에런 스노우가 서 있었다."
 
-    scene bg black
+    scene black
 
     scene bg forest day
     play music "bgm/comfort3.mp3"
@@ -439,11 +439,11 @@ label chapter_0:
 
     """나는 반대편에서 다가오는 사람과 눈이 마주쳤다."""
 
-    menu m1:
+    menu .m1:
         Character('q') "당신은 누구죠?"
         "세레나···.":
             """세레나···."""
-            scene bg black
+            scene black
             """나는 그 말을 끝으로 쓰러졌고"""
 
             """시간이 어느 정도 지나고 나서야 다시 눈을 떴다."""
@@ -497,7 +497,7 @@ label chapter_0:
 
     """그렇게 우리는 오랜 시간을 함께 보냈고, 결국 서로가 소중해졌다."""
 
-    scene bg black
+    scene black
     """그러던 어느 날,"""
 
     """한 시녀가 세레나와 에런이 만나고 있다는 사실을 알게 된다."""
@@ -559,7 +559,7 @@ label chapter_0:
 
     """그것도 벌써 몇 십년이나 더 된 일이었다."""
 
-    scene bg black
+    scene black
 
     scene bg kingdom throne day
     play music "bgm/ptsd2.mp3"
@@ -638,7 +638,7 @@ label chapter_0:
     show char emp at top
     Character('황제 다리우스') "우리가 특별히 네게 기회를 주는 것이다. 그만큼 잘해야겠지?"
 
-    menu m2:
+    menu .m2:
         #show char emp at top
         Character('황제 다리우스') "자, 그래서 어떻게 하겠느냐? 당연히 명령에 수행하겠지? 과거 네가 황후에게 했던 약속처럼 말이다."
         "명령에 수긍한다.":
@@ -653,7 +653,7 @@ label chapter_0:
             show char s default bad at top
             s "……"
 
-            scene bg black
+            scene black
             hide char
             """에런과 몇 년 만에 다시 재회하게 되던 날,"""
 
