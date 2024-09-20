@@ -3,12 +3,20 @@ label chapter_0:
 
     scene black
     play music "bgm/ptsd3.mp3"
+    Character("test") "test"
+    menu test:
+        '테스트 메뉴'
+        '1':
+            s '1'
+        '2':
+            s '2'
+    
     """순식간에 벌어진 일이었다."""
 
     """유일하게 나를 따라줬던 타나가 절벽으로 미끄러지고 말았다."""
 
     """눈이 덮여 있던 탓에 바닥을 확인하지 못했지 때문이었다."""
-
+    
     show char t default emb at top
     T "살려주세요!"
     with shake
