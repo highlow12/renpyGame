@@ -16,7 +16,7 @@ define color_white = u'#ffffff'
 define color_gray = u'#a5a5a5'
 define color_darkGray = u'#595959'
 define color_yellow = u'#fbc22b'
-define color_yellow_darker = u'#9f7d1e'
+define color_yellow_darker = u'#bb9f00'
 define color_yellow_more_darker = u'#4e3e11'
 
 ################################################################################

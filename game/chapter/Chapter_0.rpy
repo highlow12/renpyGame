@@ -1,8 +1,6 @@
 label chapter_0:
     #"""제목 : 죽고 싶지 않다면"""
-
-    scene black
-    play music "bgm/ptsd3.mp3"
+    scene white
     Character("test") "test"
     menu test:
         '테스트 메뉴'
@@ -10,6 +8,9 @@ label chapter_0:
             s '1'
         '2':
             s '2'
+    scene black
+    play music "bgm/ptsd3.mp3"
+    
     
     """순식간에 벌어진 일이었다."""
 

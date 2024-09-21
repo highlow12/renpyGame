@@ -6,7 +6,7 @@ init offset = -1
 default persistent.ClaerChapter = False
 
 init python:
-
+    titles = ['죽고 싶지 않다면', '에런과 재회하다', '첫 번째 임무 - 반란군을 진압하라', '정체불명의 마법사와 공자', '절벽 아래에서', '내 진정한 목표는', '알 수 없는 마음', '갑작스런 습격', '전쟁의 민낯', '도움을 받는다는 것은', '예상치 못한 사건', '혼란의 씨앗', '마법사의 밤', '최대의 용기', '금기된 사랑', '수면 위의 것들', '금빛 여명', '신의 축복', '숨겨진 진실','발칙한 고백', '마지막 비호']
     def Confirm_yes(string, action):
         return Confirm(string, action, None)
 
@@ -256,6 +256,7 @@ style choice_button_text is default:
 
 screen quick_menu():
     variant "touch"
+    
     $ Icon_big = (100,100)
     $ Icon_small = (70,70)
     zorder 100
@@ -263,28 +264,29 @@ screen quick_menu():
     ##yalign .025
     #yoffset -40
     if quick_menu:
-        imagebutton idle "gui/BookIcon.png" :
+        
+        imagebutton idle "gui/icon_book.png" :
             at transform:
                 xalign .83
                 yalign 0.0
                 xysize Icon_big
             action ShowMenu("select_chapter")
 
-        imagebutton idle "gui/PrefIcon.png" :
+        imagebutton idle "gui/icon_setting.png" :
             at transform:
                 xalign .95
                 yalign 0.0
                 xysize Icon_big
             action Show("in_game_preferences")
 
-        imagebutton idle "gui/AutoIcon.png" :
+        imagebutton idle "gui/icon_auto.png" :
             at transform:
                 xalign .95
                 yalign .07
                 xysize Icon_small
             action Preference("auto-forward", "toggle")
 
-        imagebutton idle "gui/SkipIcon.png" :
+        imagebutton idle "gui/icon_fast.png" :
             at transform:
                 xalign .95 
                 yalign .11
@@ -1526,7 +1528,18 @@ style nvl_button:
 
 style nvl_button_text:
     properties gui.button_text_properties("nvl_button")
+# 챕터선택
 
+style chap_btn_text is text:
+    color color_darkGray
+    xalign .5
+    yalign .6
+    size 50
+style chap_btn_text_off is text:
+    color color_white
+    xalign .5
+    yalign .7
+    size 50
 screen select_chapter():
     tag menu
     add gui.game_menu_background
@@ -1534,49 +1547,79 @@ screen select_chapter():
     frame:
         style "game_menu_outer_frame"
         xalign 0.5
-        hbox:
+        viewport:
             xalign 0.5
-            frame:
+            ysize 0.9
+            xfill False
+            #scrollbars "vertical"
+            mousewheel True
+            draggable True
+            pagekeys True
+            side_yfill True
+            
+            vbox:
                 xalign 0.5
-                style "game_menu_content_frame"
-                viewport:
-                    xalign 0.5
-                    ysize 0.9
-                    scrollbars "vertical"
-                    mousewheel True
-                    draggable True
-                    pagekeys True
-                    side_yfill True
-
-                    vbox:
-                        xalign 0.5
-                        yalign 0.5
+                yalign 0.5
+                
+                for i in range(0, 20):
+                    if i < persistent.ClaerChapter: 
+                        button:
+                            action SelectChaper_before_Ending(persistent.isClear, i)
+                            add Image("gui/book_button.png"):
+                                xysize (920, 240)
+                            text "[i]화: [titles[i]]":
+                                style "chap_btn_text"
+                            xysize (920, 240)
+                        #textbutton _("Chapter [i]"):
+                        #    background Image("gui/book_button.png")
+                        #    action SelectChaper_before_Ending(persistent.isClear, i)
+                        #    text_color color_yellow
+                        #    text_align (.5, .5)
                             
-                        for i in range(0, 20):
-
-                            if i < persistent.ClaerChapter: #
-                                textbutton _("Chapter [i]"):
-                                    action SelectChaper_before_Ending(persistent.isClear, i)
-                                    text_color color_yellow
-                                    
-                            elif i == persistent.ClaerChapter: # 현재 열려있는 에피소드
-                                textbutton _("Chapter [i]"):
-                                    action Confirm( '해당 에피소드를 불러옵니다',  Start(f"chapter_{i}"), NullAction() )  
-                                    text_color color_yellow
-                                    
-                            else: # 개방안됨
-                                textbutton _("Chapter [i]"):
-                                    action Confirm_yes("아직 개방되지 않은 에피소드입니다", NullAction())
+                    elif i == persistent.ClaerChapter: # 현재 열려있는 에피소드
+                        button:
+                            
+                            action Confirm( '해당 에피소드를 불러옵니다',  Start(f"chapter_{i}"), NullAction() )
+                            add Image("gui/book_button.png"):
+                                xysize (920, 240)
+                            text "[i]화: [titles[i]]":
+                                style "chap_btn_text"
                                 
-                            #style 
-                            null height 10
+                            xysize (920, 240)
+                            
+                        #textbutton _("Chapter [i]"):
+                        #    background Image("gui/book_button.png")
+                        #    action Confirm( '해당 에피소드를 불러옵니다',  Start(f"chapter_{i}"), NullAction() )  
+                        #    text_color color_yellow
+                        #    text_align (.5, .5)
+                            
+                            
+                    else: # 개방안됨
+                        button:
+                            action Confirm_yes("아직 개방되지 않은 에피소드입니다", NullAction())
+                            add Image("gui/book_button_off.png"):
+                                xysize (920, 240)
+                            text "[i]화: [titles[i]]":
+                                style "chap_btn_text_off"
+                                
+                            xysize (920, 240)
+                        #textbutton _("Chapter [i]"): 
+                        #    action Confirm_yes("아직 개방되지 않은 에피소드입니다", NullAction())
+                        #    text_align (.5, .5)
+                        
+                    #style 
+                    null height 10
+                
     
-    label _("Select Chapter"):
+    label _("서고"):
         style "game_menu_label"
 
     textbutton _("Return"):
         style "return_button"
         action Return()
+
+
+#호감도 창
 
 style affrectionTextbutton_button_text is text:
     size 45
