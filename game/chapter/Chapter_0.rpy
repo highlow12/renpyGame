@@ -1,8 +1,10 @@
 label chapter_0:
     #"""제목 : 죽고 싶지 않다면"""
-    scene white
+    scene white_bg
     Character("test") "test"
+    show red at fadeInOut
     menu test:
+        
         '테스트 메뉴'
         '1':
             s '1'

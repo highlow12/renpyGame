@@ -111,7 +111,9 @@ default persistent.Likeability = {'hean':0, 'eren':0, 'adrian':0, 'nox':0}
 
 screen say(who, what):
     style_prefix "say"
-
+    add "gui/fade.png"
+        #yalign 1.0
+        #xysize (1080, 300)
     window:
         id "window"
 
@@ -264,32 +266,35 @@ screen quick_menu():
     ##yalign .025
     #yoffset -40
     if quick_menu:
-        
+        add 'gui/quick_box.png':
+            xysize (130, 400)
+            xalign 1.0
+            yalign .085
         imagebutton idle "gui/icon_book.png" :
             at transform:
-                xalign .83
-                yalign 0.0
+                xalign .975
+                yalign 0.01
                 xysize Icon_big
             action Show("select_chapter", dissolve)
 
         imagebutton idle "gui/icon_setting.png" :
             at transform:
-                xalign .95
-                yalign 0.0
-                xysize Icon_big
+                xalign .97
+                yalign 0.09
+                xysize Icon_small
             action Show("in_game_preferences")
 
         imagebutton idle "gui/icon_auto.png" :
             at transform:
-                xalign .95
-                yalign .07
+                xalign .97
+                yalign .16
                 xysize Icon_small
             action Preference("auto-forward", "toggle")
 
         imagebutton idle "gui/icon_fast.png" :
             at transform:
-                xalign .95 
-                yalign .11
+                xalign .97
+                yalign .23
                 xysize Icon_small
             action Skip() alternate Skip(fast=True, confirm=True)
 
@@ -856,13 +861,17 @@ screen in_game_preferences():
     tag menu
     modal True
     frame:
-        background "#2c2c2ca2"
+        add "gui/box_setting.png":
+            xalign 0.5
+            yalign .5
+
         yalign .5
         xalign .5
         
         vbox:
             
-
+            yalign .5
+            xalign .5
             vbox:
                 frame:
                     background "#f0f0f044"

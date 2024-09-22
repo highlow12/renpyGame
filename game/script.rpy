@@ -5,7 +5,9 @@
 
 # image 문을 사용해 이미지를 정의합니다.
 image black = '#000'
-image white = '#fff'
+image white_bg = '#fff'
+image red = Image("gui/fade_outline_red.png")
+image white = Image("gui/fade_outline_white.png")
 #image serena = Image("serena.png", oversample= 2)
 #image adrian = Image('adrian.png', oversample= 2)
 
@@ -32,7 +34,13 @@ define v3 = Character('마을주민 3')
 
 define shake = vpunch
 
-
 default persistent.ClaerChapter = 0
+
+transform fadeInOut:
+    alpha 0.0
+    linear 0.5 alpha 1.0
+    pause 0.0
+    linear 0.5 alpha 0.0
+    alpha 0.0
 
 
