@@ -584,6 +584,7 @@ style game_menu_label_text:
     size 60
     color gui.accent_color
     yalign 0.5
+    font BukkBold
 
 style return_button:
     xpos gui.navigation_xpos
@@ -1535,22 +1536,26 @@ style chap_btn_text is text:
     xalign .15
     yalign .6
     size 50
+    font BukkLight
 style chap_btn_text_off is text:
     color color_white
     xalign .15
     yalign .7
     size 50
+    font BukkLight
 style titles_text is text:
     color color_darkGray
     xalign .83
     yalign .6
     size 50
+    font BukkLight
     textalign 1.0
 style titles_text_off is text:
     color color_white
     xalign .83
     yalign .7
     size 50
+    font BukkLight
     textalign 1.0
 image backBlack = "#00000090"
 image transparent = "#ffffff00"
@@ -1643,6 +1648,7 @@ screen select_chapter():
         style "game_menu_label"
         yalign .17
         text_size 100
+        
 
     imagebutton idle "gui/icon_exit.png" :
         action Hide('select_chapter', dissolve)

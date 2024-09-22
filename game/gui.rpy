@@ -60,6 +60,8 @@ define gui.interface_text_color = color_white
 
 ## Fonts and Font Sizes ########################################################
 define KoPubWorld = 'KoPubWorld Dotum Light.ttf'
+define BukkBold = 'bukk-Bold.ttf'
+define BukkLight = 'bukk-Light.ttf'
 ## The font used for in-game text.
 define gui.text_font = KoPubWorld
 
