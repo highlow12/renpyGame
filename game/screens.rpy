@@ -263,35 +263,35 @@ screen quick_menu():
     #yoffset -40
     if quick_menu:
         add 'gui/quick_box.png':
-            xysize (130, 400)
+            xysize (127, 360)
             xalign 1.0
             yalign .085 - 0.08 + 0.005
         imagebutton idle "gui/icon_book.png" :
             at transform:
-                xalign .015
-                yalign 0.01
-                xysize Icon_big
+                xalign .97
+                yalign 0.09 - 0.07 + 0.005
+                xysize Icon_small
             action Show("select_chapter", dissolve)
 
         imagebutton idle "gui/icon_setting.png" :
             at transform:
-                xalign .97
-                yalign 0.09 - 0.07 + 0.005
-                xysize Icon_small
+                xalign .015
+                yalign .015
+                xysize Icon_big
             action Show("in_game_preferences")
 
         imagebutton idle "gui/icon_auto.png" :
             at transform:
                 xalign .97
-                yalign .16 - 0.07 + 0.006
-                xysize (74,70)
+                yalign .16 - 0.07 
+                xysize (67,63)
             action Preference("auto-forward", "toggle")
 
         imagebutton idle "gui/icon_fast.png" :
             at transform:
                 xalign .97
-                yalign .23 - 0.07 + 0.007
-                xysize (68, 68)
+                yalign .23 - 0.075
+                xysize (60, 60)
             action Skip() alternate Skip(fast=True, confirm=True)
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
