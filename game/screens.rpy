@@ -6,7 +6,7 @@ init offset = -1
 default persistent.ClaerChapter = False
 
 init python:
-    titles = ['죽고 싶지 않다면', '에런과 재회하다', '첫 번째 임무\n반란군을 진압하라', '정체불명의 마법사와\n공자', '절벽 아래에서', '내 진정한 목표는', '알 수 없는 마음', '갑작스런 습격', '전쟁의 민낯', '도움을 받는다는 것은', '예상치 못한 사건', '혼란의 씨앗', '마법사의 밤', '최대의 용기', '금기된 사랑', '수면 위의 것들', '금빛 여명', '신의 축복', '숨겨진 진실','발칙한 고백', '마지막 비호']
+    titles = ['죽고 싶지 않다면', '에런과 재회하다', '첫 번째 임무', '마법사와 조력자', '절벽 아래에서', '내 진정한 목표는', '알 수 없는 마음', '갑작스런 습격', '전쟁의 민낯', '도움을 받는다는 것은', '예상치 못한 사건', '혼란의 씨앗', '마법사의 밤', '최대의 용기', '금기된 사랑', '수면 위의 것들', '금빛 여명', '신의 축복', '숨겨진 진실','발칙한 고백', '마지막 비호']
     def Confirm_yes(string, action):
         return Confirm(string, action, None)
 
@@ -86,10 +86,6 @@ style vslider:
 style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
-
-
-
-default persistent.Likeability = {'hean':0, 'eren':0, 'adrian':0, 'nox':0}
 
 ################################################################################
 ## In-game screens
@@ -269,10 +265,10 @@ screen quick_menu():
         add 'gui/quick_box.png':
             xysize (130, 400)
             xalign 1.0
-            yalign .085
+            yalign .085 - 0.08 + 0.005
         imagebutton idle "gui/icon_book.png" :
             at transform:
-                xalign .975
+                xalign .015
                 yalign 0.01
                 xysize Icon_big
             action Show("select_chapter", dissolve)
@@ -280,22 +276,22 @@ screen quick_menu():
         imagebutton idle "gui/icon_setting.png" :
             at transform:
                 xalign .97
-                yalign 0.09
+                yalign 0.09 - 0.07 + 0.005
                 xysize Icon_small
             action Show("in_game_preferences")
 
         imagebutton idle "gui/icon_auto.png" :
             at transform:
                 xalign .97
-                yalign .16
-                xysize Icon_small
+                yalign .16 - 0.07 + 0.006
+                xysize (74,70)
             action Preference("auto-forward", "toggle")
 
         imagebutton idle "gui/icon_fast.png" :
             at transform:
                 xalign .97
-                yalign .23
-                xysize Icon_small
+                yalign .23 - 0.07 + 0.007
+                xysize (68, 68)
             action Skip() alternate Skip(fast=True, confirm=True)
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -1542,29 +1538,31 @@ style nvl_button_text:
 
 style chap_btn_text is text:
     color color_darkGray
-    xalign .15
+    xalign .12
     yalign .6
-    size 50
-    font BukkLight
+    size 47
+    font "DNFForgedBlade-Medium.ttf"
+    textalign 0.0
 style chap_btn_text_off is text:
     color color_white
-    xalign .15
-    yalign .7
-    size 50
-    font BukkLight
+    xalign .12
+    yalign .6
+    size 47
+    font "DNFForgedBlade-Medium.ttf"
+    textalign 0.0
 style titles_text is text:
     color color_darkGray
-    xalign .83
+    xalign .87
     yalign .6
-    size 50
-    font BukkLight
+    size 40
+    font "DNFForgedBlade-Light.ttf"
     textalign 1.0
 style titles_text_off is text:
     color color_white
-    xalign .83
-    yalign .7
-    size 50
-    font BukkLight
+    xalign .87
+    yalign .6
+    size 40
+    font "DNFForgedBlade-Light.ttf"
     textalign 1.0
 image backBlack = "#00000090"
 image transparent = "#ffffff00"
@@ -1655,8 +1653,9 @@ screen select_chapter():
     
     label _("서고"):
         style "game_menu_label"
-        yalign .17
-        text_size 100
+        yalign .15
+        text_size 90
+        text_font "DNFForgedBlade-Medium.ttf"
         
 
     imagebutton idle "gui/icon_exit.png" :

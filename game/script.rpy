@@ -34,7 +34,10 @@ define v3 = Character('마을주민 3')
 
 define shake = vpunch
 
+default persistant.IsAllClear = False
 default persistent.ClaerChapter = 0
+default persistent.Likeability = {'hean':0, 'eren':0, 'adrian':0, 'nox':0}
+default persistant.UnlockImage = {'hean':[False, False], 'eren':[False, False], 'adrian':[False, False], 'nox':[False, False]}
 
 transform fadeInOut:
     alpha 0.0
