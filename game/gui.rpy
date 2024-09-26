@@ -29,7 +29,7 @@ define color_yellow_more_darker = u'#4e3e11'
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = color_yellow
+define gui.accent_color = '#fff'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = color_white
@@ -63,10 +63,10 @@ define KoPubWorld = 'KoPubWorld Dotum Light.ttf'
 define BukkBold = 'bukk-Bold.ttf'
 define BukkLight = 'bukk-Light.ttf'
 ## The font used for in-game text.
-define gui.text_font = KoPubWorld
+define gui.text_font = 'Pretendard-Light.ttf'
 
 ## The font used for character names.
-define gui.name_text_font = KoPubWorld
+define gui.name_text_font = 'Pretendard-Medium.ttf'
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = KoPubWorld

@@ -15,12 +15,12 @@ image white = Image("gui/fade_outline_white.png")
 
 define q = Character('???')
 
-define s = Character('세레나', color="#3D5265")
+define s = Character('세레나')
 
-define a = Character('아드리안', color="#f3dd1b")
-define n = Character('녹스', color="#c197c7")
-define h = Character('헤안', color="#05163a")
-define e = Character('에런', color="#800808")
+define a = Character('아드리안')
+define n = Character('녹스')
+define h = Character('헤안')
+define e = Character('에런')
 
 define Q = Character('황후')
 define K = Character('에프탈 제국 황제')

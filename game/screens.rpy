@@ -147,7 +147,8 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
-    background Image("gui/box_dia.png", xalign=0.5, yalign=1.0)
+    background Image("gui/2.png", xalign=0.5, yalign=1.0)
+    #background Image("gui/box_dia.png", xalign=0.5, yalign=1.0)
     #background Image("gui/phone/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
@@ -273,7 +274,7 @@ screen quick_menu():
                 xysize Icon_small
             action Show("select_chapter", dissolve)
 
-        imagebutton idle "gui/icon_setting.png" :
+        imagebutton idle "gui/icon_setting2.png" :
             at transform:
                 xalign .015
                 yalign .015
