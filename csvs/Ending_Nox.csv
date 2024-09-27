@@ -1,4 +1,4 @@
-﻿background,Chrt_ID,이름,Chrt_Pos,Event,sound,BGM,BGM2,Text,비고
+﻿background,Chrt_ID,이름,Chrt_OnF,Event,Sound,BGM,BGM2,Text,비고
 ,,,,,,,,제목 : 달이 지지 않는 밤,
 Forest_fire,,,,,,nox4,,(황후의 칼을 막은 건 녹스였다.,숲배경 (밤)
 ,,,,,,,,"(마법 때문인지, 황후의 움직임이 완전히 멈춘 상태였다.",

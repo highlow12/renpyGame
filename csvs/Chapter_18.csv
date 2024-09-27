@@ -1,4 +1,4 @@
-﻿background,Chrt_ID,이름,Chrt_Pos,Event,sound,BGM,BGM2,Text,비고
+﻿background,Chrt_ID,이름,Chrt_OnF,Event,Sound,BGM,BGM2,Text,비고
 ,,,,,,,,제목 : 숨겨진 진실,
 Kingdom_table,황후 카일리,황후 카일리,Q_default_def,,,ptsd7,,"사생아도 황궁으로 돌아왔으니, 슬슬 시작해야겠구나···.",알현실 배경
 ,황후 카일리,황후 카일리,Q_default_smi,,,,,그렇지 않니? 황태자.,
