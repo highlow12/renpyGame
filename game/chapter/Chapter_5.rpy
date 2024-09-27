@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_5:
     "제목 : 내 진정한 목표는"
 
     scene black
@@ -437,10 +437,10 @@
     h "사실 물어보고 싶은 게 있었습니다."
 
     s "어떤 겁니까?"
-
+    play music "bgm/sad5.mp3"
     show char h default def at top
     menu .m2:
-        play music "bgm/sad5.mp3"
+        
         h "세레나, 당신은 어떤 마음으로 이 전쟁에 임하고 있습니까?"
         "솔직하게 대답한다.":
             s "잘 모르겠습니다."
@@ -612,5 +612,5 @@
     "황제와 황후를 끌어내리고, 에프탈 제국을 새롭게 만드는 것이다."
     with save
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(6,persistent.ClaerChapter)
     return

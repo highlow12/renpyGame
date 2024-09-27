@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_13:
     "제목: 최대의 용기"
 
     scene bg tower in
@@ -43,12 +43,13 @@
 
     show char n default defr at top
     n "뭐가 그래야. 나도 모르는 걸 네가 어떻게 알아."
-
+    
     menu .m0:
-        hide char
+        
         "그는 또다시 애처럼 굴기 시작했다."
-            show char n default embr at top
+            
         "네가 나를 특별하게 생각한다는 말이잖아.":
+            show char n default embr at top
             n "뭐?"
             s "몰랐어?"
 
@@ -426,8 +427,9 @@
 
     menu .m2:
         "당황스러운 마음을 감춘 채 나는 스승님께 말을 걸었다."
-            show char e default emb at top
+            
         "에런 스승님?":
+            show char e default emb at top
             e "세레나?"
             s "오랜만에 뵙네요. 그동안 잘 지내셨습니까?"
 
@@ -630,5 +632,5 @@
 
     "그것은 에런이 세레나에게 할 수 있는 최대의 용기였다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(14,persistent.ClaerChapter)
     return

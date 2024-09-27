@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_1:
     "제목 : 에런과 재회하다"
 
     show char emp at top
@@ -640,9 +640,10 @@
 
     show char emp at top
     menu .m2:
-        Character('황제 다리우스') "자, 그래서 어떻게 하겠느냐? 당연히 명령에 수행하겠지? 과거 네가 황후에게 했던 약속처럼 말이다."
-            show char s default def at top
+        "자, 그래서 어떻게 하겠느냐? 당연히 명령에 수행하겠지? 과거 네가 황후에게 했던 약속처럼 말이다."
+            
         "명령에 수긍한다.":
+            show char s default def at top
             s "명을··· 받들겠습니다."
             show char emp at top
             Character('황제 다리우스') "그래, 너라면 우리의 명령을 따를 줄 알았지."
@@ -677,5 +678,5 @@
             Character('황제 다리우스') "여봐라! 저 사생아 년이 반란의 주동자라고 실토했다. 당장 감옥에 집어넣도록 해라!"
             with 사망
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(2,persistent.ClaerChapter)
     return

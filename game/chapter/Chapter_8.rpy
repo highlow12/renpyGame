@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_8:
     "제목 : 전쟁의 민낯"
 
     scene black
@@ -71,7 +71,7 @@
 
     show char emp at top
     menu .m0:
-        Character('황제 다리우스') "불가능하다는 답변을 내놓을 거라면, 살아서 돌아올 생각은 하지 않는 게 좋을 거다."
+        "불가능하다는 답변을 내놓을 거라면, 살아서 돌아올 생각은 하지 않는 게 좋을 거다."
         "반항한다.":
             hide char
             "프라타히라 왕국 정복은 안 그래도 하려던 참이었다. 나의 복수를 위해서."
@@ -94,8 +94,8 @@
             show char knight default at top
             Character('황제 측근') "다만, 좋은 대답은 못 들으실 겁니다."
 
-            s "······."
-            with jump2,end
+        "······.":
+            
 
             s "황제께 알겠다고 전해."
 
@@ -367,7 +367,7 @@
     play Sound "sfx/punch.mp3"
     hide char
     "헤안은 내 목덜미를 세게 내리쳤다."
-    with red, shake
+    with [red, shake]
 
     scene black
     "난 그로 인해 기절하고 말았다."
@@ -590,9 +590,9 @@
 
     show char a default emb at top
     q "···너 여기서 뭘 하는 거야?"
-
+    hide char
     menu .m1:
-        hide char
+        
         "희미하지만 익숙한 음성이 들렸다."
         "너는···.":
             s "너는···."
@@ -715,7 +715,7 @@
 
     play Sound "sfx/sword_damage.mp3"
     "그렇게 무방비함을 취하고 있을 때, 왕자가 내 옆구리에 단도를 박아 넣었다."
-    with red, shake
+    with [red, shake]
 
     "순식간이어서, 방어조차도 못 했다."
 
@@ -752,5 +752,5 @@
 
     "이대로 가다간 정말 죽을 수도 있겠다는 생각이 들었다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(9,persistent.ClaerChapter)
     return

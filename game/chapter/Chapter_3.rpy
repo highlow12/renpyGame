@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_3:
     "제목 : 정체불명의 마법사와 공자"
 
     scene bg kingdom way
@@ -260,9 +260,9 @@
     "억지로 끌려 나와 되고 싶지도 않은 황실 대표 기사단장이 됐지만, 적어도 이들 앞에서는 나약해져서는 안 된다. "
 
     "그게 내가 할 수 있는 최소한의 예의다."
-
+    play music "bgm/ptsd2.mp3"
     menu .m1:
-        play music "bgm/ptsd2.mp3"
+        
         "모두를 마주하고 난 후에야, 나는 간신히 몸을 움직였다."
         "칼집의 끝을 땅에 세게 내리친다":
             "큰 소리 때문에 모두가 얼떨떨하게 쳐다볼 뿐, 집중이 되지는 않았다."
@@ -372,11 +372,12 @@
     "그와의 시선을 제대로 마주하지 않은 채, 대답했다."
 
     "감정을 최대한 드러내지 않기 위함이었으나, 이 자리에 있는 모두가 눈치를 챘을 것이 분명했다."
-
+    
     menu .m2:
-        "나는 애써 상황을 유연하게 만들기 위해···."
-            show char s default def at top
+        "나는 애써 상황을 유연하게 만들기 위해..."
+            
         "헤안에게 말을 걸어, 시선을 분산시킨다.":
+            show char s default def at top
             s "헤안님, 기사단원들 상태가 어떻죠? 이동할 수 있는 정도인가요?"
             show char h default def at top
             h "다들 지친 정도입니다. 동상 증세가 보이는 단원이 둘 있고, 큰 부상자는 아직까지 없습니다. 이동할 수 있습니다."
@@ -486,5 +487,5 @@
     play Sound "sfx/fall.mp3"
     "쿵-"
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(4,persistent.ClaerChapter)
     return

@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_19:
     "제목 : 발칙한 고백"
 
     scene bg forest night
@@ -246,7 +246,7 @@
             show char a default smir at top
             a "내가 나이도 더 많을 텐데."
 
-            s "이왕 이렇게 된 거, "좋아해요, 누나."라고 하면 답해줄게."
+            s "이왕 이렇게 된 거, \"좋아해요, 누나.\"라고 하면 답해줄게."
 
             show char a default badr at top
             a "치사하게 뭐 그래?"
@@ -635,5 +635,5 @@
     show char q default def at top
     Character('카일리') "포기라는 건 약자들이 하는 거란다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(20,persistent.ClaerChapter)
     return

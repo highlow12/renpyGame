@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_17:
     "제목 : 신의 축복"
 
     scene black
@@ -939,5 +939,5 @@
 
     "앞으로 무슨 일이 일어날지도 모르고 말이다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(18,persistent.ClaerChapter)
     return

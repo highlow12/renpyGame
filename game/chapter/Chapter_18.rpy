@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_18:
     "제목 : 숨겨진 진실"
 
     show char q default def at top
@@ -576,5 +576,5 @@
 
     "아드리안의 지원군만 있으면, 이 상황을 타파할 수 있을지도 모르니까."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(19,persistent.ClaerChapter)
     return

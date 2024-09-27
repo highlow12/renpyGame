@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_15:
     "제목 : 수면 위의 것들"
 
     scene black
@@ -235,7 +235,7 @@
             show char knight default at top
             play music "bgm/ptsd3.mp3"
             Character('기사') "단장님!"
-            with end, shake
+            with shake
 
             show char knight default at top
             Character('기사') "그때, 아무런 신호 없이 기사 한 명이 막사로 들이닥쳤다."
@@ -460,5 +460,5 @@
 
     "조금 서글픈 얼굴이었다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(16,persistent.ClaerChapter)
     return

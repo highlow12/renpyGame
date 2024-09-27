@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_14:
     "제목 : 금기된 사랑"
 
     scene bg camp in
@@ -213,12 +213,12 @@
 
     s "어서 변명이라도 해보라고요, 에런!!!"
     with shake
-
+    show char e default des at top
     "스승님은 나를 바라보며 아무 말도 하지 않으셨다."
 
     menu .m0:
         "그 침묵이 나를 더 분노하게 했다."
-            show char e default des at top
+            
         "왜요? 이미 다 들켜버린 마당에 해명하고 싶지도 않은 건가요?":
             "왜요? 이미 다 들켜버린 마당에 해명하고 싶지도 않은 건가요?"
         "하, 이젠 말도 안 하겠다 이건가요?":
@@ -606,5 +606,5 @@
 
             "넘어서는 안 될 선을 넘어버리고 말았다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(15,persistent.ClaerChapter)
     return

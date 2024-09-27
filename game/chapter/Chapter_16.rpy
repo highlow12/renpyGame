@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_16:
     "제목: 금빛 여명"
 
     scene bg forest day
@@ -686,5 +686,5 @@
 
     q "···제국을 구원하라."
     show white at fadeInOut
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(17,persistent.ClaerChapter)
     return

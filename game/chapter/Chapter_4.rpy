@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_4:
     "제목 : 절벽 아래에서"
 
     scene bg forest winter night
@@ -583,5 +583,5 @@
 
     with save
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(5,persistent.ClaerChapter)
     return

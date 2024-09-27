@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label Chapter_6:
     "제목 : 알 수 없는 마음"
 
     scene bg camp out night
@@ -728,5 +728,5 @@
 
     "이제 더 이상 스승님에 관한 생각은 하고 싶지 않았다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(7,persistent.ClaerChapter)
     return

@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_20:
     "제목 : 마지막 비호"
 
     scene bg kingdom way
@@ -467,17 +467,17 @@
 
     hide char
     "하지만 황후의 칼은 막혔다."
-
-    menu .m1:
-        "···에 의해."
-            "녹스"
-            with choise3
-
-            "아드리안 하몬"
-            with choise4
-
-            "세레나 에프탈"
-            with choise5
-
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+#
+    #menu .m1:
+    #    "...에 의해."
+    #        "녹스"
+    #        with choise3
+#
+    #        "아드리안 하몬"
+    #        with choise4
+#
+    #        "세레나 에프탈"
+    #        with choise5
+#
+    #$ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
     return

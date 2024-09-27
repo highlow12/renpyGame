@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_2:
     "제목 : 첫 번째 임무 - 반란군을 진압하라"
 
     scene bg kingdom throne day
@@ -25,8 +25,8 @@
 
     show char emp at top
     menu .m0:
-        Character('황제 다리우스') "세레나! 당장 대답하지 못하겠어?"
-            show char s default def at top
+        "세레나! 당장 대답하지 못하겠어?"
+        
         "······.":
             s "······."
             show char s default def at top
@@ -37,6 +37,7 @@
 
             show char s default def at top
         "죄송합니다. 잠시 다른 생각을 하느라 대답이 늦었습니다.":
+            show char s default def at top
             s "죄송합니다. 잠시 다른 생각을 하느라 대답이 늦었습니다."
             show char emp at top
             Character('황제 다리우스') "정신차려라. 세레나! 그리고 네 본분을 기억해라. 넌 황실의 꼭두각시라는 사실을."
@@ -180,10 +181,12 @@
     T "네놈들이 뭐라 해도 세레나님은 우리 단장님인 거 몰라? 게다가 세레나님은 황족이시다. 설마 황족모독죄로 처형당하고 싶은 건 아니겠지?"
 
     show char soldier default at top
+    Character('병사2') "죽을죄를 지었습니다. 제발 목숨만은···."
     menu .m1:
-        Character('병사2') "죽을죄를 지었습니다. 제발 목숨만은···."
-            show char s default def at top
+        "죽을죄를 지었습니다. 제발 목숨만은···."
+            
         "됐다. 다들 피곤할 테니 어서 들어가서 쉬도록 해.":
+            show char s default def at top
             s "됐다. 다들 피곤할 테니 어서 들어가서 쉬도록 해."
             show char soldier default at top
             Character('병사2') "가, 감사합니다!"
@@ -574,5 +577,5 @@
     show char s fight bad at top
     s "누구냐?!"
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(3,persistent.ClaerChapter)
     return

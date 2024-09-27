@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_11:
     "제목 : 혼란의 씨앗"
 
     play music "bgm/ptsd2.mp3"
@@ -623,5 +623,5 @@
 
     "나는 서둘러 기사단으로 복귀할 채비를 마쳤다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(12,persistent.ClaerChapter)
     return

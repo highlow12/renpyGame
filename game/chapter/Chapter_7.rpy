@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_7:
     "제목 : 갑작스런 습격"
 
     scene bg camp in
@@ -374,9 +374,9 @@
     show char t default bad at top
     T "단장님! 괜찮으십니까?"
     with shake
-
+    hide char
     menu .m1:
-        hide char
+        
         "타나가 멀리서 내게 외쳤다. "
         "도움을 요청한다.":
             s "안 괜찮으니까, 보조 좀 부탁할게!"
@@ -587,5 +587,5 @@
 
     "···프라타히라 왕국을 정복해라."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(8,persistent.ClaerChapter)
     return

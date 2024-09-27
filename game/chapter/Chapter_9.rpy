@@ -1,4 +1,4 @@
-﻿label chapter_0:
+﻿label chapter_9:
     "제목 : 도움을 받는다는 것은"
 
     scene black
@@ -288,7 +288,7 @@
     s "빨리 돌아가야 해. 시간을 너무 지체했어."
 
     s "윽···."
-    with red,shake
+    with [red,shake]
 
     "여전히 상처 자체에 대한 고통은 남아있었다."
 
@@ -886,5 +886,5 @@
 
     "전쟁은 이제부터 시작이었기 때문에."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(10,persistent.ClaerChapter)
     return

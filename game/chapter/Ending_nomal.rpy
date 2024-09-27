@@ -98,7 +98,7 @@ label ending_nomal:
     play sound "sfx/sword_damage2.mp3"
     hide char
     "나는 단 한 순간의 망설임도 없이, 황후의 목을 베어버렸다."
-    with shake,red
+    with [shake,red]
 
     "피가 사방으로 튀었다. 코에는 피비린내만이 맴돌았다."
 
