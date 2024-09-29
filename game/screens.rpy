@@ -1632,6 +1632,7 @@ image transparent = "#ffffff00"
 screen select_chapter():
     #tag menu
     #add gui.game_menu_background
+    zorder 150
     add 'transparent'
     modal True
     
