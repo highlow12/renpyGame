@@ -294,13 +294,13 @@ define gui.main_menu_text_xalign = 1.0
 define gui.frame_borders = Borders(4, 4, 4, 4)
 
 ## The frame that is used as part of the confirm screen.
-define gui.confirm_frame_borders = Borders(34, 34, 34, 34)
+define gui.confirm_frame_borders = Borders(165, 165, 165, 165 ,-30, -30, -30, -60)
 
 ## The frame that is used as part of the skip screen.
 define gui.skip_frame_borders = Borders(14, 5, 43, 5)
 
 ## The frame that is used as part of the notify screen.
-define gui.notify_frame_borders = Borders(14, 5, 34, 5)
+define gui.notify_frame_borders = Borders(165, 165, 165, 165 ,-30, -30, -30, -60)
 
 ## Should frame backgrounds be tiled?
 define gui.frame_tile = False
@@ -317,7 +317,7 @@ define gui.frame_tile = False
 ## bars, scrollbars, and sliders.
 define gui.bar_size = 22
 define gui.scrollbar_size = 11
-define gui.slider_size = 30
+define gui.slider_size = 65
 
 ## True if bar images should be tiled. False if they should be linearly scaled.
 define gui.bar_tile = False
@@ -325,14 +325,14 @@ define gui.scrollbar_tile = False
 define gui.slider_tile = False
 
 ## Horizontal borders.
-define gui.bar_borders = Borders(4, 4, 4, 4)
-define gui.scrollbar_borders = Borders(4, 4, 4, 4)
-define gui.slider_borders = Borders(4, 4, 4, 4)
+define gui.bar_borders = Borders(4,4,4,4)
+define gui.scrollbar_borders = Borders(4,4,4,4)
+define gui.slider_borders = Borders(4,4,4,4)
 
 ## Vertical borders.
-define gui.vbar_borders = Borders(4, 4, 4, 4)
-define gui.vscrollbar_borders = Borders(4, 4, 4, 4)
-define gui.vslider_borders = Borders(4, 4, 4, 4)
+define gui.vbar_borders = Borders(4,4,4,4)
+define gui.vscrollbar_borders = Borders(4,4,4,4)
+define gui.vslider_borders = Borders(4,4,4,4)
 
 ## What to do with unscrollable scrollbars in the gui. "hide" hides them, while
 ## None shows them.

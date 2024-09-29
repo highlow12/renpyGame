@@ -147,8 +147,8 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
-    background Image("gui/2.png", xalign=0.5, yalign=1.0)
-    #background Image("gui/box_dia.png", xalign=0.5, yalign=1.0)
+    #background Image("gui/dia.png", xalign=0.5, yalign=1.0)
+    background Image("gui/box_dia.png", xalign=0.5, yalign=1.0)
     #background Image("gui/phone/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
@@ -853,70 +853,132 @@ screen preferences():
                     #    textbutton _("Mute All"):
                     #        action Preference("all mute", "toggle")
                     #        style "mute_all_button"
+
+style setting_button is text:
+    xalign .5
+    yalign .5
 screen in_game_preferences():
 
-    tag menu
+    #tag menu
     modal True
+    zorder 150
     frame:
+        background "#0000"
+        add "gui/layer.png"
         add "gui/box_setting.png":
             xalign 0.5
             yalign .5
-
+            #xysize (.7,.5)
         yalign .5
         xalign .5
-        
-        vbox:
-            
-            yalign .5
+
+        text "소리":
+            color color_white
+            size 45
             xalign .5
+            yalign .288
+
+        text "배경음":
+            color color_white
+            size 40
+            xalign .3
+            yalign .338
+
+        text "효과음":
+            color color_white
+            size 40
+            xalign .3
+            yalign .408
+
+        frame: # 소리 설정 슬라이더
+            background "#a3a3a300"
+            
+            at transform:
+                xalign .663
+                yalign .36
+
+                #xsize .341
+                #ysize .09
             vbox:
-                frame:
-                    background "#f0f0f044"
-                    vbox:
-                        
-                        style_prefix "slider"
-                        box_wrap True
+                style_prefix "slider"
+                bar value Preference("music volume"):
+                    xsize .341
+                    
+                null height 60
 
-                        label _("자동 진행 속도")
+                bar value Preference("sound volume"):
+                    xsize .341
+                    
+        text "화면":
+            color color_white
+            size 45
+            xalign .5
+            yalign .495
+        
+        text "자동 진행 속도":
+            color color_white
+            size 40
+            xalign .3
+            yalign .338 + .207
 
-                        bar value Preference("auto-forward time")
+        text "텍스트 속도":
+            color color_white
+            size 40
+            xalign .3
+            yalign .408 + .207
+        
+        frame: # 화면 설정 슬라이더
+            background "#0000"
+            
+            at transform:
+                xalign .663
+                yalign .365 + .223
 
-                        label _("텍스트 속도")
+                #xsize .341
+                #ysize .09
+            vbox:
+                style_prefix "slider"
+                bar value Preference("auto-forward time"):
+                    xsize .341
+                    
+                null height 62
 
-                        bar value Preference("text speed")
+                bar value Preference("text speed"):
+                    xsize .341
+        
+        button: # 호감도 버튼
+            xalign .13
+            yalign .76
+            xysize (427, 101)
+            action ShowMenu("affection")
+            add "gui/button_setting.png"
+            text "호감도":
+                yalign .5
+                xalign .5
 
-                null height (4 * gui.pref_spacing)        
-                frame:
-                    background "#f0f0f03f"
-                    vbox:
-                        style_prefix "slider"
-                        if config.has_music:
-                            label _("배경음")
+        button: # 메인메뉴 버튼
+            xalign 1.0 - .13
+            yalign .76
+            xysize (427, 101)
+            action MainMenu()
+            add "gui/button_setting.png"
+            text "메인메뉴":
+                yalign .5
+                xalign .5
+                    
+            #hbox:
+            #    xalign .5
+            #    textbutton "호감도" :
+            #        action ShowMenu("affection")
+            #        
+            #    null width 100
+            #    textbutton "메인메뉴" :
+            #        action MainMenu()
+    imagebutton idle "gui/icon_exit.png":
+        xalign 1.0     
+        action Hide("in_game_preferences") 
 
-                            hbox:
-                                bar value Preference("music volume")
 
-                        if config.has_sound:
-
-                            label _("효과음")
-
-                            hbox:
-                                bar value Preference("sound volume")
-
-                                if config.sample_sound:
-                                    textbutton _("Test") action Play("sound", config.sample_sound)
-                hbox:
-                    xalign .5
-                    textbutton "호감도" :
-                        action ShowMenu("affection")
-                        
-                    null width 100
-                    textbutton "메인메뉴" :
-                        action MainMenu()
-                        
-    textbutton _("X"):
-        style "return_button"
-        action Hide("in_game_preferences")
 style pref_label is gui_label
 style pref_label_text is gui_label_text
 style pref_vbox is vbox
