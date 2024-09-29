@@ -876,38 +876,38 @@ screen in_game_preferences():
             color color_white
             size 45
             xalign .5
-            yalign .288
+            yalign .23
 
         text "배경음":
             color color_white
             size 40
-            xalign .3
-            yalign .338
+            xalign .2
+            yalign .3
 
         text "효과음":
             color color_white
             size 40
-            xalign .3
-            yalign .408
+            xalign .2
+            yalign .385
 
         frame: # 소리 설정 슬라이더
-            background "#a3a3a300"
+            background "#00000000"
             
             at transform:
-                xalign .663
-                yalign .36
+                xalign .76
+                yalign .325
 
                 #xsize .341
                 #ysize .09
             vbox:
                 style_prefix "slider"
                 bar value Preference("music volume"):
-                    xsize .341
+                    xsize .49
                     
-                null height 60
+                null height 95
 
                 bar value Preference("sound volume"):
-                    xsize .341
+                    xsize .49
                     
         text "화면":
             color color_white
@@ -918,33 +918,33 @@ screen in_game_preferences():
         text "자동 진행 속도":
             color color_white
             size 40
-            xalign .3
-            yalign .338 + .207
+            xalign .2
+            yalign .3 + .265
 
         text "텍스트 속도":
             color color_white
             size 40
-            xalign .3
-            yalign .408 + .207
+            xalign .2
+            yalign .385 + .265
         
         frame: # 화면 설정 슬라이더
             background "#0000"
             
             at transform:
-                xalign .663
-                yalign .365 + .223
+                xalign .76
+                yalign .325 + .29
 
                 #xsize .341
                 #ysize .09
             vbox:
                 style_prefix "slider"
                 bar value Preference("auto-forward time"):
-                    xsize .341
+                    xsize .49
                     
-                null height 62
+                null height 95
 
                 bar value Preference("text speed"):
-                    xsize .341
+                    xsize .49
         
         button: # 호감도 버튼
             xalign .13
