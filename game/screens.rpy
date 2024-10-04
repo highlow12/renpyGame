@@ -264,35 +264,36 @@ screen quick_menu():
     #yoffset -40
     if quick_menu:
         add 'gui/quick_box.png':
-            xysize (127, 360)
+            xysize (int(127 * 0.8), int(360 * 0.8))
             xalign 1.0
             yalign .085 - 0.08 + 0.005
-        imagebutton idle "gui/icon_book.png" :
-            at transform:
-                xalign .97
-                yalign 0.09 - 0.07 + 0.005
-                xysize Icon_small
-            action Show("select_chapter", dissolve)
 
         imagebutton idle "gui/icon_setting2.png" :
             at transform:
                 xalign .015
                 yalign .015
-                xysize Icon_big
+                xysize (int(100 * 0.8),int(100 * 0.8))
             action Show("in_game_preferences")
+
+        imagebutton idle "gui/icon_book.png" :
+            at transform:
+                xalign .98
+                yalign 0.02
+                xysize (int(70 * 0.8),int(70 * 0.8))
+            action Show("select_chapter", dissolve)
 
         imagebutton idle "gui/icon_auto.png" :
             at transform:
-                xalign .97
-                yalign .16 - 0.07 
-                xysize (67,63)
+                xalign .98
+                yalign 0.075
+                xysize (int(67 * 0.8),int(63 * 0.8))
             action Preference("auto-forward", "toggle")
 
         imagebutton idle "gui/icon_fast.png" :
             at transform:
-                xalign .97
-                yalign .23 - 0.075
-                xysize (60, 60)
+                xalign .98
+                yalign 0.125
+                xysize (int(60 * 0.8), int(60 * 0.8))
             action Skip() alternate Skip(fast=True, confirm=True)
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -1835,7 +1836,7 @@ screen affection():
                 align (.755,.097)
                 xysize (100, 567)
                 frame:
-                    background "#f00a"
+                    background "#ffff"
                     align (.5, 1.0)
                     xysize (1.0, 1.0)#(persistent.Likeability[character_data.name] * 0.01))
                 text str(persistent.Likeability[character_data.name]) + "%":
@@ -1862,6 +1863,42 @@ screen affection():
                 xysize (863,267)
                 text "[character_data.say]":
                     align .5,.5  
+            frame: #illust frame
+                background "#fff0"
+                xysize (874,1195)
+                align (.5, .915)
+                $ sizes = (650,330)
+                if persistant.UnlockImage[character_data.name][0]:
+                    button:
+                        action Show("full_image_screen", transitions = dissolve, image_path = 'image/[character_data.name]_illust1.png')
+                        add Image("gui/[character_data.name]_illust1.png"):
+                            xysize sizes
+                        xysize sizes
+                        align (.2,.38)
+                else:
+                    button:
+                        action Confirm_yes("아직 개방되지 않은 일러스트 입니다", NullAction())
+                        add Image("gui/love_illu_off_3.png"):
+                            xysize sizes
+                        xysize sizes
+                        align (.2,.38)
+
+                if persistant.UnlockImage[character_data.name][1]:
+                    button:
+                        action Show("full_image_screen", transitions = dissolve, image_path = 'image/[character_data.name]_illust2.png')
+                        add Image("gui/[character_data.name]_illust1.png"):
+                            xysize sizes
+                        xysize sizes
+                        align (.74, .925)
+                else:
+                    button:
+                        action Confirm_yes("아직 개방되지 않은 일러스트 입니다", NullAction())
+                        add Image("gui/love_illu_off_3.png"):
+                            xysize sizes
+                        xysize sizes
+                        align (.74, .925)
+
+
             
     label _("호감도"):
         style "game_menu_label"
@@ -1998,10 +2035,10 @@ screen aff():
         style "return_button"
         action Return()
 
-screen full_image_screen():
+screen full_image_screen(image_path):
     add "black"
     # 전체 화면에 이미지 표시
-    imagebutton idle "char serena.png" :
+    imagebutton idle image_path :
         action Hide('full_image_screen', dissolve)
         at transform:
             size(1080,1920)
