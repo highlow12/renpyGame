@@ -32,7 +32,7 @@ define color_yellow_more_darker = u'#4e3e11'
 define gui.accent_color = '#fff'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = color_white
+define gui.idle_color = color_yellow_darker
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
@@ -43,10 +43,10 @@ define gui.hover_color = color_yellow
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
-define gui.selected_color = color_darkGray
+define gui.selected_color = color_yellow
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = color_darkGray
+define gui.insensitive_color = color_yellow_darker
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
@@ -78,13 +78,13 @@ define gui.text_size = 38
 define gui.name_text_size = 48
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 40
+define gui.interface_text_size = 45
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = 45
 
 ## The size of text on the notify screen.
-define gui.notify_text_size = 23
+define gui.notify_text_size = 45
 
 ## The size of the game's title.
 define gui.title_text_size = 43
@@ -112,7 +112,7 @@ define gui.textbox_yalign = .7
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 140
+define gui.name_xpos = 170
 define gui.name_ypos = -85
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
@@ -167,7 +167,7 @@ define gui.button_tile = False
 define gui.button_text_font = gui.interface_text_font
 
 ## The size of the text used by the button.
-define gui.button_text_size = 60
+define gui.button_text_size = 50
 
 ## The color of button text in various states.
 define gui.button_text_idle_color = gui.idle_color
@@ -178,7 +178,6 @@ define gui.button_text_insensitive_color = gui.insensitive_color
 ## The horizontal alignment of the button text. (0.0 is left, 0.5 is center, 1.0
 ## is right).
 define gui.button_text_xalign = 0.5
-
 
 ## These variables override settings for different kinds of buttons. Please see
 ## the gui documentation for the kinds of buttons available, and what each is
@@ -210,7 +209,7 @@ define gui.quick_button_text_selected_color = gui.accent_color
 ##
 ## Choice buttons are used in the in-game menus.
 
-define gui.choice_button_width = 900
+define gui.choice_button_width = 1700
 define gui.choice_button_height = None
 define gui.choice_button_tile = False
 define gui.choice_button_borders = Borders(85, 5, 85, 5)
@@ -221,7 +220,8 @@ define gui.choice_button_text_idle_color = "#cccccc"
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = "#444444"
 
-
+init python:
+    style.button.activate_sound = "audio/click.mp3"
 ## File Slot Buttons ###########################################################
 ##
 ## A file slot button is a special kind of button. It contains a thumbnail
@@ -294,13 +294,13 @@ define gui.main_menu_text_xalign = 1.0
 define gui.frame_borders = Borders(4, 4, 4, 4)
 
 ## The frame that is used as part of the confirm screen.
-define gui.confirm_frame_borders = Borders(165, 165, 165, 165 ,-30, -30, -30, -60)
+define gui.confirm_frame_borders = Borders(170, 170, 170, 170 ,-30, -30, -30, -60)
 
 ## The frame that is used as part of the skip screen.
 define gui.skip_frame_borders = Borders(14, 5, 43, 5)
 
 ## The frame that is used as part of the notify screen.
-define gui.notify_frame_borders = Borders(165, 165, 165, 165 ,-30, -30, -30, -60)
+define gui.notify_frame_borders = Borders(240, 170, 240, 170 ,0, -30, 0, -60)
 
 ## Should frame backgrounds be tiled?
 define gui.frame_tile = False

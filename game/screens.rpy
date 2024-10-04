@@ -872,23 +872,28 @@ screen in_game_preferences():
         yalign .5
         xalign .5
 
-        text "소리":
+        text "소    리":
             color color_white
             size 45
             xalign .5
             yalign .23
+            font "DNFForgedBlade-Medium.ttf"
 
-        text "배경음":
-            color color_white
+        text "배  경  음":
+            color "#000"
             size 40
             xalign .2
             yalign .3
+            font "DNFForgedBlade-Medium.ttf"
+            
 
-        text "효과음":
-            color color_white
+        text "효  과  음":
+            color "#000"
             size 40
             xalign .2
             yalign .385
+            font "DNFForgedBlade-Medium.ttf"
+            
 
         frame: # 소리 설정 슬라이더
             background "#00000000"
@@ -909,23 +914,29 @@ screen in_game_preferences():
                 bar value Preference("sound volume"):
                     xsize .49
                     
-        text "화면":
+        text "화    면":
             color color_white
             size 45
             xalign .5
-            yalign .495
+            yalign .493
+            font "DNFForgedBlade-Medium.ttf"
         
         text "자동 진행 속도":
-            color color_white
+            color "#000"
             size 40
             xalign .2
             yalign .3 + .265
+            font "DNFForgedBlade-Medium.ttf"
+            
 
         text "텍스트 속도":
-            color color_white
+            
             size 40
             xalign .2
             yalign .385 + .265
+            font "DNFForgedBlade-Medium.ttf"
+            color "#000"
+            
         
         frame: # 화면 설정 슬라이더
             background "#0000"
@@ -950,11 +961,13 @@ screen in_game_preferences():
             xalign .13
             yalign .76
             xysize (427, 101)
-            action ShowMenu("affection")
+            action [Show("affection"),Hide("in_game_preferences") ]
             add "gui/button_setting.png"
-            text "호감도":
+            text "호 감 도":
                 yalign .5
                 xalign .5
+                font "DNFForgedBlade-Medium.ttf"
+                color "#000"
 
         button: # 메인메뉴 버튼
             xalign 1.0 - .13
@@ -962,18 +975,12 @@ screen in_game_preferences():
             xysize (427, 101)
             action MainMenu()
             add "gui/button_setting.png"
-            text "메인메뉴":
+            text "메 인 메 뉴":
                 yalign .5
                 xalign .5
-                    
-            #hbox:
-            #    xalign .5
-            #    textbutton "호감도" :
-            #        action ShowMenu("affection")
-            #        
-            #    null width 100
-            #    textbutton "메인메뉴" :
-            #        action MainMenu()
+                font "DNFForgedBlade-Medium.ttf"
+                color "#000"
+
     imagebutton idle "gui/icon_exit.png":
         xalign 1.0     
         action Hide("in_game_preferences") 
@@ -1638,7 +1645,7 @@ screen select_chapter():
     
     frame:
         #style "game_menu_outer_frame"
-        background "backBlack"
+        background "gui/layer.png"
         top_padding 450
         bottom_padding 80
         #background
@@ -1738,6 +1745,7 @@ init python:
     import json
 
     data_name = ['eren','nox','hean','adrian']
+    kor_name = {'eren' : "에렌",'nox' : "녹스",'hean' : "헤안",'adrian' : "아드리안"}
 
     class affection_data:
         def __init__(self):
@@ -1757,40 +1765,120 @@ init python:
                 self.height = data['height']
                 self.weight = data['weight']
                 self.say = data['say']
+
+        def get_char_name(num):
+            kor_name = ['에렌','녹스','헤안','아드리안']
+            return kor_name[num]
             
         
     character_data = affection_data()
     character_data.load_affection_data(data_name[0])
 
 screen affection():
+    default selected_option = None
+    modal True
+    zorder 150
+    add "gui/layer.png"
+    default selected_button = 0
+    frame:
+        background "#ffffff00"
+        yalign 0.0
+        ysize 450
+        xalign 0.5
+        xsize .93
+        for i in range(4):
+            button:
+                add Image("gui/love_character_button_on.png" if selected_button == i else "gui/love_character_button_off.png"):
+                    xysize (242, 90)
+                text kor_name[data_name[i]]:
+                    align (.5,.5)
+                action [SetScreenVariable("selected_button", i), 
+                #Function(renpy.restart_interaction), 
+                Function(character_data.load_affection_data, data_name[i])]
+                selected selected_button == i
+                at transform:
+                    xysize (243, 90)
+                    xalign (i) * 0.33
+                    #xpos 243 * i -10
+                    ypos 354
+    frame:
+        #style "game_menu_outer_frame"
+        background "#0000"
+        top_padding 450
+        bottom_padding 80
+        #background
+        xalign 0.5
+        xsize 1.0
+        
+        viewport id 'vp':
+            child_size (991,2559)
+            xalign 0.5
+            #ysize 0.9
+            xfill False
+            #scrollbars "vertical"
+            mousewheel True
+            draggable True
+            pagekeys True
+            side_yfill True
+            #transclude
+            add "gui/box_Love.png":
+                xalign .5
+                yalign .5
+            
+            frame: # image frame
+                
+                align (0.12, 0.1)
+                xysize (455, 585)
+                # add image
+            frame: # Likeability frame
+                background "#fff0"
+                align (.755,.097)
+                xysize (100, 567)
+                frame:
+                    background "#f00a"
+                    align (.5, 1.0)
+                    xysize (1.0, 1.0)#(persistent.Likeability[character_data.name] * 0.01))
+                text str(persistent.Likeability[character_data.name]) + "%":
+                    align (2.7, 1.0 -(persistent.Likeability[character_data.name] * 0.01))
+        
+            frame: #info frame
+                background "gui/love_small_info.png"
+                xysize (.2,0.14)
+                align (.5, .29)
+                vbox:
+                    at transform:
+                        rotate -5.0
+                    text '[character_data.age]세':
+                        color "#000"
+                    null height 10
+                    text '[character_data.height]cm':
+                        color "#000"
+                    null height 5
+                    text '[character_data.weight]kg':
+                        color "#000"
+            frame: #text frame
+                background "#fff0"
+                align .5, .377
+                xysize (863,267)
+                text "[character_data.say]":
+                    align .5,.5  
+            
+    label _("호감도"):
+        style "game_menu_label"
+        yalign .14
+        text_size 70
+        text_font "DNFForgedBlade-Medium.ttf"
+
+    imagebutton idle "gui/icon_exit.png" :
+        action Hide('affection', dissolve)
+        xalign 0.99
+        yalign 0.01
+    
+screen aff():
     tag menu
     add gui.game_menu_background
 
 
-    frame: #select button
-        xsize 0.8
-        ysize 0.045
-        xalign 0.5
-        yalign 0.055
-        background "#ff000081"
-        hbox:
-            spacing 100
-            xalign 0.5
-            textbutton _(data_name[0]):
-                style_prefix "affrectionTextbutton"
-                action Function(character_data.load_affection_data, data_name[0])
-            textbutton _(data_name[1]):
-                style_prefix "affrectionTextbutton"
-                action Function(character_data.load_affection_data, data_name[1])
-            textbutton _(data_name[2]):
-                style_prefix "affrectionTextbutton"
-                action Function(character_data.load_affection_data, data_name[2])
-            textbutton _(data_name[3]):
-                style_prefix "affrectionTextbutton"
-                action Function(character_data.load_affection_data, data_name[3])
-    
-    default viewport_width = 1080 * 0.9
-    default viewport_offset = (1080 - viewport_width)/2   
     viewport:
         
         xoffset viewport_offset
@@ -1856,8 +1944,6 @@ screen affection():
                         text "[character_data.say]":
                             xalign 0.5
                             size 55
-                        
-                        
                 frame: # Likeability frame
                     background "#000000ff"
                     xsize 0.9
