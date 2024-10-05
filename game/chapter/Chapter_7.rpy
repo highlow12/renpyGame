@@ -194,6 +194,7 @@
             "그는 기분 나쁜 미소를 짓고 있었다."
 
         "그래서, 그 방법이 뭔데?":
+            $ persistant.Likeability['nox'] += 9
             s "(일단은 그의 말을 더 들어보기로 했다."
             s "하···. 그래서 내 힘을 끌어내려면 어떻게 해야 하는데?"
 
@@ -389,6 +390,7 @@
             "얼마 지나지 않아, 적이 몰려있는 내 쪽을 향해 타나가 달려왔다."
 
         "도움을 요청하지 않는다.":
+            $ persistant.Likeability = {key:value+3 for key, value in persistant.Likeability.items()}
             s "난 괜찮으니까, 신경 쓰지 않아도 돼!"
             play Sound "sfx/sword_hit.mp3"
             "적과 검을 맞부딪히며, 타나에게 답했다."

@@ -410,6 +410,7 @@
         "보고 싶었습니다, 스승님.":
             "보고 싶었습니다, 스승님."
         "······.":
+            $ persistant.Likeability["eren"] += 5
             "······."
     hide char
     "그는 내 답변에 별다른 호응을 하지 않았다."
@@ -442,6 +443,7 @@
     menu .m1:
         q "당신은 누구죠?"
         "세레나···.":
+            $ persistant.Likeability["eren"] += 5
             "세레나···."
             scene black
             "나는 그 말을 끝으로 쓰러졌고"
@@ -463,6 +465,7 @@
 
             show char villager child2 at top
         "황궁의 사생아···.":
+            
             e "당신이 소문으로만 듣던 사생아군요? 지금까지 혼자 지냈던 건가요?"
             s "맞아. 나 혼자야."
 
@@ -643,6 +646,7 @@
         "자, 그래서 어떻게 하겠느냐? 당연히 명령에 수행하겠지? 과거 네가 황후에게 했던 약속처럼 말이다."
             
         "명령에 수긍한다.":
+            $ persistant.Likeability["eren"] += 5
             show char s default def at top
             s "명을··· 받들겠습니다."
             show char emp at top
@@ -663,7 +667,7 @@
             "내가 거부할 수 있는 선택지 따위는 없었다."
 
             "‘그 약속’이 있는 이상, 나는 평생 황후의 꼭두각시로 살아갈 수밖에 없으니까."
-            with save
+            #with save
 
             show char s default bad at top
         "명령을 거절한다.":

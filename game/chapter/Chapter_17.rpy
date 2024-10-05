@@ -199,6 +199,7 @@
     menu .m0:
         "나는 결국 말을 돌려, 그의 근황을 묻기로 했다."
         "황국에 온 이유 묻기":
+            
             s "그나저나, 황궁에는 어떻게 온 거야?"
             show char n default def at top
             n "원래 내 일이 뭔지 잊었어? 전쟁 중재."
@@ -232,6 +233,7 @@
             "마탑을 바꾸라고 먼저 권해놓고서는, 정작 내가 그의 일을 훼방하고 있는 것 같아서."
 
         "마탑에 대해 묻기":
+            $ persistant.Likeability['nox'] += 9
             s "그나저나, 마탑은 잘 정리하고 온 거야?"
             s "여기에 이렇게 와도 돼?"
 
@@ -548,6 +550,7 @@
     menu .m1:
         "그걸 저버린 건 스승님인데도."
         "그의 말에 침묵을 유지한다.":
+            $ persistant.Likeability['eren'] += 2
             s "······."
             show char e default def at top
             e "내가 쓸데없는 소리를 했네."
@@ -566,6 +569,7 @@
             "나는 스승님을 뒤로하고, 먼저 묘를 나섰다."
 
         "그의 말에 대응한다.":
+            $ persistant.Likeability['eren'] += 5
             s "헛소리하실 거면 그만 가보겠습니다."
             show char e default def at top
             e "세레나."
@@ -777,6 +781,7 @@
     menu .m2:
         "몽롱해진 정신에, 내 뇌에는 이 힘을 빨리 나눠버려야겠다는 생각이 가득 찼다."
         "녹스에게 말을 건다.":
+            $ persistant.Likeability['nox'] += 3
             play music "bgm/romantic4.mp3"
             s "전처럼 어떻게 해봐···."
             show char n default desr at top
@@ -824,6 +829,7 @@
             "더 이상의 힘이 내게 남아있지 않을 때까지."
 
         "녹스에게 붙잡혀 있는 손에 힘을 준다.":
+            $ persistant.Likeability['nox'] += 13
             scene bg cg a kiss
             play music "bgm/romantic4.mp3"
             "나는 붙들려있는 손에 힘을 주었다."

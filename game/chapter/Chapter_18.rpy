@@ -454,6 +454,7 @@
     menu .m0:
         "그럼에도, 나는 선택해야만 했다. 황후가 준 선택지에서."
         "황후에게 반항한다.":
+            $ persistant.Likeability = {key:value + 1 for key,value in persistant.Likeability.items()}
             s "내가 왜 당신 말을 들어야 하는 거지?"
             "나는 그녀의 명령에 가까운 선택에 굴하고 싶지 않았다."
 
@@ -467,6 +468,7 @@
             Character('황후 카일리') "고민할 시간이라도 주는걸, 감사히 여기렴."
 
         "황후의 제안을 받아들이고, 시간을 번다.":
+            $ persistant.Likeability = {key:value + 3 for key,value in persistant.Likeability.items()}
             s "···알겠습니다. 고민할 시간을 주시면 감사하겠습니다."
             hide char
             "비굴했다. 하지만, 지금으로써는 최선의 선택이었다."

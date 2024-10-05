@@ -160,6 +160,7 @@
             "무엇이 두려운지, 바들바들 떨고 있는 진동까지도."
 
         "가만히 있는다.":
+            $ persistant.Likeability['adrian'] += 15
             play music "bgm/romantic5.mp3"
             "나는 가만히 있었다."
             "상처가 가득한 몸을 함부로 움직일 수도 없었기 때문이다."
@@ -288,8 +289,8 @@
     s "빨리 돌아가야 해. 시간을 너무 지체했어."
 
     s "윽···."
-    with [red,shake]
-
+    with shake
+    show red at fadeInOut
     "여전히 상처 자체에 대한 고통은 남아있었다."
 
     "하지만, 단장이라는 자가 전장을 비우다니. 있어서는 안 되는 일이었다."
@@ -333,6 +334,8 @@
             s "지금 상황이 어떻게 된 겁니까?"
 
         "전 괜찮습니다.":
+            $ persistant.Likeability["eren"] += 5 
+            $ persistant.Likeability["hean"] += 5
             s "전 괜찮습니다. 그나저나 지금 어떻게 된 겁니까?"
             "진심이 담기지 않은 대답을 한 후에, 곧바로 본론을 꺼냈다."
 

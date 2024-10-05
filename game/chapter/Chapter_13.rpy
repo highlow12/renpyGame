@@ -49,6 +49,7 @@
         "그는 또다시 애처럼 굴기 시작했다."
             
         "네가 나를 특별하게 생각한다는 말이잖아.":
+            $ persistant.Likeability['nox'] += 3
             show char n default embr at top
             n "뭐?"
             s "몰랐어?"
@@ -75,6 +76,7 @@
             "억지로 만든 분위기를 빨리 깨고 싶었다."
 
         "사실 잘 모르겠어.":
+            $ persistant.Likeability['nox'] += 9
             s "···그러니까 네가 알아봐. 아마 잘 알고 있을 것 같으니까."
             s "그리고 다음에 나한테 알려줘."
 
@@ -192,6 +194,7 @@
             "생각과는 달리, 그는 덤덤하게 나왔다."
 
         "고맙다는 말을 전한다.":
+            $ persistant.Likeability['nox'] += 9
             s "고마워. 여태 내 힘 신경 써줬던 것도, 지금 이것도."
             show char n default smi at top
             n "알고 있으면, 나한테 잘해줘."
@@ -429,6 +432,7 @@
         "당황스러운 마음을 감춘 채 나는 스승님께 말을 걸었다."
             
         "에런 스승님?":
+            $ persistant.Likeability['eren'] += 5
             show char e default emb at top
             e "세레나?"
             s "오랜만에 뵙네요. 그동안 잘 지내셨습니까?"
@@ -445,6 +449,7 @@
 
             show char e default smi at top
         "스승님께서 제 막사 앞에는 왜 계시는 거죠?":
+            $ persistant.Likeability['eren'] += 2
             e "세레나 네가 걱정되어서 계속 기다리고 있었어."
             show char e default smi at top
             e "그런데 공작가에서 돌아왔다는 소식을 듣고, 바로 달려왔지."

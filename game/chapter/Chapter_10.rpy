@@ -63,6 +63,7 @@
             "저희, 같은 목표를 하고 있지 않습니까."
 
         "솔직하게 말해달라고 요구한다.":
+            $ persistant.Likeability['hean'] += 5
             s "솔직하게 말해주세요."
             "곤란한 일이라면, 도와드리겠습니다."
 
@@ -195,6 +196,7 @@
             "그는 입을 꾹 다물고 있었다."
 
         "헤안을 위로한다.":
+            $ persistant.Likeability['hean'] += 5
             play Sound "sfx/cloth.mp3"
             "나는 그에게 다가가, 포옹을 건넸다."
             "그는 흠칫했다."
@@ -663,6 +665,7 @@
     menu .m2:
         "그가 애처로워 보였다."
         "울지 말라며, 그를 달랜다.":
+            $ persistant.Likeability['hean'] += 2
             play music "bgm/hean2.mp3"
             "힘들었어요?"
             "나는 나긋이 그에게 물었다."
@@ -742,6 +745,7 @@
             "황실에 대한 걱정 때문인지, 아니면 다른 무엇 때문인지는 알 수 없었다."
 
         "조용히, 그의 눈물을 닦아준다.":
+            $ persistant.Likeability['hean'] += 5
             scene bg noble work
             play music "bgm/hean2.mp3"
             "나는 그에게 손을 뻗어, 눈물을 닦아주었다."

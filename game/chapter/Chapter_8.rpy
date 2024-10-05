@@ -73,6 +73,7 @@
     menu .m0:
         "불가능하다는 답변을 내놓을 거라면, 살아서 돌아올 생각은 하지 않는 게 좋을 거다."
         "반항한다.":
+            $ persistant.Likeability = {key:value+3 for key,value in persistant.Likeability.items()}
             hide char
             "프라타히라 왕국 정복은 안 그래도 하려던 참이었다. 나의 복수를 위해서."
             "하지만, 10일이라는 제한된 시간은 말도 안 되는 이야기였다."
@@ -367,7 +368,8 @@
     play Sound "sfx/punch.mp3"
     hide char
     "헤안은 내 목덜미를 세게 내리쳤다."
-    with [red, shake]
+    with shake
+    show red at fadeInOut
 
     scene black
     "난 그로 인해 기절하고 말았다."
@@ -615,6 +617,7 @@
             "몸에 한계가 오기 시작한 듯했으니까."
 
         "그때 그 변태 자식···.":
+            $ persistant.Likeability['adrian'] +=10
             s "그때 그 변태 자식···."
             "목소리로, 그를 단번에 알아봤다. 조난당했을 때 함께했던 그 남자였다."
 
@@ -715,8 +718,8 @@
 
     play Sound "sfx/sword_damage.mp3"
     "그렇게 무방비함을 취하고 있을 때, 왕자가 내 옆구리에 단도를 박아 넣었다."
-    with [red, shake]
-
+    with shake
+    show red at fadeInOut
     "순식간이어서, 방어조차도 못 했다."
 
     show char a default emb at top

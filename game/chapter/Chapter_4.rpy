@@ -171,6 +171,7 @@
             "어쩔 수 없이, 그의 말을 인정하고 그의 곁으로 몸을 움직였다."
 
         "그의 옆으로 다가간다.":
+            $ persistant.Likeability['adrian'] += 10
             "마음을 다잡은 후에, 남자의 곁으로 걸음을 옮겼다."
     s "네 놈의 말을 듣겠다는 게 아니야. 단지 살아남기 위해서···."
     show char a default smi at top
@@ -374,6 +375,7 @@
             "그가 헛웃음을 지었다."
 
         "연고가 안전하다는 것을 직접 보여준다.":
+            $ persistant.Likeability['adrian'] += 10
             "그런 것 치고는 점점 상태가 안 좋아졌다. 그가 거부할 때가 아니었다."
             "나는 어쩔 수 없는 선택을 했다."
 
@@ -407,7 +409,7 @@
 
     hide char
     "그는 아까와 달리 얌전히 굴기 시작했다."
-    with out
+    #with out
 
     "지혈이 잘 된 건지, 그의 안색이 이전보다는 괜찮아졌다."
 
@@ -444,7 +446,7 @@
 
     "우리는 더 이상 아무 말도 하지 않고, 눈을 감고 조용히 휴식을 취했다."
 
-    scene bg cave day
+    scene bg cave
     play music "bgm/adrian1.mp3"
     "그렇게 날이 밝았다."
 
@@ -475,7 +477,7 @@
     "그렇게 기다린 지, 어언 15분쯤이 지났을까. 익숙한 목소리가 들렸다."
 
     show char h default emb at top
-    scene bg cave day
+    scene bg cave
     h "세레나님!"
 
     hide char
@@ -559,7 +561,7 @@
     "그렇게 길을 헤매던 중, 세레나를 발견하게 되고 구해주게 된 것이었다."
 
     show char hs at top
-    scene bg cave day
+    scene bg cave
     Character('한스') "아무도 없는 것 같습니다. 왕자님."
 
     hide char
@@ -567,7 +569,7 @@
 
     "세레나가 남기고 간 메시지였다."
 
-    "{!}일행이 찾아왔어. 먼저 가볼게. 고마웠어. -S- {/!}"
+    "{i}일행이 찾아왔어. 먼저 가볼게. 고마웠어. -S- {/i}"
 
     show char a default def at top
     a "S···?"
@@ -581,7 +583,7 @@
     show char a default def at top
     a "만날 운명이라면, 언젠간 다시 만날 수 있겠지."
 
-    with save
+    #with save
 
     $ persistent.ClaerChapter = max(5,persistent.ClaerChapter)
     return

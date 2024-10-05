@@ -218,6 +218,7 @@
     menu .m0:
         a "너도 이미 알고 있었지?"
         "날 좋아했다고?":
+            $ persistant.Likeability['adrian'] += 3
             s "날 좋아했다고?"
             show char a default embr at top
             a "설마 몰랐던 거야?"
@@ -310,6 +311,7 @@
             "하지만 이 평화는 오래가지 않을 것을 알기에, 마음을 다잡고 기사단에 합류해 작전을 세웠다."
 
         "···응.":
+            $ persistant.Likeability['adrian'] += 10
             s "···응."
             show char a default desr at top
             a "넌 정말 잔인하다."

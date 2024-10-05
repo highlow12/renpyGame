@@ -220,8 +220,10 @@
         "그 침묵이 나를 더 분노하게 했다."
             
         "왜요? 이미 다 들켜버린 마당에 해명하고 싶지도 않은 건가요?":
+            $ persistant.Likeability['eren'] += 2
             "왜요? 이미 다 들켜버린 마당에 해명하고 싶지도 않은 건가요?"
         "하, 이젠 말도 안 하겠다 이건가요?":
+            $ persistant.Likeability['eren'] += 5
             "하, 이젠 말도 안 하겠다 이건가요?"
     e "······."
     s "당신은 제국 아니, 황후의 편인 건가요?"
@@ -424,6 +426,7 @@
     menu .m1:
         "그때, 스승님께서 내 손을 맞잡았다."
         "손을 뿌리친다.":
+            $ persistant.Likeability['eren'] += 2
             play music "bgm/ptsd7.mp3"
             "손을 뿌리치려고 했지만, 힘 때문에 꼼짝도 하지 않았다."
             "스승님은 진심으로 힘을 주는 중이었다."
@@ -489,6 +492,7 @@
 
             show char e default def at top
         "가만히 있는다.":
+            $ persistant.Likeability['eren'] += 15
             play music "bgm/sad5.mp3"
             e "그 기분은 알 수 없지만···"
             show char e default def at top

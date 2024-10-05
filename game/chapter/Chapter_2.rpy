@@ -37,6 +37,7 @@
 
             show char s default def at top
         "죄송합니다. 잠시 다른 생각을 하느라 대답이 늦었습니다.":
+            $ persistant.Likeability = {key: value + 3 for key, value in persistant.Likeability.items()}
             show char s default def at top
             s "죄송합니다. 잠시 다른 생각을 하느라 대답이 늦었습니다."
             show char emp at top
@@ -186,6 +187,7 @@
         "죽을죄를 지었습니다. 제발 목숨만은···."
             
         "됐다. 다들 피곤할 테니 어서 들어가서 쉬도록 해.":
+            $ persistant.Likeability = {key: value + 3 for key, value in persistant.Likeability.items()}
             show char s default def at top
             s "됐다. 다들 피곤할 테니 어서 들어가서 쉬도록 해."
             show char soldier default at top
@@ -507,6 +509,7 @@
     menu .m3:
         "성장하기 위해선 나를 가장 잘 알고, 실력 있는 기사의 밑으로 들어가야만 했다."
         "전 더 강해지고 싶어요. 스승님 밑에서 다시 배우고 싶습니다!":
+            $ persistant.Likeability["eren"] += 5
             "전 더 강해지고 싶어요. 스승님 밑에서 다시 배우고 싶습니다!"
         "스승님, 절 다시 제자로 받아주실 수 있나요?.":
             "스승님, 절 다시 제자로 받아주실 수 있나요?."
@@ -539,7 +542,7 @@
 
     "나는 마음을 다잡고 기초부터 다시 시작하기로 결심했다."
 
-    scene bg camp out day
+    scene bg camp out
     "나는 휴식을 마치고, 매일 아침 일찍 일어나 검술 연습을 했다."
 
     "처음에는 간단한 동작부터 시작했지만, 점차 더 어려운 기술들에 도전했다. "
