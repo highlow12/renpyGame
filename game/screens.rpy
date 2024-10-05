@@ -1886,7 +1886,7 @@ screen affection():
                 if persistant.UnlockImage[character_data.name][1]:
                     button:
                         action Show("full_image_screen", transitions = dissolve, image_path = 'image/[character_data.name]_illust2.png')
-                        add Image("gui/[character_data.name]_illust1.png"):
+                        add Image("gui/[character_data.name]_illust2.png"):
                             xysize sizes
                         xysize sizes
                         align (.74, .925)
@@ -1898,8 +1898,6 @@ screen affection():
                         xysize sizes
                         align (.74, .925)
 
-
-            
     label _("호감도"):
         style "game_menu_label"
         yalign .14
@@ -1910,130 +1908,6 @@ screen affection():
         action Hide('affection', dissolve)
         xalign 0.99
         yalign 0.01
-    
-screen aff():
-    tag menu
-    add gui.game_menu_background
-
-
-    viewport:
-        
-        xoffset viewport_offset
-        yoffset 187
-        #child_size (viewport_width,4000)
-        xalign .5
-        #yalign .06
-        xfill False
-        yfill True
-        scrollbars "vertical"
-        mousewheel True
-        draggable True
-        pagekeys True
-        side_yfill True
-    
-        vbox:
-            
-            
-            frame:
-                #xsize 0.95
-                xsize .9
-                xalign 0.5
-                ysize 1000
-                yalign 0.45
-                background "#00000054" 
-                frame: # image frame
-                    background "#ffffff52" 
-                    xalign 0.1
-                    yalign 0.05
-                    xsize 0.4
-                    $ image_size_mult = 1.2
-                    imagebutton idle "char serena.png" at transform:
-                        size (300 * image_size_mult, 400 * image_size_mult)
-                        xalign 0.5
-                        yalign 0.5
-                        
-                frame: #info frame
-                    background "#52525241" 
-                    
-                    xsize 0.4
-                    xalign 0.9
-                    yalign 0.05
-                    vbox:
-                        null height 20
-                        text '이름: [character_data.name]' 
-                        null height 20
-                        text '나이: [character_data.age]세'
-                        null height 20
-                        text '신장: [character_data.height]cm'
-                        null height 20
-                        text '몸무게: [character_data.weight]kg'
-                        null height 20
-                    
-                frame: # say frame
-                    background "#8412b9ef" 
-                    xalign 0.5
-                    yalign 0.83
-                    xsize 0.9
-                    ysize 0.3
-                    vbox:
-                        xalign 0.5
-                        yalign 0.5
-                        text "[character_data.say]":
-                            xalign 0.5
-                            size 55
-                frame: # Likeability frame
-                    background "#000000ff"
-                    xsize 0.9
-                    ysize 0.04
-                    xalign 0.5
-                    yalign 0.95
-                    frame:
-                        background "#f00"
-                        xsize .7 #todo: persistent.Likeability['hean']
-                        ysize .99
-                        xalign 0
-                        yalign .5
-                        text str(persistent.Likeability[character_data.name]) :
-                            size 35
-                            xalign .999
-                            yalign .5
-            frame: #image frame
-                xsize 0.9
-                #ysize .35
-                xalign 0.5
-                #yalign 0.98
-                background "#00eeff88"
-                $ imagenum = 20
-                vbox:
-                    xsize 1
-                    spacing 10
-                    xalign .5
-                    yalign .5
-                    for row in range(0, imagenum, 2):
-                        hbox:
-                            xalign .5
-                            yalign .5
-                            spacing 100  # 버튼 간의 간격
-                            for col in range(2):
-                                #null width 20
-                                if row + col < imagenum:
-                                    imagebutton idle "char serena.png":
-                                        action Show('full_image_screen', dissolve)
-                                        at transform:
-                                            size (300 * image_size_mult, 400 * image_size_mult)
-                                            xalign 0.5
-                                            yalign 0.5
-                                        
-                        #null height 150
-
-            null height 100
-        
-    label _("호감도"):
-        style "game_menu_label"
-
-    textbutton _("Return"):
-        style "return_button"
-        action Return()
 
 screen full_image_screen(image_path):
     add "black"
