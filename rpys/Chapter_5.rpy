@@ -51,7 +51,7 @@
     "지금으로썬 안전한 곳으로 옮겨지고 있다는 사실에 안도감을 느낄 뿐이었다."
 
     scene black
-    play Sound "sfx/horse.mp3"
+    play sound "sfx/horse.mp3"
 
     show char h default smi at top
     scene bg camp out
@@ -315,7 +315,7 @@
     s "하···. 정말 고단한 하루였어."
 
     show char knight default at top
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     Character('기사') "혹시, 기사들을 치료하는데 도와주실 수 있습니까?"
 
     hide char

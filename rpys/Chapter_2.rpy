@@ -297,7 +297,7 @@
     "한 기사단원의 고함이 들렸다."
 
     show char soldier default at top
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     Character('병사1') "반란군의 기습이다! 전원 전투 준비!"
     with shake
 
@@ -353,7 +353,7 @@
     s "어떻게 이렇게 빨리···."
 
     show char s fight bad at top
-    play Sound "sfx/sword_wind.mp3"
+    play sound "sfx/sword_wind.mp3"
     s "(그때 한 반란군이 내게 기습 공격을 가했다."
     with shake
 
@@ -391,7 +391,7 @@
     show char villager1 at top
     Character('반란군주동자') "네 놈도 잘 알고 있겠지. 이 죽음에 억울해하지 말고, 곱게 죽어라."
 
-    play Sound "sfx/sword_out.mp3"
+    play sound "sfx/sword_out.mp3"
     hide char
     "반란군의 주동자는 칼을 내리치기 위해 검을 들었다."
 
@@ -400,7 +400,7 @@
     scene black
     "모든 걸 포기한 채 눈을 감았다."
 
-    play Sound "sfx/sword_hit1.mp3"
+    play sound "sfx/sword_hit1.mp3"
     "그때, 칼이 맞부딪히는 소리가 들렸다."
 
     scene bg village night fire
@@ -438,7 +438,7 @@
     show char e fight bad at top
     e "처리해."
 
-    play Sound "sfx/sword_damage2.mp3"
+    play sound "sfx/sword_damage2.mp3"
     hide char
     "에런의 말이 끝나자마자, 그의 부하가 반란군의 목을 내리쳤다."
     with shake

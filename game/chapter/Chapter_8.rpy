@@ -60,7 +60,7 @@
     s "···이번에는 또 무슨 일이지?"
 
     show char emp at top
-    play Sound "sfx/book.mp3"
+    play sound "sfx/book.mp3"
     Character('황제 다리우스') "예상보다 일이 더디게 진행되는구나."
 
     show char emp at top
@@ -170,7 +170,7 @@
 
         "······.":
             "······."
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     "나는 검을 챙기고, 헤안의 막사로 향했다."
     "부디, 나의 복수가 타나에게 닿을 수 있길."
 
@@ -232,11 +232,11 @@
     h "잠시만요, 세레나님!"
 
     scene black
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     hide char
     "나는 헤안의 만류를 뒤로 한 채 자리를 떠났다."
 
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     "그의 다급한 목소리에 발걸음을 더 재촉했다."
 
     s "그래, 이게 내가 할 수 있는 최선이야."
@@ -282,7 +282,7 @@
     "제발, 잘 돼야만 해···."
 
     scene bg camp out night
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     "밤을 지새우며 주변을 걷던 중, 헤안이 내 앞을 가로막았다."
 
     show char h default des at top
@@ -336,7 +336,7 @@
     show char h default des at top
     h "죄송합니다."
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     hide char
     "헤안은 갑작스레 나를 둘러업었다."
     with shake
@@ -365,7 +365,7 @@
     show char h default des at top
     h "······."
 
-    play Sound "sfx/punch.mp3"
+    play sound "sfx/punch.mp3"
     hide char
     "헤안은 내 목덜미를 세게 내리쳤다."
     with shake
@@ -405,7 +405,7 @@
     "황제는 같은 편이라도 가차 없었다. 쓸모없는 말은 가치가 없으니."
 
     show char knight default at top
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     Character('기사단원1') "제국의 황실 기사단이 우리를 공격하고 있다!"
 
     show char knight default at top
@@ -418,7 +418,7 @@
     "경비를 담당하던 기사단원의 외침이 기지 전역에 울려 퍼졌다."
 
     scene bg camp in
-    play Sound "sfx/sword_hit2.mp3"
+    play sound "sfx/sword_hit2.mp3"
     "나는 귀가 찢어질 듯한 소음에 눈을 떴다."
 
     "막사 안이었다. 밖은 이상할 정도로 소란스러웠다."
@@ -439,7 +439,7 @@
     hide char
     "한 황실 기사가 헤안의 뒤로 달려들었다."
 
-    play Sound "sfx/sword_damage2.mp3"
+    play sound "sfx/sword_damage2.mp3"
     "나는 그 순간, 검을 집어 들고 헤안을 해치려던 이의 목을 내리쳤다."
 
     show char h default emb at top
@@ -492,14 +492,14 @@
 
     "하지만 기사단의 대열은 이미 혼란에 빠져 있었다."
 
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     "황실 기사단은 우리를 향해 무자비하게 공격해 왔다."
 
     "그들의 훈련된 움직임은 전장에 압도적인 존재감을 드러냈다."
 
     "우리 기사단은 이미 지쳐있는 상태였기에 제 실력이 발휘되기란 불가능에 가까웠다."
 
-    play Sound "sfx/sword_hit2.mp3"
+    play sound "sfx/sword_hit2.mp3"
     "방패와 검이 부딪히는 소리가 사방에서 울려 퍼졌다. 전장은 순식간에 피로 물들었다."
 
     show char h default bad at top
@@ -514,17 +514,17 @@
 
     "하지만 상황은 점점 안 좋아졌다. "
 
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     "곳곳에서 동료들의 비명이 들려왔다. 나의 손은 이미 피로 물들고 있었다."
 
     "그 피가 내 검을 더 무겁게 만드는 것 같은 착각마저 들 정도였다."
 
-    play Sound "sfx/war_horn.mp3"
+    play sound "sfx/war_horn.mp3"
     "그때, 땅이 흔들릴 정도로 거대한 소음이 울려 퍼졌다."
 
     show char knight default at top
     scene bg bf sunset
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     q "지금이 기회다! 제국민들에게 복수를!"
     with shake
 
@@ -552,13 +552,13 @@
     s "······."
 
     scene bg bf sunset
-    play Sound "sfx/sword_hit2.mp3"
+    play sound "sfx/sword_hit2.mp3"
     play music "bgm/sad3.mp3"
     "나는 절망적인 마음으로 전장을 둘러보았다."
 
     "끝까지 최선을 다했지만, 결국 체력이 떨어지고 말았다."
 
-    play Sound "sfx/sword_wind.mp3"
+    play sound "sfx/sword_wind.mp3"
     "그때, 적국의 기사로부터 기습 공격이 들어왔다."
 
     "다행히 급소는 지나쳐갔다."
@@ -581,7 +581,7 @@
 
     s "이대로 끝나는 걸까···."
 
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     "그렇게 뒤늦은 후회를 하던 중, 낯선 남자가 내게 다가왔다."
 
     "내 자세는 완전히 무너져 내렸음에도, 곧바로 칼날을 세웠다."
@@ -603,11 +603,11 @@
             show char a default des at top
             a "······."
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             hide char
             "그러나 그는 대답하지 않고 나를 부축하며, 걸음을 옮겼다."
 
-            play Sound "sfx/footstep_grass.mp3"
+            play sound "sfx/footstep_grass.mp3"
             "하고 싶은 말이 많았지만, 입은 떨어지지 않았다."
 
             "그가 누군지 어렴풋이 알 것 같았다."
@@ -626,7 +626,7 @@
             show char a default bad at top
             a "야, 야!"
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             hide char
             "나는 그가 부축해 주기도 전에, 스스로 몸을 다시 세웠다."
 
@@ -640,7 +640,7 @@
 
             "대신 거칠게 숨을 몰아쉬었다."
 
-            play Sound "sfx/footstep_grass.mp3"
+            play sound "sfx/footstep_grass.mp3"
             "그는 한숨을 쉬고, 나를 부축하며 걸음을 옮겼다."
 
     "누가 적이고 아군인지 모를 상황 속에서, 그만큼은 그냥 믿어보기로 했다."
@@ -669,7 +669,7 @@
     hide char
     "나는 고개를 들었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "심장이 미칠 듯이 빨리 뛰기 시작했다."
 
     "낯설지만 분명한 얼굴."
@@ -682,10 +682,10 @@
     show red at fadeInOut
     "그러고는 곧바로 실행에 옮겼다."
 
-    play Sound "sfx/sword_wind.mp3"
+    play sound "sfx/sword_wind.mp3"
     "칼을 바짝 쥐고, 그의 곁에 있는 새끼에게 달려들었다."
 
-    play Sound "sfx/sword_hit.mp3"
+    play sound "sfx/sword_hit.mp3"
 
     "하지만, 보기 좋게 공격이 막혔다."
 
@@ -716,7 +716,7 @@
 
     "모든 게 허무해졌다."
 
-    play Sound "sfx/sword_damage.mp3"
+    play sound "sfx/sword_damage.mp3"
     "그렇게 무방비함을 취하고 있을 때, 왕자가 내 옆구리에 단도를 박아 넣었다."
     with shake
     show red at fadeInOut
@@ -741,16 +741,16 @@
     hide char
     "그는 왕자의 측근임에도, 내게 속삭였다."
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "그러고는, 그가 왕자에게 무어라 말하며 왕자를 붙잡았다."
 
-    play Sound "sfx/footstep_grass2.mp3"
+    play sound "sfx/footstep_grass2.mp3"
     "나는 그 틈을 타, 숲을 향해 달렸다."
 
     scene black
     "죽을 듯이 달렸다. 앞이 점점 안 보이기 시작했다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "몸이 통제되지 않았다."
 
     "이대로 가다간 정말 죽을 수도 있겠다는 생각이 들었다."

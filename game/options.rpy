@@ -1,5 +1,4 @@
-﻿init python:
-    config.keymap['game_menu'] = []
+﻿
     #config.keymap['select_chapter'] = ['K_ESCAPE']
 
 ## This file contains options that can be changed to customize your game.

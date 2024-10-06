@@ -133,7 +133,7 @@
     s "당연하죠. 걱정 마세요."
 
     scene black
-    play Sound "sfx/footstep_grass2.mp3"
+    play sound "sfx/footstep_grass2.mp3"
     hide char
     "나는 아드리안과 함께 자리를 나섰다."
 
@@ -520,7 +520,7 @@
     s "황후를 끌어내라!!!"
     with shake
 
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     "우리는 황후가 있는 본궁을 기습했다."
 
     "황후의 기사단은 우리의 기습에 어영부영하더니, 이내 우리 기사단에게 빠르게 입구를 점령당했다."
@@ -567,7 +567,7 @@
     "하지만 그녀의 오만함이 오늘, 황후를 무너뜨릴 것이다."
 
     scene bg noble bed red day
-    play Sound "sfx/door.mp3"
+    play sound "sfx/door.mp3"
     "헤안이 황궁의 문을 열었다."
     with shake
 

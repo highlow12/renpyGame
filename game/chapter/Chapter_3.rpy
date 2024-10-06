@@ -2,7 +2,7 @@
     "제목 : 정체불명의 마법사와 공자"
 
     scene bg kingdom way
-    play Sound "sfx/sword_throw1.mp3"
+    play sound "sfx/sword_throw1.mp3"
     play music "bgm/nox2.mp3"
     "휘익 - "
 
@@ -32,7 +32,7 @@
         "공격한다.":
             $ persistant.Likeability["nox"] += 9
             "공격한다."
-    play Sound "sfx/sword_hit1.mp3"
+    play sound "sfx/sword_hit1.mp3"
     hide char
     "챙 -"
     show char n default smi at top
@@ -49,7 +49,7 @@
 
     "침입자를 처리하는 것. 그게 우선이었다."
 
-    play Sound "sfx/sword_hit2.mp3"
+    play sound "sfx/sword_hit2.mp3"
     "나는 쉴 새 없이 그에게 공격을 이어갔다."
 
     "마법에 막히기는 했지만, 그가 점점 뒤로 밀려나는 게 보였다."
@@ -67,7 +67,7 @@
 
     "나는 급한 마음에 칼은 내던지고 그의 로브를 향해 손을 뻗었다."
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "휘익 - "
     with shake
 
@@ -103,7 +103,7 @@
 
     "그는 내가 멱살을 끌어올리든 상관하지 않고, 무언가 골똘히 생각하는 것처럼 보였다."
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     "로브가 완전히 벗겨지자, 고혹적인 은빛의 머리카락이 흩날렸다."
 
     "동시에 예민한듯 나른해 보이는 눈이 나와 마주쳤다."
@@ -187,7 +187,7 @@
     show char n default smi at top
     q "아, 아. 그래야지."
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     hide char
     "녹스와 엉겨 붙어 있던 몸이 떨어졌다."
 
@@ -201,7 +201,7 @@
 
     "비웃음을 흘려주며, 빠른 걸음으로 자리를 떴다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "나답지 않은 언행이었다. 괜히 심장이 쿵쿵거렸다. "
 
     scene black
@@ -288,7 +288,7 @@
     "그럼에도, 이 흔들리는 목소리에 흔들리는 마음이 있기를 바랐다."
 
     show char h default def at top
-    play Sound "sfx/clap.mp3"
+    play sound "sfx/clap.mp3"
     hide char
     "짝짝짝 - "
 
@@ -342,7 +342,7 @@
 
     "목적지였던 아디크 왕국 국경에 다다르기 시작했다."
 
-    play Sound "sfx/wind.mp3"
+    play sound "sfx/wind.mp3"
     "하지만, 점점 눈보라가 휘몰아쳐 우리의 길을 가로막았다."
 
     "나는 더 이상 움직이는 데에 한계가 있을 것이라고 판단했다. "
@@ -417,7 +417,7 @@
 
     "그렇게, 기사단은 시간을 지체할 틈 없이 안전 지대로 서둘러 움직였다. "
     scene bg camp night
-    play Sound "sfx/hammer.mp3"
+    play sound "sfx/hammer.mp3"
     "안전지대에 도착한 후에는 막사를 설치하기 시작했다."
 
     "다들 분주했고, 여기저기서 곡소리가 들렸다."
@@ -488,7 +488,7 @@
 
     "부디 신이 있다면, 여기서 살아남을 수 있기를 기도했다."
 
-    play Sound "sfx/fall.mp3"
+    play sound "sfx/fall.mp3"
     "쿵-"
 
     $ persistent.ClaerChapter = max(4,persistent.ClaerChapter)

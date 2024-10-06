@@ -197,7 +197,7 @@
 
         "헤안을 위로한다.":
             $ persistant.Likeability['hean'] += 5
-            play Sound "sfx/cloth.mp3"
+            play sound "sfx/cloth.mp3"
             "나는 그에게 다가가, 포옹을 건넸다."
             "그는 흠칫했다."
 
@@ -540,7 +540,7 @@
     show white at fadeInOut
     "이번에는 터트리듯이 아닌, 실을 뽑아내듯이 미세하게 힘을 어루만졌다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "불안정했다. 심장이 또다시 아파왔다."
     show red at fadeInOut
     s "윽···."
@@ -549,7 +549,7 @@
 
     "그럼에도 꾹 참고, 그 힘을 헤안의 형 쪽으로 옮긴다고 생각했다."
 
-    play Sound "sfx/magic.mp3"
+    play sound "sfx/magic.mp3"
     "파앗―"
     show white at fadeInOut
     show char h default emb at top

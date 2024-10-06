@@ -92,7 +92,7 @@
     show char q default def at top
     Character('황후 카일리') "내 핏줄이지만, 더러운 황제의 핏줄이 아니잖아."
 
-    play Sound "sfx/knock.mp3"
+    play sound "sfx/knock.mp3"
     hide char
     "그때, 누군가 알현실에 찾아왔다."
 
@@ -220,7 +220,7 @@
     "황태자는 여전히 정신을 차리지 못한 채였다."
 
     show char p default at top
-    play Sound "sfx/sword_damage2.mp3"
+    play sound "sfx/sword_damage2.mp3"
     Character('황태자') "으윽!"
 
     play music "bgm/ptsd6.mp3"

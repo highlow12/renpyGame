@@ -2,7 +2,7 @@
     "제목 : 도움을 받는다는 것은"
 
     scene black
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     play music "bgm/sad.mp3"
     "나는 외부에서 들리는 소리에 어렴풋이 정신을 차렸다."
 
@@ -283,7 +283,7 @@
     hide char
     "그의 인사말에는 여러 의미가 담긴 것 같았다."
 
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     "시간이 어느 정도 흐른 뒤, 나는 몸을 움직일 수 있게 되었다."
 
     "곧바로 몸을 일으켰다."
@@ -306,7 +306,7 @@
     scene black
 
     scene bg camp out blood
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     play music "bgm/sad5.mp3"
     "돌아왔을 때는 이미 모든 상황이 끝나 있었다."
 
@@ -574,7 +574,7 @@
     show white at fadeInOut
     "이유는 알 수 없었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "다만, 심장이··· 금방이라도 터질 것 같았다."
     show red at fadeInOut
     "처음 느껴보는 고통에 어찌해야 할지를 몰랐다."
@@ -709,16 +709,16 @@
 
     "하지만 살기 위해, 녹스의 말대로 심장에 집중했다."
 
-    play Sound "sfx/magic.mp3"
+    play sound "sfx/magic.mp3"
     "파열음이 들렸다. 나한테만 들린 건지, 모두에게도 들린 건지는 모르겠다."
     with shake
 
-    play Sound "sfx/high.mp3"
+    play sound "sfx/high.mp3"
     s "이거, 생각보다 더 아픈데···."
     show red at fadeInOut
     
     show white
-    play Sound "sfx/magic.mp3"
+    play sound "sfx/magic.mp3"
     play music "bgm/브금 없음.mp3"
     "그 순간 눈앞이 점멸했고, 거대한 빛이 숲 전체를 덮어버렸다."
 
@@ -780,7 +780,7 @@
     hide char
     "미처 대피하지 못한 사람들이었다."
 
-    play Sound "sfx/-.mp3"
+    play sound "sfx/-.mp3"
     "부상자들도 뛰어나와 그를 보더니, 나에게 환호와 찬사를 날리기 시작했다."
 
     "한참이나 난리가 났다."

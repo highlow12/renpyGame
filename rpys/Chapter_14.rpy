@@ -86,7 +86,7 @@
 
     s "에런 스승님?"
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "나는 조심스럽게 스승님의 막사 안으로 들어갔다."
 
     "깔끔하게 정돈되어 있을 것이라고 생각했던 내 예상과는 다르게 내부는 지저분했다."

@@ -392,7 +392,7 @@
 
     "나는 창밖을 한참 더 바라봤다. 저녁놀은 여전히 아름다웠다 ."
 
-    play Sound "sfx/knock.mp3"
+    play sound "sfx/knock.mp3"
     "또다시 시간이 얼마나 더 지났을까, 누군가 방문에 노크를 해왔다."
 
     s "···?"
@@ -541,7 +541,7 @@
             "그러나, 오히려 헤안은 마지막 한 마디에 울컥하는 표정을 지었다."
 
             scene black
-            play Sound "sfx/skin.mp3"
+            play sound "sfx/skin.mp3"
             "그는 손을 내려놓고, 나를 끌어안았다."
 
             "빈틈없이 껴안아서인지, 앞이 보이지 않았다."
@@ -616,7 +616,7 @@
 
             scene black
 
-    play Sound "sfx/bird.mp3"
+    play sound "sfx/bird.mp3"
     play music "bgm/comfort4.mp3"
     "서늘한 바람이 나를 반겼다."
     "공작가의 두 번째 아침을 맞이했다."

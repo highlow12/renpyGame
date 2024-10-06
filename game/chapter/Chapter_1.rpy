@@ -59,7 +59,7 @@
 
     show char t default smi at top
     scene bg camp out
-    play Sound "sfx/sword_hit2.mp3"
+    play sound "sfx/sword_hit2.mp3"
     q "어이, 오늘따라 기세가 약한데?"
 
     show char s default bad at top
@@ -97,7 +97,7 @@
     hide char
     "힐다는 세레나가 다른 생각을 하는 동안, 기습 공격을 가했다."
 
-    play Sound "sfx/sword_hit1.mp3"
+    play sound "sfx/sword_hit1.mp3"
     "세레나는 미처 대응하지 못했고, 칼이 튕겨 나갔다."
 
     show char s default bad at top

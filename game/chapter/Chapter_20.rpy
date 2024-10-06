@@ -193,7 +193,7 @@
 
     "나는 분노에 휩싸였다."
 
-    play Sound "sfx/slap.mp3"
+    play sound "sfx/slap.mp3"
     "손을 쳐내, 스승님의 뺨을 내리쳤다. "
     with shake
 
@@ -384,7 +384,7 @@
     play music "bgm/브금 중지.mp3"
     "그 순간이었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "내 심장이 세차게 뛰기 시작했다."
 
     "제국과 나를 응원해주는 사람들을 생각해서였을까?"
@@ -394,7 +394,7 @@
 
     "온몸에 전율이 흘렀다. 처음 느껴보는 감각이었다."
 
-    play Sound "sfx/magic.mp3"
+    play sound "sfx/magic.mp3"
     "나는 그 힘을 아드리안과 헤안, 그리고 기사단에게 흘려보냈다."
     show white at fadeInOut
     s "···됐다."
@@ -429,7 +429,7 @@
 
     "나름의 보험이었던 걸까."
 
-    play Sound "sfx/war_shout, sword_hit2.mp3"
+    play sound "sfx/war_shout, sword_hit2.mp3"
     "또다시 두 기사단이 맞부딪히기 시작했다."
 
     "이번에는 나도 합세했다."
@@ -457,7 +457,7 @@
 
     "이대로만 간다면, 황후를 제압하고 제국 개혁이라는 목표가 머지 않은 시점이었다."
 
-    play Sound "sfx/sword_out.mp3"
+    play sound "sfx/sword_out.mp3"
     "그때 황후가 혼란을 틈타, 기사의 칼을 빼 들어 달려들었다."
 
     show char q default ang at top

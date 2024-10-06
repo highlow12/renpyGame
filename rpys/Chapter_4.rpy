@@ -11,7 +11,7 @@
 
     "다리에도 문제가 생긴 것 같았다."
 
-    play Sound "sfx/wind.mp3"
+    play sound "sfx/wind.mp3"
     "점점 추워지는 날씨에 죽음이라는 공포가 서려오기 시작했다."
 
     "부상 때문보다도, 추위로 죽는 게 더 빠를 것 같았다."
@@ -208,7 +208,7 @@
     show char a default def at top
     q "뭐 그 정도는 이해해 주지."
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     hide char
     "그가 뒤를 돈 사이, 일어서서 속옷을 제외한 젖은 옷을 다 벗어 던졌다. 물에 젖어 무거웠던 몸이 가벼워졌다."
 
@@ -223,7 +223,7 @@
 
     "확실히 차가운 공기보다는 따뜻한 체온이었다."
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "그 순간, 그가 몸을 돌려 나를 세게 끌어안았다."
     with shake
 
@@ -238,16 +238,16 @@
     show char a default def at top
     q "불편해도 잠시만 참아. 둘 다 어느 정도 체온이 오르면 당장 이 짓도 그만둘 테니까."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     hide char
     "두근거리는 심장 소리. "
 
     "그가 말은 못되게 해도, 떨리는 모양이었다. "
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "두근 "
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "두근!"
 
     "심장 소리가 점점 엇박자로 세게 쿵쿵거렸다."
@@ -258,7 +258,7 @@
 
     "사실 심장 소리의 출처는 그가 아니라, 내 쪽이었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "두근 -"
 
     "얘가 아니라 나한테 나는 소리였다고? 이렇게 큰 소리가?"
@@ -337,10 +337,10 @@
     hide char
     "그가 옆구리 쪽을 손으로 짚고 있었다. 자세히 보니 저 녀석의 손과 옆구리에 피가 흥건했다. "
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "나는 다급하게 일어나, 젖은 옷더미와 짐을 뒤졌다."
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "짐에서 비상으로 들고 다녔던 연고를 찾아냈다. 또한 같이 압박할 수 있을 만한 깨끗한 손수건을 꺼냈다."
 
     "어렸을 적, 에런에게 받았던 첫 선물. 둘도 없이 소중한 보물이었다."
@@ -413,7 +413,7 @@
 
     "그가 정신을 잃지 않도록 무슨 말이라도 꺼내야 할 것 같았다."
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     s "이거, 내가 아끼는 손수건이야."
 
     show char a default def at top
@@ -454,7 +454,7 @@
 
     "날씨가 이전보다는 확실히 좋아졌다."
 
-    play Sound "sfx/stomach.mp3"
+    play sound "sfx/stomach.mp3"
     "꼬르르륵-"
 
     "누군가의 배에서 큰 소리가 났다."

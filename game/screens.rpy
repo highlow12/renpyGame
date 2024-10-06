@@ -128,7 +128,7 @@ screen say(who, what):
                 text who id "who"
 
         text what id "what"
-
+    key "K_ESCAPE" action NullAction()
 
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
@@ -375,6 +375,7 @@ style navigation_button_text:
 default show_TouchToStart = True
 
 screen main_menu():
+    key "K_ESCAPE" action NullAction()
     $ renpy.play("audio/bgm/titlesong.mp3",channel = 'music')
     ## This ensures that any other menu screen is replaced.
     tag menu
@@ -523,7 +524,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     label title
 
     if main_menu:
-        key "game_menu" action ShowMenu("main_menu")
+        key "game_menu" action Show("select_chapter")
 
 
 style game_menu_outer_frame is empty
@@ -661,7 +662,7 @@ screen file_slots(title):
             button:
                 style "page_label"
 
-                key_events True
+                key_events False
                 xalign 0.5
                 action page_name_value.Toggle()
 
@@ -846,7 +847,7 @@ style setting_button is text:
     xalign .5
     yalign .5
 screen in_game_preferences():
-
+    key "K_ESCAPE" action NullAction()
     #tag menu
     modal True
     zorder 150
@@ -1323,7 +1324,7 @@ style help_label_text:
 ## https://www.renpy.org/doc/html/screen_special.html#confirm
 
 screen confirm(message, yes_action, no_action = None):
-
+    key "K_ESCAPE" action NullAction()
     ## Ensure other screens do not get input while this screen is displayed.
     modal True
 
@@ -1626,6 +1627,7 @@ style titles_text_off is text:
 image backBlack = "#00000090"
 image transparent = "#ffffff00"
 screen select_chapter():
+    key "K_ESCAPE" action NullAction()
     #tag menu
     #add gui.game_menu_background
     zorder 150
@@ -1768,6 +1770,7 @@ init python:
     character_data.load_affection_data(data_name[0])
 
 screen affection():
+    key "K_ESCAPE" action NullAction()
     default selected_option = None
     modal True
     zorder 150
@@ -1815,6 +1818,7 @@ screen affection():
             side_yfill True
             #transclude
             add "gui/box_Love.png":
+            #add "gui/EEEEEEE.png":
                 xalign .5
                 yalign .5
             frame: #fullname frame
@@ -1824,7 +1828,7 @@ screen affection():
                     size 70
                     font "DNFForgedBlade-Medium.ttf"
             frame: # image frame
-                
+                background f"gui/PF_{character_data.name}.png"
                 align (0.12, 0.1)
                 xysize (455, 585)
                 #add Image(character_data.image_path):
@@ -1877,8 +1881,8 @@ screen affection():
                         size 70
                 if persistant.UnlockImage[character_data.name][0]:
                     button:
-                        action Show("full_image_screen", transition = dissolve, image_path = 'images/[character_data.name]_illust1.png')
-                        add Image("gui/[character_data.name]_illust1.png"):
+                        action Show("full_image_screen", transition = dissolve, image_path = f'images/{character_data.name}_illust1.png')
+                        add Image(f"gui/{character_data.name}_illust1.png"):
                             xysize sizes
                         xysize sizes
                         align (.2,.38)
@@ -1892,8 +1896,8 @@ screen affection():
 
                 if persistant.UnlockImage[character_data.name][1]:
                     button:
-                        action Show("full_image_screen", transition = dissolve, image_path = 'images/[character_data.name]_illust2.png')
-                        add Image("gui/[character_data.name]_illust2.png"):
+                        action Show("full_image_screen", transition = dissolve, image_path = f'images/{character_data.name}_illust2.png')
+                        add Image(f"gui/{character_data.name}_illust2.png"):
                             xysize sizes
                         xysize sizes
                         align (.74, .925)
@@ -1917,6 +1921,7 @@ screen affection():
         yalign 0.01
 
 screen full_image_screen(image_path):
+    key "K_ESCAPE" action NullAction()
     modal True
     zorder 200
     add "black"
@@ -1929,6 +1934,7 @@ screen full_image_screen(image_path):
             yalign 0.5
 
 screen endingSelect():
+    key "K_ESCAPE" action NullAction()
     add "gui/layer.png"
     frame:
         align .5, .1

@@ -32,7 +32,7 @@
 
     "이럴 줄 알았으면 조금 더 막 살아볼 걸···."
 
-    play Sound "sfx/fall.mp3"
+    play sound "sfx/fall.mp3"
     "결국 중간에 무엇 하나 잡지 못한 채, 바닥에 떨어진 나는"
 
     "그렇게 정신을 잃었다."
@@ -63,7 +63,7 @@
     show char s default emb at top
     s "어?"
 
-    play Sound "sfx/wind.mp3"
+    play sound "sfx/wind.mp3"
     hide char
     "그의 말이 끝남과 동시에 내 몸은 빠르게 추위를 자각했다."
 
@@ -210,10 +210,10 @@
     hide char
     "두 눈을 질끈 감았다. 살기 위해서는 어쩔 수 없는 일이라며 머릿속에 되새겼다."
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     "······."
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     "······."
 
     "천천히 그가 있는 쪽으로 조심스럽게 걸어갔다."
@@ -229,16 +229,16 @@
     show char a default desr at top
     q "불편해도 잠시만 참아. 둘 다 어느 정도 체온이 오르면 당장 이 짓도 그만둘 테니까."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     hide char
     "두근거리는 심장 소리. 이 녀석의 심장 소리인 걸까?"
 
     "말은 못되게 해도, 떨리기는 한 모양이었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "두근"
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "두근!"
 
     "심장 소리가 점점 엇박으로 세게 쿵쿵거렸다."
@@ -249,7 +249,7 @@
 
     "사실 심장 소리의 출처는 그가 아니라, 내 쪽이었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "두근 -"
 
     "얘가 아니라 나한테 나는 소리였다고? 이렇게 큰 소리가?"
@@ -279,7 +279,7 @@
     show char a default smi at top
     q "그럼 이게 나한테서 들리는 소리라고?"
 
-    play Sound "sfx/cloth.mp3"
+    play sound "sfx/cloth.mp3"
     hide char
     "그는 제 얼굴을 내게 가깝게 붙여왔다."
 

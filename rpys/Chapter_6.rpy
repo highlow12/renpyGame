@@ -115,7 +115,7 @@
 
     "우리는 잠깐의 침묵과 함께 별이 빛나는 밤하늘을 쳐다봤다."
 
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     play music "bgm/hean2.mp3"
     "그때, 내 어깨에 무언가의 무게가 느껴졌다."
 
@@ -190,7 +190,7 @@
 
             s "아······."
 
-            play Sound "sfx/footstep_grass.mp3"
+            play sound "sfx/footstep_grass.mp3"
             hide char
             "그 말을 마지막으로 헤안은 다급히 자리를 떴다."
 
@@ -255,7 +255,7 @@
             h "세레나님!"
             with shake
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             hide char
             "헤안이 급하게 잡아준 덕분에, 머리를 땅에 박는 불상사는 일어나지 않았다. 하지만···."
 
@@ -335,7 +335,7 @@
 
             "그래야만 황실 사람이 없는 이곳에서까지 내게 무심하게 구시는 이유를 납득할 수 있을 것만 같았다."
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             "그때 밖에서 인기척이 느껴졌다."
 
             show char t default des at top
@@ -386,7 +386,7 @@
             T "그래서 저는 이 한목숨 평생 세레나님을 위해 쓰기로 했습니다."
 
             show char t default defr at top
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             T "그리고, 이건 연고입니다. 다치셨다길래 가장 좋은 것으로 가져왔습니다."
 
             hide char
@@ -405,7 +405,7 @@
 
             s "고마워, 타나! 그런데 일단 내가 좀 쉬고 싶어서."
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             hide char
             "나는 그녀의 등을 막사의 밖으로 떠밀었다."
 
@@ -422,7 +422,7 @@
 
             "드디어 조용해졌다. "
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             "막사에서 제대로 씻을 수는 없어, 물 묻은 수건으로 대충 몸을 닦아냈다."
 
             "그리고 타나가 준 연고를 사용해 보려 했다."
@@ -449,7 +449,7 @@
 
             "이번에는 단장답게 따끔한 한마디를 하고 보내야겠다고 생각했다."
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             s "나 정말 괜찮다니까?"
 
             "대충 옷을 걸치고, 막사의 문을 거칠게 젖혔다. "
@@ -567,7 +567,7 @@
 
             "셔츠마저도 뜻대로 올라가지 않았다. "
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             "그러자, 스승님께서 다가와 셔츠를 한 손으로 고정했다."
 
             "혼자서는 이런 것도 못 하는 네가 대체 뭘 할 수 있다고."
@@ -671,7 +671,7 @@
 
             "셔츠마저도 뜻대로 잘 걷히지 않았다."
 
-            play Sound "sfx/clothes.mp3"
+            play sound "sfx/clothes.mp3"
             "그러자, 스승님께서 다가와 셔츠를 한 손으로 고정했다."
 
             show char e default des at top
@@ -717,13 +717,13 @@
             hide char
             "의미를 알 수 없는 사과와 함께 말이다."
 
-            play Sound "sfx/step.mp3"
+            play sound "sfx/step.mp3"
             "그렇게 한참을 있다, 스승님 조용히 막사를 나섰다."
 
             s "짜증 나, 늘 제멋대로지 아주 그냥."
 
     s "그러고 보니, 막사에 찾아온 이유에 대해서도 묻지도 못했네···."
-    play Sound "sfx/clothes.mp3"
+    play sound "sfx/clothes.mp3"
     "나는 어수선하고도 찝찝한 마음을 안고서 그대로 침대에 몸을 눕혔다."
 
     "이제 더 이상 스승님에 관한 생각은 하고 싶지 않았다."

@@ -5,7 +5,7 @@
     play music "bgm/comfort3.mp3"
     s "으아···!"
 
-    play Sound "sfx/bird.mp3"
+    play sound "sfx/bird.mp3"
     "새가 지저귀는 소리, 눈 폭풍이 잦아져 내리쬐는 햇빛."
 
     "어제는 무슨 일이 있었냐는 듯, 완벽한 아침이 찾아왔다."
@@ -313,7 +313,7 @@
 
     "조금 들뜬 마음으로 몸을 마저 풀었다."
 
-    play Sound "sfx/footstep_grass2.mp3"
+    play sound "sfx/footstep_grass2.mp3"
     play music "bgm/dis.mp3"
     "몸을 다 풀었을 때쯤, 저 멀리서 단원 한 명이 급한 발걸음으로 달려오고 있었다."
 
@@ -342,7 +342,7 @@
     "그 순간이었다."
 
     show char knight default at top
-    play Sound "sfx/war_shout.mp3"
+    play sound "sfx/war_shout.mp3"
     Character('아디크 왕국 기사단') "진격하라!"
     with shake
 
@@ -392,7 +392,7 @@
         "도움을 요청하지 않는다.":
             $ persistant.Likeability = {key:value+3 for key, value in persistant.Likeability.items()}
             s "난 괜찮으니까, 신경 쓰지 않아도 돼!"
-            play Sound "sfx/sword_hit.mp3"
+            play sound "sfx/sword_hit.mp3"
             "적과 검을 맞부딪히며, 타나에게 답했다."
 
             "사실 상황이 좋지는 않았다."
@@ -425,7 +425,7 @@
     hide char
     "이번에는 내가 타나를 도와주기 위해, 그녀 쪽으로 발을 돌렸다."
 
-    play Sound "sfx/sword_wind.mp3"
+    play sound "sfx/sword_wind.mp3"
     "하지만, 타나와 싸우던 적이 단숨에 방향을 바꿔 내 쪽으로 몸을 돌렸다."
 
     "마치 처음부터 나를 노렸던 것처럼."
@@ -448,13 +448,13 @@
     "하지만 나를 향하던 칼은 그대로 타나에게 향하고 말았다."
 
     show char t default emb at top
-    play Sound "sfx/sword_damage2.mp3"
+    play sound "sfx/sword_damage2.mp3"
     T "윽···."
 
     play music "bgm/dis.mp3"
     s "타나···?"
 
-    play Sound "sfx/fall.mp3"
+    play sound "sfx/fall.mp3"
     hide char
     "흩뿌려진 피와 함께 타나는 땅바닥으로 곤두박질쳤다."
 
@@ -487,14 +487,14 @@
     s "타나!!!"
     with shake
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "분노가 휘몰아쳤다."
     show red at fadeInOut
     "나를 믿어주는 단원 하나 지키지 못하는 나의 무력감에 대한 분노와"
 
     "타나를 죽음으로 몰아간 적에 대한 분노였다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     s "다 죽여버리겠어···."
     show red at fadeInOut
     "감정의 동요와 함께 심장이 아파지기 시작했다."
@@ -507,7 +507,7 @@
 
     "모든 에너지가 심장으로 모였다 한 번에 분출되는 듯한 느낌이었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "그것은 마치 몸이 불에 타오르는 것과 같은 고통이었다."
     show red at fadeInOut
     show char h default emb at top
@@ -516,7 +516,7 @@
     hide char
     "헤안의 목소리를 듣고 정신을 차렸을 때는, 아디크 왕국의 기사단 절반 이상이 쓰러져있었다."
 
-    play Sound "sfx/heart.mp3"
+    play sound "sfx/heart.mp3"
     "내 손에는 수많은 이의 피가 흐르고 있었다."
     show red at fadeInOut
     s "아, 아···."

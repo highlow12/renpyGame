@@ -166,7 +166,7 @@
     show char e default bad at top
     e "당신에게 다음 따윈 존재하지 않습니다."
 
-    play Sound "sfx/sword_damage2.mp3"
+    play sound "sfx/sword_damage2.mp3"
     hide char
     "그 말을 끝으로 에런은 황후의 목을 베었다."
     with shake
@@ -320,7 +320,7 @@
 
     "에런 스노우에겐 마땅한 벌이 필요했기 때문이다."
 
-    play Sound "sfx/knock.mp3"
+    play sound "sfx/knock.mp3"
     play music "bgm/ereon3.mp3"
     "똑똑―"
 
@@ -470,7 +470,7 @@
 
     "시간이 지나자, 지친 아이들은 물을 마시기 위해 자리를 옮겼다."
 
-    play Sound "sfx/footstep_grass.mp3"
+    play sound "sfx/footstep_grass.mp3"
     "혼자 남겨진 스승님 앞에 나는 천천히 앞으로 걸어갔다."
 
     s "오랜만이네요, 스승님."

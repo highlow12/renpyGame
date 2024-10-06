@@ -21,7 +21,7 @@
     s "돌아가면 아마 바빠지겠지?"
 
     scene black
-    play Sound "sfx/teleport.mp3"
+    play sound "sfx/teleport.mp3"
     "마음의 준비를 한 후, 마도구를 작동시켰다."
 
     s "텔레포트 하는 느낌은 여전히 별로네."
