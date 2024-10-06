@@ -1,4 +1,8 @@
-﻿## This file contains options that can be changed to customize your game.
+﻿init python:
+    config.keymap['game_menu'] = []
+    #config.keymap['select_chapter'] = ['K_ESCAPE']
+
+## This file contains options that can be changed to customize your game.
 ##
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you

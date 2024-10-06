@@ -12,7 +12,10 @@ init python:
 
     def SelectChaper_before_Ending( isclear, i ):
         if isclear:
-            return Confirm('해당 에피소드를 불러옵니다',  Start(f"chapter_{i}"), NullAction())
+            if renpy.get_screen("say") :
+                return Confirm('해당 에피소드를 불러옵니다',  [Hide('main_menu'),Hide("select_chapter"),Jump(f"chapter_{i}")], NullAction())
+            else:
+                return Confirm('해당 에피소드를 불러옵니다',  [Hide('main_menu'),Hide("select_chapter"),Start(f"chapter_{i}")], NullAction())
         else:
             return Confirm_yes('엔딩 후에 이전 항목 돌아가기가 활성화됩니다',  NullAction()) #Notify("엔딩 후에 이전 항목 돌아가기가 활성화됩니다")
 
@@ -109,6 +112,7 @@ style frame:
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 screen say(who, what):
+    
     style_prefix "say"
     add "gui/fade.png"
         #yalign 1.0
@@ -265,7 +269,7 @@ screen quick_menu():
     #xalign 0.5
     ##yalign .025
     #yoffset -40
-    if quick_menu:
+    if True:
         add 'gui/quick_box.png':
             xysize (int(127 * 0.8), int(360 * 0.8))
             xalign 1.0
@@ -334,51 +338,19 @@ style quick_button_text:
 
 screen navigation():
 
-    if renpy.get_screen("main_menu"):
-        vbox:
-            style_prefix "navigation"
-
-            xalign 0.5
-            yalign 0.7
-
-            spacing gui.navigation_spacing
-
-            textbutton _("Start") action Show("select_chapter", dissolve)  #Start()
-
-            textbutton _("Load") action ShowMenu("load")
-
-            textbutton _("Options") action ShowMenu("preferences")
-
-            textbutton _("About") action ShowMenu("about")
+    if False:
+        button:
+            xysize(1080,1920)
+            action [ Show("select_chapter", dissolve), SetVariable("show_TouchToStart", False) ]
     elif renpy.get_screen("select_chapter"):
-        null height 0
+        button:
+            xysize(1080,1920)
+            action [ Show("select_chapter", dissolve), SetVariable("show_TouchToStart", False) ]
     ########################################################################
     else:
-        vbox:
-            xalign 0.5
-            yalign 0.8
-
-            style_prefix "navigation"
-
-            spacing gui.navigation_spacing
-
-            hbox:
-                textbutton _("Save") action ShowMenu("save")
-                textbutton _("History") action ShowMenu("history")
-
-
-            
-            hbox:
-
-                textbutton _("Load") action ShowMenu("load")
-                textbutton _("Main Menu") action MainMenu()
-
-
-            
-            hbox:
-                textbutton _("Options") action ShowMenu("preferences")
-
-                textbutton _("About") action ShowMenu("about")
+        button:
+            xysize(1080,1920)
+            action [ Show("select_chapter", dissolve), SetVariable("show_TouchToStart", False) ]
 
 
 
@@ -403,11 +375,12 @@ style navigation_button_text:
 default show_TouchToStart = True
 
 screen main_menu():
-
+    $ renpy.play("audio/bgm/titlesong.mp3",channel = 'music')
     ## This ensures that any other menu screen is replaced.
     tag menu
 
     add gui.main_menu_background
+    add "images/title.png"
 
     ## This empty frame darkens the main menu.
     frame:
@@ -419,7 +392,11 @@ screen main_menu():
         vbox:
             xalign 0.5
             yalign 0.7
-            text _("Touch to start") at blink(0.5)
+            text _("Touch to start"):
+                color "#000"
+                
+                size 50
+                at blink(0.5)
 
         ## full_screen button
         button:
@@ -935,8 +912,8 @@ screen in_game_preferences():
         text "자동 진행 속도":
             color "#000"
             size 40
-            xalign .2
-            yalign .3 + .265
+            xalign .18
+            yalign .3 + .262
             font "DNFForgedBlade-Medium.ttf"
             
 
@@ -944,7 +921,7 @@ screen in_game_preferences():
             
             size 40
             xalign .2
-            yalign .385 + .265
+            yalign .385 + .262
             font "DNFForgedBlade-Medium.ttf"
             color "#000"
             
@@ -1697,8 +1674,10 @@ screen select_chapter():
                             
                     elif i == persistent.ClaerChapter: # 현재 열려있는 에피소드
                         button:
-                            
-                            action Confirm( '해당 에피소드를 불러옵니다',  Start(f"chapter_{i}"), NullAction() )
+                            if renpy.get_screen("say"):
+                                action Confirm( '해당 에피소드를 불러옵니다',  [Hide('main_menu'),Hide("select_chapter"),Jump(f"chapter_{i}")], NullAction() )    
+                            else:
+                                action Confirm( '해당 에피소드를 불러옵니다',  [Hide('main_menu'),Hide("select_chapter"),Start(f"chapter_{i}")], NullAction() )
                             add Image("gui/book_button.png"):
                                 xysize (920, 240)
                             text "Chpater [i].":
@@ -1861,7 +1840,8 @@ screen affection():
                     
                     xysize (1.0, (persistent.Likeability[character_data.name] * 0.01))
                 text str(persistent.Likeability[character_data.name]) + "%":
-                    align (2.7, 1.0 -(persistent.Likeability[character_data.name] * 0.01))
+                    color "#fc0"
+                    align (.5, 0.9 - (persistent.Likeability[character_data.name] * 0.01))
         
             frame: #info frame
                 background "gui/love_small_info.png"

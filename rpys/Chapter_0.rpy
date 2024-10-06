@@ -314,6 +314,7 @@
     "그러나 계속되는 전쟁에 제국민들의 민심도 들썩이기 시작했다."
 
     show char villager1 at top
+    play Sound "sfx/crowd.mp3"
     Character('마을사람1') "전쟁을 멈춰라!"
 
     show char villager2 at top
