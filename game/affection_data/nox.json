@@ -1,8 +1,9 @@
 {
     "name": "nox",
-    "image_path": "images/alice.png",
-    "age": 25,
-    "height": 170,
-    "weight": 60,
-    "say": "안녕하세요! 저는 알리스를 만나서 반가워요."
+    "fullname": "녹스",
+    "image_path": "images/nox.png",
+    "age": "???",
+    "height": 183,
+    "weight": 77,
+    "say": "정체불명의 마법사.\n강한 힘을 갖고 있지만, 제멋대로 행동하기에 바쁘다."
 }

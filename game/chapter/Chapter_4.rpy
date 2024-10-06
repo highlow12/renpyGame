@@ -446,7 +446,7 @@
 
     "우리는 더 이상 아무 말도 하지 않고, 눈을 감고 조용히 휴식을 취했다."
 
-    scene bg cave
+    scene bg cave day
     play music "bgm/adrian1.mp3"
     "그렇게 날이 밝았다."
 
@@ -477,7 +477,7 @@
     "그렇게 기다린 지, 어언 15분쯤이 지났을까. 익숙한 목소리가 들렸다."
 
     show char h default emb at top
-    scene bg cave
+    scene bg cave day
     h "세레나님!"
 
     hide char
@@ -561,7 +561,7 @@
     "그렇게 길을 헤매던 중, 세레나를 발견하게 되고 구해주게 된 것이었다."
 
     show char hs at top
-    scene bg cave
+    scene bg cave day
     Character('한스') "아무도 없는 것 같습니다. 왕자님."
 
     hide char

@@ -249,7 +249,7 @@
 
             s "이왕 이렇게 된 거, \"좋아해요, 누나.\"라고 하면 답해줄게."
 
-            show char a default badr at top
+            show char a default embr at top
             a "치사하게 뭐 그래?"
 
             hide char
@@ -625,7 +625,7 @@
     hide char
     "황후는 갑자기 소리내어 웃었다."
 
-    show char q default lah at top
+    show char q default smi at top
     Character('카일리') "하하하!"
 
     show char q default smi at top

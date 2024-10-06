@@ -58,7 +58,7 @@ label ending_nomal:
 
     "상처는 언제 그랬냐는 듯이 사라졌다."
 
-    show char q default des at top
+    show char q default bad at top
     Character('황후 카일리') "···괴물이 따로 없구나. 아이야."
 
     hide char
@@ -84,7 +84,7 @@ label ending_nomal:
 
     s "죽으면 끝인 겁니다. 당신의 같잖은 저주는 제게 닿지 않습니다."
 
-    show char q default lah at top
+    show char q default smi at top
     Character('황후 카일리') "하하! 어디 한번 꼭대기에 서보렴."
 
     show char q default smi at top
@@ -98,7 +98,9 @@ label ending_nomal:
     play sound "sfx/sword_damage2.mp3"
     hide char
     "나는 단 한 순간의 망설임도 없이, 황후의 목을 베어버렸다."
-    with [shake,red]
+    show red at fadeInOut
+    with shake 
+    
 
     "피가 사방으로 튀었다. 코에는 피비린내만이 맴돌았다."
 
@@ -382,5 +384,5 @@ label ending_nomal:
     s "모든 게 다 제대로 돌아가고 있어."
 
     s "내가 맞아, 내가 옳았다고···."
-
+    $ persistent.IsAllClear = True
     return

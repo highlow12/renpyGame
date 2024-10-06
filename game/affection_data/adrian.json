@@ -1,8 +1,9 @@
 {
     "name": "adrian",
-    "image_path": "images/alice.png",
-    "age": 25,
-    "height": 170,
-    "weight": 60,
-    "say": "adrean script."
+    "fullname": "아드리안 하몬",
+    "image_path": "images/adrian.png",
+    "age": 21,
+    "height": 179,
+    "weight": 78,
+    "say": "생명의 은인.\n거만해 보이지만, 알고 보면 꽤 다정하다."
 }

@@ -350,7 +350,7 @@
 
     "그를 버리기로 나 자신과 약속했으니까."
 
-    scene bg 야영지 외부 낮
+    scene bg camp out
     play music "bgm/comfort7.mp3"
     "그렇게 하루가 걸려, 약속된 회담 장소에 도착했다."
 
@@ -414,7 +414,7 @@
 
             "나는 아드리안을 쫓아 밖으로 나갔다."
 
-    scene bg 숲 낮
+    scene bg forest day
     play music "bgm/-.mp3"
     "그렇게 쫓아간 결과, 막사와는 조금 떨어져 아무도 없는 곳에 다다랐다."
     "그가 어색하게 뒤를 돌아서 있었다."

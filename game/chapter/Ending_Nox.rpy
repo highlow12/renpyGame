@@ -1,4 +1,4 @@
-label Ending_N:
+label ending_nox:
     #"제목 : 달이 지지 않는 밤"
 
     scene bg forest fire
@@ -441,7 +441,8 @@ label Ending_N:
     n "근데, 너와 함께할 때마다는 모르는 것투성이야."
 
     show char h default smir at top
-    scene bg cg n ending
+    scene nox_illust2
+    $ persistent.UnlockImage['nox'][1] = True
     n "그러니, 네가 평생에 걸쳐 나를 가르쳐줘."
 
     show char h default smir at top
@@ -505,5 +506,5 @@ label Ending_N:
     "아마 그의 존재 역시 나에게도 마찬가지겠지."
 
     "하지만, 그 예외 속에서 우린 앞으로 서로의 정답을 찾아갈 것이다."
-
+    $ persistent.IsAllClear = True
     return

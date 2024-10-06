@@ -291,7 +291,7 @@ define gui.main_menu_text_xalign = 1.0
 ## components when an overlay or window is not present.
 
 ## Generic frames.
-define gui.frame_borders = Borders(4, 4, 4, 4)
+define gui.frame_borders = Borders(4,4,4,4)
 
 ## The frame that is used as part of the confirm screen.
 define gui.confirm_frame_borders = Borders(170, 170, 170, 170 ,-30, -30, -30, -60)
@@ -327,7 +327,7 @@ define gui.slider_tile = False
 ## Horizontal borders.
 define gui.bar_borders = Borders(4,4,4,4)
 define gui.scrollbar_borders = Borders(4,4,4,4)
-define gui.slider_borders = Borders(4,4,4,4)
+define gui.slider_borders = Borders(1,1,1,1)
 
 ## Vertical borders.
 define gui.vbar_borders = Borders(4,4,4,4)

@@ -1,8 +1,9 @@
 {
     "name": "eren",
-    "image_path": "images/alice.png",
-    "age": 25,
-    "height": 170,
-    "weight": 60,
-    "say": "안녕하세요! 저는 알리스를 만나서 반가워요."
+    "fullname": "에런 스노우",
+    "image_path": "images/eren.png",
+    "age": 28,
+    "height": 178,
+    "weight": 79,
+    "say": "어렸을 적 스승이자, 제국의 책략가.\n언제나 친절하지만, 그의 깊은 속내는 알 수가 없다."
 }

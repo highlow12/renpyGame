@@ -168,7 +168,7 @@
     play music "bgm/hean1.mp3"
     "그렇게, 공작과 황실에 관한 이야기를 조금 더 나눈 후, 나는 헤안과 집무실을 나섰다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "산책이라도 조금 하시겠습니까?"
 
     hide char
@@ -209,12 +209,12 @@
 
             "헤안은 내 말을 끊지 않고, 지긋이 나를 응시했다. "
 
-            show char h defualt des at top
+            show char h default des at top
     h "···괜찮으신 겁니까?"
     hide char
     "그는 알겠다는 대답 대신, 물음으로 답했다."
 
-    show char h defualt des at top
+    show char h default des at top
     h "표정이 좋지 않으셔서요."
 
     s "아···."
@@ -226,10 +226,10 @@
     hide char
     "그는 잠깐 생각하더니, 입을 열었다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "일단은 기사단으로 복귀하십시오."
 
-    show char h defualt def at top
+    show char h default def at top
     h "혹여나 황궁으로 복귀할까 하신다면, 저는 반대하겠습니다."
 
     hide char
@@ -243,30 +243,30 @@
 
     "나도 모르게 조급해져만 갔다. 황제의 죽음이 촉진제가 된 게 분명했다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "현재 황실에는 황태자 편이 가득할 겁니다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "세레나님께서 가봤자, 그곳엔 온갖 곳에 적이 가득할 겁니다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "황태자는 제 아비인 황제도 죽였는데, 세레나님이라고 예외는 아니겠죠."
 
-    show char h defualt def at top
+    show char h default def at top
     h "오히려 지금은 전장이나 기사단이 훨씬 안전할 겁니다."
 
     s "하다못해 이곳엔 당신을 지켜줄 수 있는 에런과 기사단이 있으니까요."
 
     s "······."
 
-    show char h defualt def at top
+    show char h default def at top
     h "아직 더 고민이 되는 부분이 있으시군요."
 
     s "현 황제가 죽었으니, 앞으로 저희의 목표는 황태자가 되겠죠?"
 
     s "황태자마저 죽이고, 혁명에 성공한다면 전 황제가 되겠고요. 제가 마지막 후계이니."
 
-    show char h defualt def at top
+    show char h default def at top
     h "···예."
 
     s "사실, 그게 무섭습니다."
@@ -288,7 +288,7 @@
 
     s "그는 제대로 된 후계자 교육도 받았으니까요."
 
-    show char h defualt def at top
+    show char h default def at top
     h "세레나님."
 
     hide char
@@ -296,28 +296,28 @@
 
     "그러고는 나와 눈을 맞췄다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "적어도, 제가 여태 본 세레나님은 자격이 충분하신 분입니다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "저는 군주에게 가장 중요한 것은 상냥한 마음이라고 생각합니다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "그 마음 하나가 제국민들을 평온케 만들 테니까요."
 
-    show char h defualt def at top
+    show char h default def at top
     h "그리고 세레나 님은 이미 그 마음을 자주 보여주셨습니다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "그러니 마음을 다잡으세요."
 
-    show char h defualt def at top
+    show char h default def at top
     h "황태자는 황제가 되더라도, 전쟁을 멈출 생각이 없습니다. 저희를 압박했던 때를 생각해 보십시오."
 
-    show char h defualt def at top
+    show char h default def at top
     h "그런 자가 황제가 된다면, 제국은 어떻게 될까요?"
 
-    show char h defualt def at top
+    show char h default def at top
     h "전 상상하기도 두렵습니다."
 
     hide char
@@ -399,10 +399,10 @@
 
     s "···?"
 
-    show char h defualt des at top
+    show char h default des at top
     h "헤안입니다. "
 
-    show char h defualt des at top
+    show char h default des at top
     h "저녁을 안 드신 것 같아, 대충 끼니가 될 만한 거로 가져왔습니다."
 
     hide char
@@ -412,7 +412,7 @@
 
     "헤안은 걱정이 가득한 눈빛이었다. 동시에 무거워 보이는 쟁반을 들고 있었다. "
 
-    show char h defualt des at top
+    show char h default des at top
     h "들어가겠습니다."
 
     hide char
@@ -424,10 +424,10 @@
 
     "나는 왠지 모르겠지만, 본능적으로 그와 마주치지 않기 위해 고개를 떨궜다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "대체 무엇이 당신을 그렇게 괴롭히는 겁니까?"
 
-    show char h defualt def at top
+    show char h default def at top
     h "항상 밝을 수는 없겠지만, 전 당신이 웃을 때가 좋습니다."
 
     hide char
@@ -435,7 +435,7 @@
 
     "동시에 떨고 있는 두 손으로 내 양 볼을 잡아 떨궜던 고개를 들췄다."
 
-    show char h defualt def at top
+    show char h default def at top
     h "이런··· 표정 말고."
 
     hide char
@@ -464,28 +464,28 @@
 
             "슬픈 사람치고는 덤덤한 말을 이어간 걸지도 모르겠다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "세레나님···."
 
             hide char
             "오히려 헤안이 나보다 더 슬퍼 보였다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "지금만은 목표에 사로잡히지 않으셔도 됩니다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "오히려, 제가 계속 세레나님을 괴롭게 했던 건 아닌지 죄송스럽습니다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "슬퍼하는 것 또한 이겨내기 위한 하나의 과정이라고 생각합니다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "마음껏 슬퍼하십시오. 제가 당신의 곁에 있겠습니다."
 
             hide char
             "헤안의 말 한마디 한마디가 무겁게 느껴졌다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "그러니··· 일단 아무 생각 하지 맙시다."
 
             hide char
@@ -550,21 +550,21 @@
 
             "빈틈없이 껴안아서인지, 앞이 보이지 않았다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "···이래도 당신의 외로움이 채워지지 않을까요?"
 
             s "······."
 
-            show char h defualt def at top
+            show char h default def at top
             h "세레나님이 그를 가족으로 생각했다면, 그런 것이겠죠."
 
-            show char h defualt def at top
+            show char h default def at top
             h "다만, 세레나님이 외롭다고 느끼는 건 세레나님 탓이 아닙니다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "당신이 잘못한 건 하나도 없습니다. 그러니 죄책감 가질 필요 없습니다. "
 
-            show char h defualt def at top
+            show char h default def at top
             h "이제는 당신의 악몽을 놔줍시다···."
 
             hide char
@@ -580,10 +580,11 @@
 
             "그와 눈이 마주쳤다."
 
-            show char h defualt def at top
+            show char h default def at top
             h "지금은 우리 둘만 생각하는 겁니다."
 
-            scene bg cg h kiss
+            scene hean_illust1
+            $ persistent.UnlockImage['hean'][0] = True
             hide char
             "헤안이 조심스럽게 내 턱을 들어 입을 맞췄다."
 
@@ -597,15 +598,15 @@
 
             "오히려 더욱더 서로를 보채듯 달라붙었고, 서로의 허물을 벗겨냈다."
 
-            show char h defualt defr at top
+            show char h default defr at top
             h "이상하게도 당신 곁에만 있으면 통제가 되질 않습니다.
 "
 
-            show char h defualt defr at top
+            show char h default defr at top
             h "모든 게 다요.
 "
 
-            show char h defualt defr at top
+            show char h default defr at top
             h "그러니, 이해해 주세요.
 "
 

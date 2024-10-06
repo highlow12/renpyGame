@@ -1,4 +1,4 @@
-label ending_A:
+label ending_adrian:
     #"제목 : 머나먼 여행의 종착지"
 
     scene bg forest fire
@@ -642,7 +642,8 @@ label ending_A:
     show char a default smir at top
     a "내가 해주고 싶었거든"
 
-    scene bg cg a ending
+    scene adrian_illust2
+    $ persistent.UnlockImage['adrian'][1] = True
     hide char
     "그때 아드리안이 무릎을 꿇고 내게 입을 맞췄다."
 
@@ -679,5 +680,5 @@ label ending_A:
     "우리는 서로를 껴안으며 달콤하게 입을 맞췄다."
 
     "제국 최초로 여제와 국서가 탄생하는 순간이었다."
-
+    $ persistent.IsAllClear = True
     return

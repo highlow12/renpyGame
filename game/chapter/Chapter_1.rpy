@@ -342,7 +342,7 @@
     show char commander at top
     Character('로더릭 단장') "그것까지는 내가 알 수 없다."
 
-    show char r default def at top
+    show char commander at top
     Character('로더릭 단장') "다만 처신을 잘해야 할 거다, 세레나. 요새 황제께서 심기가 좋지 않으시다는 소문이 있어."
 
     hide char
@@ -607,7 +607,7 @@
     hide char
     "황제는 분노를 참지 못하고 자신이 들고 있던 찻잔을 땅바닥에 던졌다."
 
-    show char k default bad at top
+    show char king at top
     Character('황제 다리우스') "감히 미천한 것들이··· 주제도 모르고!"
 
     show char e default def at top
@@ -629,7 +629,7 @@
     show char emp at top
     Character('황제 다리우스') "반란을 주도하고 있는 주동자가 아르테미아 도시에 머물고 있다는 첩보를 받았다."
 
-    show char k default def at top
+    show char king at top
     Character('황제 다리우스') "너에게 황실 기사단장직을 내리겠다. 그리고, 몰래 반란군을 진압해. 제국 황실의 이미지를 드높이라는 소리다."
 
     show char s default def at top

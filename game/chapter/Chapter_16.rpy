@@ -456,19 +456,19 @@
 
     "타나를 위한 답을 찾은 것 마침내 찾았으니까."
 
-    show char a-default smi at top
+    show char a default smi at top
     a "···하! "
 
-    show char a-default smi at top
+    show char a default smi at top
     a "그래, 그렇게 하자. 우리가 너를 도울게."
 
-    show char a-default smi at top
+    show char a default smi at top
     a "실패 없는 일에 끼지 않는 건, 말이 안 되니까."
 
-    show char a-default def at top
+    show char a default def at top
     a "그 대신, 약속해 줘. "
 
-    show char a-default def at top
+    show char a default def at top
     a "왕국에 평화를 가져와 주겠다고 말이야."
 
     s "당연하지. 약속할게."
@@ -481,16 +481,16 @@
 
     "내가 하고 싶었던 건, 이런 거였던 것 같다."
 
-    show char a-default def at top
+    show char a default def at top
     a "그나저나, 동굴에서는 정말 몰랐어."
 
-    show char a-default def at top
+    show char a default def at top
     a "네가 제국의 황녀일 줄은."
 
-    show char a-default def at top
+    show char a default def at top
     a "그런 곳에 제국의 황녀가 있을 줄 누가 알았겠냐고."
 
-    show char a-default def at top
+    show char a default def at top
     a "인상착의도 평범했었고."
 
     s "하! 그건 나도 마찬가지였거든."
@@ -499,30 +499,30 @@
 
     s "완전 저질이었지, 너."
 
-    show char a-default desr at top
+    show char a default desr at top
     a "야! 그때는 어쩔 수 없었잖아."
 
-    show char a-default def at top
+    show char a default def at top
     a "너야말로 고집부리고, 얼굴 붉히고 난리였지."
 
     s "추워서 그런 거였어! 추워서···."
 
     s "진짜 쪼잔하게 구네, 참."
 
-    show char a-default ang at top
+    show char a default ang at top
     a "쪼잔?"
 
     s "쪼잔하다고, 너."
 
-    show char a-default ang at top
+    show char a default ang at top
     a "이게 진짜···!"
 
     s "뭐 어쩌게, 한 대 쥐어박겠다?"
 
-    show char a-default ang at top
+    show char a default ang at top
     a "내가 너한테 왜 손을 대냐?"
 
-    show char a-default ang at top
+    show char a default ang at top
     a "됐다, 됐어. 좀 더 성숙한 내가 참아야지."
 
     s "···하! "
@@ -534,7 +534,7 @@
 
     "이 순간만큼은, 우리의 뒤에 달린 수식어들을 신경 쓰지 않은 것 같았다."
 
-    show char a-default smi at top
+    show char a default smi at top
     a "···아무튼, 앞으로 잘해보자."
 
     s "응, 그래야지."

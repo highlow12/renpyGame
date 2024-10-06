@@ -43,7 +43,7 @@
     show char e default des at top
     e "이건 다 세레나를 위해서야."
 
-    show char q default lah at top
+    show char q default smi at top
     scene bg prison
     Character('황후 카일리') "하하, 네가 오기를 기다리고 있었단다."
 
@@ -468,7 +468,10 @@
 
     hide char
     "하지만 황후의 칼은 막혔다."
-#
+
+    call screen endingSelect
+    $ persistent.IsAllClear = True
+    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
     #menu .m1:
     #    "...에 의해."
     #        "녹스"
@@ -480,5 +483,5 @@
     #        "세레나 에프탈"
     #        with choise5
 #
-    #$ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    #
     return

@@ -74,8 +74,11 @@ style vscrollbar:
 
 style slider:
     ysize gui.slider_size
-    base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
+    base_bar Solid("#0000")
+    #base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
     thumb "gui/phone/slider/horizontal_[prefix_]thumb.png"
+    thumb_offset 32
+    left_bar Frame("gui/slider_left_bar.png",1,1)
 
 style vslider:
     xsize gui.slider_size
@@ -274,13 +277,20 @@ screen quick_menu():
                 yalign .015
                 xysize (int(100 * 0.8),int(100 * 0.8))
             action Show("in_game_preferences")
-
-        imagebutton idle "gui/icon_book.png" :
-            at transform:
-                xalign .98
-                yalign 0.02
-                xysize (int(70 * 0.8),int(70 * 0.8))
-            action Show("select_chapter", dissolve)
+        if persistent.IsAllClear:
+            imagebutton idle "gui/icon_book.png" :
+                at transform:
+                    xalign .98
+                    yalign 0.02
+                    xysize (int(70 * 0.8),int(70 * 0.8))
+                action Show("select_chapter", dissolve)
+        else:
+            imagebutton idle "gui/icon_book.png" :
+                at transform:
+                    xalign .98
+                    yalign 0.02
+                    xysize (int(70 * 0.8),int(70 * 0.8))
+                action Confirm_yes("아직 개방되지 않았습니다", NullAction())
 
         imagebutton idle "gui/icon_auto.png" :
             at transform:
@@ -794,7 +804,7 @@ screen preferences():
             #        label _("Skip")
             #        textbutton _("Unseen Text") action Preference("skip", "toggle")
             #        textbutton _("After Choices") action Preference("after choices", "toggle")
-            #        textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+            #        textbutton _("transition") action InvertSelected(Preference("transition", "toggle"))
             #
             #    ## Additional vboxes of type "radio_pref" or "check_pref" can be
             #    ## added here, to add additional creator-defined preferences.
@@ -952,6 +962,7 @@ screen in_game_preferences():
                 style_prefix "slider"
                 bar value Preference("auto-forward time"):
                     xsize .49
+                    
                     
                 null height 95
 
@@ -1667,10 +1678,10 @@ screen select_chapter():
                 xalign 0.5
                 yalign 0.5
                 
-                for i in range(0, 20):
+                for i in range(0, 21):
                     if i < persistent.ClaerChapter: 
                         button:
-                            action SelectChaper_before_Ending(persistent.isClear, i)
+                            action SelectChaper_before_Ending(persistent.IsAllClear, i)
                             add Image("gui/book_button.png"):
                                 xysize (920, 240)
                             text "Chpater [i].":
@@ -1746,7 +1757,7 @@ init python:
     import json
 
     data_name = ['eren','nox','hean','adrian']
-    kor_name = {'eren' : "에렌",'nox' : "녹스",'hean' : "헤안",'adrian' : "아드리안"}
+    kor_name = {'eren' : "에런",'nox' : "녹스",'hean' : "헤안",'adrian' : "아드리안"}
 
     class affection_data:
         def __init__(self):
@@ -1756,6 +1767,7 @@ init python:
             self.height = 0
             self.weight = 0
             self.say = ''
+            self.fullname = ''
 
         def load_affection_data(self, name):
             with renpy.open_file(f"affection_data/{name}.json") as f:
@@ -1766,9 +1778,10 @@ init python:
                 self.height = data['height']
                 self.weight = data['weight']
                 self.say = data['say']
+                self.fullname = data['fullname']
 
         def get_char_name(num):
-            kor_name = ['에렌','녹스','헤안','아드리안']
+            kor_name = ['에런','녹스','헤안','아드리안']
             return kor_name[num]
             
         
@@ -1794,7 +1807,7 @@ screen affection():
                 text kor_name[data_name[i]]:
                     align (.5,.5)
                 action [SetScreenVariable("selected_button", i), 
-                #Function(renpy.restart_interaction), 
+                Function(renpy.restart_interaction), 
                 Function(character_data.load_affection_data, data_name[i])]
                 selected selected_button == i
                 at transform:
@@ -1825,12 +1838,19 @@ screen affection():
             add "gui/box_Love.png":
                 xalign .5
                 yalign .5
-            
+            frame: #fullname frame
+                background "#0000"
+                align .5, .02
+                text character_data.fullname :
+                    size 70
+                    font "DNFForgedBlade-Medium.ttf"
             frame: # image frame
                 
                 align (0.12, 0.1)
                 xysize (455, 585)
-                # add image
+                #add Image(character_data.image_path):
+                #    xysize (455, 585)
+                #    align .5, .5
             frame: # Likeability frame
                 background "#fff0"
                 align (.755,.097)
@@ -1838,7 +1858,8 @@ screen affection():
                 frame:
                     background "#ffff"
                     align (.5, 1.0)
-                    xysize (1.0, 1.0)#(persistent.Likeability[character_data.name] * 0.01))
+                    
+                    xysize (1.0, (persistent.Likeability[character_data.name] * 0.01))
                 text str(persistent.Likeability[character_data.name]) + "%":
                     align (2.7, 1.0 -(persistent.Likeability[character_data.name] * 0.01))
         
@@ -1868,9 +1889,15 @@ screen affection():
                 xysize (874,1195)
                 align (.5, .915)
                 $ sizes = (650,330)
+                frame:
+                    background "#0000"
+                    align .5, .1
+                    text "회    상":
+                        font "DNFForgedBlade-Light.ttf"
+                        size 70
                 if persistant.UnlockImage[character_data.name][0]:
                     button:
-                        action Show("full_image_screen", transitions = dissolve, image_path = 'image/[character_data.name]_illust1.png')
+                        action Show("full_image_screen", transition = dissolve, image_path = 'images/[character_data.name]_illust1.png')
                         add Image("gui/[character_data.name]_illust1.png"):
                             xysize sizes
                         xysize sizes
@@ -1885,7 +1912,7 @@ screen affection():
 
                 if persistant.UnlockImage[character_data.name][1]:
                     button:
-                        action Show("full_image_screen", transitions = dissolve, image_path = 'image/[character_data.name]_illust2.png')
+                        action Show("full_image_screen", transition = dissolve, image_path = 'images/[character_data.name]_illust2.png')
                         add Image("gui/[character_data.name]_illust2.png"):
                             xysize sizes
                         xysize sizes
@@ -1910,6 +1937,8 @@ screen affection():
         yalign 0.01
 
 screen full_image_screen(image_path):
+    modal True
+    zorder 200
     add "black"
     # 전체 화면에 이미지 표시
     imagebutton idle image_path :
@@ -1918,4 +1947,33 @@ screen full_image_screen(image_path):
             size(1080,1920)
             xalign 0.5
             yalign 0.5
+
+screen endingSelect():
+    add "gui/layer.png"
+    frame:
+        align .5, .1
+        xysize .7, .15
+        text "...에 의해.":
+            align .5, .5
+            size 60
+    vbox:
+        align .5, .7
+        for k, v in persistent.Likeability.items():
+            if v >= 70:
+                button:
+                    xysize (956, 92)
+                    add "gui/choise_on.png"
+                    text kor_name[k]:
+                        align .5, .5
+                        size 40
+                    action Jump(f"ending_{k}")
+                
+                null height 100
+        button:
+            xysize (956, 92)
+            add "gui/choise_on.png"
+            text "세레나":
+                align .5, .5
+                size 40
+            action Jump("ending_nomal")
         

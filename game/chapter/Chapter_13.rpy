@@ -307,15 +307,15 @@
 
     s "지휘관 있습니까?"
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "누가, 허락도 없이 내 막사에 들어와?"
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "세레나님?"
 
     s "급한 일이라 실례했습니다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "실언했습니다. 다만 어쩐 일로 오신 겁니까?"
 
     hide char
@@ -327,7 +327,7 @@
 
     s "중요한 이야기를 나누고 싶습니다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "어떤 말씀이신 겁니까?"
 
     hide char
@@ -339,10 +339,10 @@
 
     "지휘관은 당황한 표정을 짓더니, 이내 말을 이었다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "저 역시, 그 소식을 들은 건 얼마 되지 않았습니다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "하지만 이제라도 알면 된 것 아닙니까?"
 
     hide char
@@ -354,13 +354,13 @@
 
     s "그게 무슨 뜻인 거죠?"
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "우리 기사단에 소식이 늦게 전달된 데는 이유가 있을 거라고 생각합니다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "소식통이 늦어진 걸 수도 있고, 아님 뭐···."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "아닙니다. 아무튼 다른 소식이 전해지면 바로 전달해 드리도록 하겠습니다."
 
     s "지휘관, 지금 생각해야 할 건 어째서 우리 기사단에만 그 소식이 전달되지 않았던 거냐는 겁니다."
@@ -378,11 +378,11 @@
 
     "지휘관은 멈칫거리더니, 이내 조심스럽게 입을 열었다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "세레나님께서 과대 해석을 하시는 건 아닐지···.
 "
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "그리고 제게 따지셔봤자 해결되는 건 없습니다. 저도 단장님처럼 아는 게 없거든요."
 
     s "······."
@@ -396,12 +396,12 @@
 
     s "하아···."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "죄송합니다. 도움이 되지 못한 것 같군요."
 
     s "저는 이만 자리에서 일어나겠습니다."
 
-    show char commander default at top
+    show char commander at top
     Character('지휘관') "조심히 들어가시길 바랍니다. 밤은 위험하니까요."
 
     s "충고 감사합니다."

@@ -739,7 +739,7 @@
 
     "내 눈앞에 바로 나타나 줬으니까."
 
-    show char n defualt emb at top
+    show char n default emb at top
     n "······."
 
     hide char
@@ -751,10 +751,10 @@
 
     "잠깐의 망설임도 잠시, 내게 다가왔다."
 
-    show char n defualt def at top
+    show char n default def at top
     n "야, 이건 좀 다른 방법을 써야겠어."
 
-    show char n defualt def at top
+    show char n default def at top
     n "알겠어?"
 
     hide char
@@ -830,7 +830,8 @@
 
         "녹스에게 붙잡혀 있는 손에 힘을 준다.":
             $ persistant.Likeability['nox'] += 13
-            scene bg cg a kiss
+            scene nox_illust1
+            $ persistant.UnlockImage['nox'][0] = True
             play music "bgm/romantic4.mp3"
             "나는 붙들려있는 손에 힘을 주었다."
             "그러고는 그를 끌어당겼다."

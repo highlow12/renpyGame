@@ -132,8 +132,9 @@
 
     "그렇게 일주일이란 시간이 흘렀다."
 
+    scene bg village night dark
     show char t default def at top
-    scene bg village night
+    
     T "세레나님, 아무리 찾아봐도 정보는 얻을 수 없었습니다."
 
     show char knight default at top
@@ -306,7 +307,7 @@
     Character('병사1') "반란군의 기습이다! 전원 전투 준비!"
     with shake
 
-    scene bg village in red
+    scene bg village fire
     hide char
     "모든 일은 순식간에 벌어졌다."
 
@@ -315,8 +316,9 @@
 
     "하지만 이미 숨어있던 반란군이 공격을 시작하고 있었다."
 
-    show char s default ang at top
     scene bg village fire
+    show char s default ang at top
+    
     s "침착해! 우측 중심으로 방어선을 구축하라!"
 
     hide char
@@ -354,10 +356,10 @@
 
     "그들의 숫자는 예상보다 훨씬 많았다."
 
-    show char s fight bad at top
+    show char s default bad at top
     s "어떻게 이렇게 빨리···."
 
-    show char s fight bad at top
+    show char s default bad at top
     play Sound "sfx/sword_wind.mp3"
     s "(그때 한 반란군이 내게 기습 공격을 가했다."
     with shake
@@ -365,7 +367,7 @@
     hide char
     "나는 가까스로 피했지만, 주변의 기사단원들은 이미 하나둘씩 쓰러지고 있었다. "
 
-    show char t fight bad at top
+    show char t default bad at top
     T "세레나님! 지시를 내려주세요!"
 
     hide char
@@ -385,12 +387,12 @@
 
     "반란군의 주동자는 내 앞에 다가와 칼을 겨눴다."
 
-    show char s fight bad at top
+    show char s default bad at top
     s "내 기사들은 황실에 이용당했을 뿐이다. 너희와 같은 처지야. 그러니, 놓아줘."
 
     Character('반란군주동자') "내가 왜 그래야 하지? 어쨌든 네놈들 때문에 우리들은··· 매 순간 고통 속에 살고 있단 말이다!"
 
-    show char s fight bad at top
+    show char s default bad at top
     s "······."
 
     show char villager1 at top
@@ -408,22 +410,22 @@
     play Sound "sfx/sword_hit1.mp3"
     "그때, 칼이 맞부딪히는 소리가 들렸다."
 
-    scene bg village night fire
+    scene bg village fire
     "눈을 떴다. 내 앞에 스승님이 보였다."
 
-    show char s fight emb at top
+    show char s default emb at top
     s "스, 스승님!"
 
     hide char
     "나는 스승님의 얼굴을 확인하자 긴장이 풀렸다."
 
-    show char e fight emb at top
+    show char e default emb at top
     e "세레나!"
 
     hide char
     "에런은 제 앞에 있는 반란군의 급소를 공격하여 살해한 뒤, 동료들을 불렀다."
 
-    show char e fight ang at top
+    show char e default ang at top
     e "이 근방에 우두머리가 있다! 당장 내 앞으로 데려와!"
 
     hide char
@@ -434,13 +436,13 @@
     show char villager1 at top
     Character('반란군주동자') "네놈들, 우리만 잡는다고 이 반란이 끝날 것 같으냐!"
 
-    show char e fight bad at top
+    show char e default bad at top
     e "······."
 
     show char villager1 at top
     Character('반란군주동자') "대답도 하지 않겠다 이건가. 우리의 죽음은 이제 신호탄일 뿐이야. 매 순간, 황실은 각오하는 게 좋을 거다!"
 
-    show char e fight bad at top
+    show char e default bad at top
     e "처리해."
 
     play Sound "sfx/sword_damage2.mp3"
@@ -577,7 +579,7 @@
 
     "나는 곧바로 기둥을 향해 검을 뽑았다."
 
-    show char s fight bad at top
+    show char s default bad at top
     s "누구냐?!"
 
     $ persistent.ClaerChapter = max(3,persistent.ClaerChapter)

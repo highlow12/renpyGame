@@ -9,7 +9,7 @@
     show char q default smi at top
     Character('황후 카일리') "그렇지 않니? 황태자."
 
-    show char p default at top
+    show char p at top
     Character('황태자') "···에."
 
     hide char
@@ -71,7 +71,7 @@
     show char nobility1 at top
     Character('황후 심복') "본인이 황후님의 아들이라는 사실을요."
 
-    show char q default lah at top
+    show char q default smi at top
     Character('황후 카일리') "하하!"
 
     show char q default smi at top
@@ -153,7 +153,7 @@
     show char e default des at top
     e "그러니 직접 처리하시는 편이···."
 
-    show char q default lah at top
+    show char q default smi at top
     Character('황후 카일리') "푸하핫!"
     with shake
 
@@ -219,7 +219,7 @@
 
     "황태자는 여전히 정신을 차리지 못한 채였다."
 
-    show char p default at top
+    show char p at top
     play Sound "sfx/sword_damage2.mp3"
     Character('황태자') "으윽!"
 
@@ -390,13 +390,13 @@
 
     s "헤안!"
 
-    show char h defualt ang at top
+    show char h default ang at top
     h "세레나님!"
 
-    show char h defualt ang at top
+    show char h default ang at top
     h "황실 기사단이 우리 기사단을 공격하고 있습니다."
 
-    show char h defualt ang at top
+    show char h default ang at top
     h "최대한 막아보고는 있지만, 오래 버티긴 힘들 것 같습니다···."
 
     hide char
@@ -406,10 +406,10 @@
 
     s "그들을 저지해야 해요."
 
-    show char h defualt emb at top
+    show char h default emb at top
     h "하지만, 이곳은 적들의 소굴입니다."
 
-    show char h defualt emb at top
+    show char h default emb at top
     h "저희는 이 황궁에 갇혀버린 겁니다."
 
     play music "bgm/ptsd7.mp3"

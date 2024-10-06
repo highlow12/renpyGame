@@ -1,4 +1,4 @@
-label ending_H:
+label ending_hean:
     #"제목 : 귀속된 사람"
 
     scene bg forest fire
@@ -400,7 +400,8 @@ label ending_H:
 
     "마치 충성을 다하겠다는 것처럼."
 
-    scene bg scene hean ending
+    scene hean_illust2
+    $ persistent.UnlockImage['hean'][1] = True
     h "그럼··· 반려가 되어주시겠습니까?"
 
     h "당신만을 바라보겠습니다."
@@ -436,5 +437,5 @@ label ending_H:
     "우리 둘의 마음이 변치 않는다는 것 달라지지 않았다."
 
     "언제나 함께, 같은 곳을 바라보면서."
-
+    $ persistent.IsAllClear = True
     return

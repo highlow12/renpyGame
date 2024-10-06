@@ -550,7 +550,8 @@
 
             "침범해서는 안 되는 영역까지 내려가고 있었다."
 
-            scene bg cg e kiss
+            scene eren_illust1
+            $ persistent.UnlockImage['eren'][0] = True
             s "에, 에런 스승님···."
 
             "키스가 싫지 않았다."

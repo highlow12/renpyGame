@@ -1,8 +1,9 @@
 {
     "name": "hean",
-    "image_path": "images/alice.png",
+    "fullname": "헤안 레이워스",
+    "image_path": "images/hean.png",
     "age": 25,
     "height": 170,
     "weight": 60,
-    "say": "안녕하세요! 저는 알리스를 만나서 반가워요."
+    "say": "공작가의 자제이자, 부기사단장.\n묵묵함의 상징, 하지만 가끔 볼을 붉히는 게 귀엽다."
 }

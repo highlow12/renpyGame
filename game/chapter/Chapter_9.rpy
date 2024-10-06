@@ -144,7 +144,8 @@
 
             "그는 나를 꼭 살려야 하는 것처럼 굴었다."
 
-            scene bg 일러스트
+            scene adrian_illust1
+            $ persistent.UnlockImage['adrian'][0] = True
             "결국 한숨을 쉬더니, 병째로 내 입에 그가 해독제라고 주장하는 것을 천천히 넘겨주기 시작했다."
 
             "해독제는 입안을 가득 채운 걸로도 모자라, 볼을 타고 흘렀다."
@@ -171,7 +172,8 @@
 
             "그렇게, 해독제가 들어올 것이라는 예상과는 달리 입술에는 새로운 감촉이 느껴졌다."
 
-            scene bg 일러스트
+            scene adrian_illust1
+            $ persistent.UnlockImage['adrian'][0] = True
             s "···!"
 
             "맞닿은 입술 사이로 뒤늦게 해독제가 입 안에 들이닥쳤다."
@@ -714,7 +716,8 @@
     play Sound "sfx/high.mp3"
     s "이거, 생각보다 더 아픈데···."
     show red at fadeInOut
-    scene white
+    
+    show white
     play Sound "sfx/magic.mp3"
     play music "bgm/브금 없음.mp3"
     "그 순간 눈앞이 점멸했고, 거대한 빛이 숲 전체를 덮어버렸다."
