@@ -356,4 +356,5 @@
     "나에겐 선택권 따위는 없으니까."
 
     $ persistent.ClaerChapter = max(1,persistent.ClaerChapter)
+    #call screen select_chapter
     return

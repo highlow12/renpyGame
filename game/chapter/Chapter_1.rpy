@@ -410,7 +410,7 @@
         "보고 싶었습니다, 스승님.":
             "보고 싶었습니다, 스승님."
         "······.":
-            $ persistant.Likeability["eren"] += 5
+            $ persistent.Likeability["eren"] += 5
             "······."
     hide char
     "그는 내 답변에 별다른 호응을 하지 않았다."
@@ -680,7 +680,10 @@
 
             show char emp at top
             Character('황제 다리우스') "여봐라! 저 사생아 년이 반란의 주동자라고 실토했다. 당장 감옥에 집어넣도록 해라!"
-            with 사망
+            #with 사망
+
+            "세레나는 황제를 화나게 해 결국 사형을 선고받고 죽게 되었다"
+            return
 
     $ persistent.ClaerChapter = max(2,persistent.ClaerChapter)
     return

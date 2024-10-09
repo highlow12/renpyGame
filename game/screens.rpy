@@ -155,7 +155,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
     #background Image("gui/dia.png", xalign=0.5, yalign=1.0)
-    background Image("gui/box_dia.png", xalign=0.5, yalign=1.0)
+    background Image("gui/box_mono.png", xalign=0.5, yalign=1.0)
     #background Image("gui/phone/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
@@ -372,11 +372,13 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+
 default show_TouchToStart = True
 
 screen main_menu():
     key "K_ESCAPE" action NullAction()
     $ renpy.play("audio/bgm/titlesong.mp3",channel = 'music')
+    
     ## This ensures that any other menu screen is replaced.
     tag menu
 
@@ -389,7 +391,7 @@ screen main_menu():
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    if show_TouchToStart:
+    if persistent.isFirstLoad:
         vbox:
             xalign 0.5
             yalign 0.7
@@ -402,10 +404,10 @@ screen main_menu():
         ## full_screen button
         button:
             xysize(1080,1920)
-            action [ Show("select_chapter", dissolve), SetVariable("show_TouchToStart", False) ]
+            action [  SetVariable("show_TouchToStart", False),Show("select_chapter", dissolve) ]
             
     else:
-        use navigation
+        use select_chapter
 
     if gui.show_name:
 
@@ -1324,7 +1326,7 @@ style help_label_text:
 ## https://www.renpy.org/doc/html/screen_special.html#confirm
 
 screen confirm(message, yes_action, no_action = None):
-    key "K_ESCAPE" action NullAction()
+    #key "K_ESCAPE" action NullAction()
     ## Ensure other screens do not get input while this screen is displayed.
     modal True
 
@@ -1333,9 +1335,12 @@ screen confirm(message, yes_action, no_action = None):
     style_prefix "confirm"
 
     add "gui/overlay/confirm.png"
-
+    button:
+            
+            xysize(1080, 1920)
+            action Hide("confirm")
     frame:
-
+        
         vbox:
             xalign .5
             yalign .5
@@ -1628,6 +1633,7 @@ image backBlack = "#00000090"
 image transparent = "#ffffff00"
 screen select_chapter():
     key "K_ESCAPE" action NullAction()
+    $ persistent.isFirstLoad = False
     #tag menu
     #add gui.game_menu_background
     zorder 150

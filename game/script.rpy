@@ -36,6 +36,7 @@ define shake = vpunch
 
 default persistant = persistent
 
+default persistent.isFirstLoad = True
 default persistent.IsAllClear = False
 default persistent.ClaerChapter = 0
 default persistent.Likeability = {'hean':0, 'eren':0, 'adrian':0, 'nox':0}
@@ -49,3 +50,6 @@ transform fadeInOut:
     alpha 0.0
 
 
+label splashscreen:
+    $ persistent.isFirstLoad = True
+    return
