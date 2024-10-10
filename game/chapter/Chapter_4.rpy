@@ -383,7 +383,7 @@
             show red at fadeInOut
             "그는 놀란 눈치였다."
 
-            show char a default emd at top
+            show char a default emb at top
             q "야, 너 지금 이게 뭐 하는 짓이야!"
 
             hide char
