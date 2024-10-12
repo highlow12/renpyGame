@@ -31,8 +31,9 @@
 
     "새하얀 눈이 점점 모든 것을 감추기 시작했다."
 
-    show char a default def at top
+    
     scene bg cave snow
+    show char a default def at top
     play music "bgm/adrian1.mp3"
     q "이봐, 정신이 좀 들어?"
 
@@ -308,9 +309,9 @@
 
     "그리고, 나는 얼굴의 열감을 식히기 위해 손으로 부채질했다."
 
-    show char a default smi at top
+    
     scene bg cave snow
-    hide char
+    show char a default smi at top
     "그 녀석은 쿡쿡대며 웃고 있었다."
 
     "성격이 참 짓궂은 사람이었다."
@@ -476,8 +477,9 @@
     scene black
     "그렇게 기다린 지, 어언 15분쯤이 지났을까. 익숙한 목소리가 들렸다."
 
-    show char h default emb at top
+    
     scene bg cave day
+    show char h default emb at top
     h "세레나님!"
 
     hide char
@@ -517,8 +519,9 @@
     scene black
     "표시를 남겼음에도 불구하고 불편한 마음은 편해지지 않았다."
 
-    show char a default smi at top
+    
     scene bg forest winter day
+    show char a default smi at top
     q "웃긴 여자야, 참."
 
     hide char

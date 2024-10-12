@@ -195,7 +195,7 @@
 
         "그래서, 그 방법이 뭔데?":
             $ persistant.Likeability['nox'] += 9
-            s "(일단은 그의 말을 더 들어보기로 했다."
+            "일단은 그의 말을 더 들어보기로 했다."
             s "하···. 그래서 내 힘을 끌어내려면 어떻게 해야 하는데?"
 
             play music "bgm/romantic3.mp3"
@@ -509,7 +509,7 @@
 
     play sound "sfx/heart.mp3"
     "그것은 마치 몸이 불에 타오르는 것과 같은 고통이었다."
-    show red at fadeInOut
+    show white at fadeInOut
     show char h default emb at top
     h "세레나님! 정신 차리십쇼! 세레나님!"
 
@@ -565,7 +565,6 @@
     "상황이 이렇게까지 흐른 이상, 아디크 왕국의 정복은 피할 수 없는 것이었다."
 
     show char h default des at top
-    hide char
     "헤안은 불안한 눈빛으로 나를 쳐다봤다."
 
     show char h default des at top

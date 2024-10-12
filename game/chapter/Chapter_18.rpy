@@ -1,9 +1,10 @@
 ﻿label chapter_18:
     "제목 : 숨겨진 진실"
 
-    show char q default def at top
+    
     scene bg kingdom table
     play music "bgm/ptsd7.mp3"
+    show char q default def at top
     Character('황후 카일리') "사생아도 황궁으로 돌아왔으니, 슬슬 시작해야겠구나···."
 
     show char q default smi at top
@@ -225,6 +226,7 @@
 
     play music "bgm/ptsd6.mp3"
     hide char
+    show red with fadeInOut
     "에런에 의해 황태자의 목이 단칼에 베여나갔다. 이미 제정신이 아닌 황태자를 죽이는 건 어렵지 않은 일이었다."
 
     "황태자의 피가 자기에게까지 튀었으나, 그녀는 아랑곳하지 않았다."

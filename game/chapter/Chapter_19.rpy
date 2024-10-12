@@ -431,10 +431,7 @@
 
             "하지만 이 평화는 오래가지 않을 것을 알기에, 마음을 다잡고 기사단에 합류해 작전을 세웠다."
 
-            scene bg forest day
-
-            scene bg kingdom garden
-
+    scene bg forest day
     play music "bgm/tension6.mp3"
     "황후가 있는 본궁에 가까워질수록 심장이 점점 더 빨리 뛰었다."
     "찬 새벽 공기가 폐를 파고들었지만, 그조차도 나의 결의를 꺾을 수 없었다."
@@ -518,6 +515,7 @@
     "나는 큰 소리로 외쳤다."
 
     s "황후를 끌어내라!!!"
+    scene bg kingdom garden
     with shake
 
     play sound "sfx/war_shout.mp3"

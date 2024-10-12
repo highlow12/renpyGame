@@ -295,7 +295,7 @@
             hide char
             "그렇게 사라지는 듯하더니, "
 
-            show char h default badr at top
+            show char h default embr at top
             h "부축한 겁니다. 부축!"
 
             hide char
@@ -366,10 +366,10 @@
 
             "나 또한 힘으로는 어디 가서 밀리지 않는데도 말이다."
 
-            show char t default desr at top
+            show char t default des at top
             T "정말 감사합니다. 단장님이 아니었다면 전 이미 저세상 사람이었을 겁니다."
 
-            show char t default desr at top
+            show char t default des at top
             T "감사 인사가 늦어서 정말 죄송합니다."
 
             show char t default defr at top

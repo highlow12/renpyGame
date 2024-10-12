@@ -1,5 +1,5 @@
 label ending_nox:
-    #"제목 : 달이 지지 않는 밤"
+    "제목 : 달이 지지 않는 밤"
 
     scene bg forest fire
     play music "bgm/nox4.mp3"
@@ -69,10 +69,10 @@ label ending_nox:
 
     s "당신 본인을 이렇게나 몰아간 것도."
 
-    show char q defualt ang at top
+    show char q default ang at top
     Character('황후 카일리') "···이러면 안 되는 거잖아!"
 
-    show char q defualt ang at top
+    show char q default ang at top
     Character('황후 카일리') "불공평해. 이건 불공평하다고!"
 
     s "당신에게 어떤 사정이 있었는지는 알지 못해요. 알고 싶지도 않고."
@@ -91,9 +91,9 @@ label ending_nox:
     show char q default bad at top
     Character('황후 카일리') "반드시 다음에는···."
 
-    hide char
+    
     "그녀는 부릅뜬 눈으로 나를 쳐다보고 있었다."
-
+    hide char
     s "다음이란 당신에게 없어요."
 
     play sound "sfx/sword_damage2.mp3"
@@ -200,8 +200,9 @@ label ending_nox:
 
     "사실상 에프탈 제국은 지금부터 시작이었으니까."
 
-    show char h default def at top
+    
     scene bg kingdom way
+    show char h default def at top
     play music "bgm/comfort7.mp3"
     h "세레나님, 오늘 출궁하시는 날 아니셨습니까?"
 
@@ -259,8 +260,9 @@ label ending_nox:
 
     "황궁 자체에 신물이 났기 때문이었다."
 
-    show char e default emb at top
+    
     scene bg kingdom throne day
+    show char e default emb at top
     e "그게 무슨 말이야, 세레나."
 
     show char e default des at top
@@ -312,8 +314,9 @@ label ending_nox:
 
     "아, 가장 중요한 앞으로의 내 미래는···."
 
-    show char n default bad at top
+    
     scene bg tower in
+    show char n default bad at top
     play music "bgm/nox3.mp3"
     n "가자며, 자꾸 이렇게 굼실거릴래?"
 
@@ -322,13 +325,13 @@ label ending_nox:
 
     s "아니야, 잠깐 다른 생각 좀 한 거야."
 
-    show char h default def at top
+    show char n default def at top
     n "흠···."
 
     hide char
     "녹스가 내게 짧은 입맞춤을 해왔다."
 
-    show char h default smi at top
+    show char n default smi at top
     n "내 앞에서 다른 생각 하지 마."
 
     hide char
@@ -344,17 +347,17 @@ label ending_nox:
 
     s "넌 아직도 가끔 보면 어린애 같아."
 
-    show char h default smi at top
+    show char n default smi at top
     n "그래? 좋네."
 
     s "왜?"
 
-    show char h default smi at top
+    show char n default smi at top
     n "부양 욕구가 드는 게, 최고의 애정이라고 하거든."
 
     s "···뭐?"
 
-    show char h default smi at top
+    show char n default smi at top
     n "그러니까, 그 애정 계속 유지해~"
 
     hide char
@@ -362,7 +365,7 @@ label ending_nox:
 
     "그런 점이 장점이기도 하지만."
 
-    show char h default smi at top
+    show char n default smi at top
     n "아무튼, 이제 넌 나만 봐야 해."
 
     s "이건 또 무슨 소리래···."
@@ -376,12 +379,12 @@ label ending_nox:
 
     "나는 헛웃음만 나올 뿐이었다."
 
-    show char h default bad at top
+    show char n default bad at top
     n "대답 안 하는 거 봐라?"
 
     s "너 같으면 하겠어? 말할 가치도 없다."
 
-    show char h default smi at top
+    show char n default smi at top
     n "그럼 나만 보겠다고 한 걸로 알고 있는다?"
 
     s "네 맘대로 하세요~"
@@ -399,13 +402,13 @@ label ending_nox:
 
     s "앞으론 여행하면서 마법 사용 금지."
 
-    show char h default bad at top
+    show char n default bad at top
     n "뭐? 마법 빼면 나한테 뭐가 남는다고!"
 
     hide char
     "내게 기대고 있던 녹스가 다시 제자리를 찾아갔다."
 
-    show char h default bad at top
+    show char n default bad at top
     n "마법이 없으면 앞으로 너나 나나 엄청 불편할걸?"
 
     s "마법 빼면 네가 남지. 뭐가 남아."
@@ -416,7 +419,7 @@ label ending_nox:
 
     s "여전히 나한테는 마법 못 쓰잖아."
 
-    show char h default def at top
+    show char n default def at top
     n "···그렇지."
 
     s "다 내려놓자. 능력이든 뭐든, 힘들었던 거, 좋았던 거 다."
@@ -432,20 +435,20 @@ label ending_nox:
 
     "그러다, 자포자기라도 한 듯한 한숨을 내뱉었다."
 
-    show char h default smi at top
+    show char n default smi at top
     n "나는 강하고, 똑똑해."
 
     s "알아. 갑자기 웬 자기 자랑?"
 
-    show char h default smi at top
+    show char n default smi at top
     n "근데, 너와 함께할 때마다는 모르는 것투성이야."
 
-    show char h default smir at top
+    show char n default smir at top
     scene nox_illust2
     $ persistent.UnlockImage['nox'][1] = True
     n "그러니, 네가 평생에 걸쳐 나를 가르쳐줘."
 
-    show char h default smir at top
+    #show char h default smir at top
     n "이 세상을, 그리고 너에게 녹아드는 법을 말이야."
 
     hide char
@@ -459,18 +462,18 @@ label ending_nox:
 
     "하지만 이러한 고백이 오히려 녹스답다는 생각이 들었다."
 
-    show char h default smir at top
+    #show char h default smir at top
     n "모르겠는데."
 
-    show char h default smir at top
+    #show char h default smir at top
     n "그래도 확실한 건, 마법사 중에서는 내가 최초일걸?"
 
-    show char h default smir at top
+    #show char h default smir at top
     n "인간에게 고백한 마법사로 말이야."
 
     s "그럼, 나는 마법사에게 최초로 고백받은 사람이네."
 
-    show char h default smir at top
+    #show char h default smir at top
     n "그래, 그러니까 받아줘."
 
     hide char
@@ -498,7 +501,7 @@ label ending_nox:
 
     s "나도."
 
-    hide char
+    #hide char
     "녹스의 세계에서 나는 늘 예외인 존재다."
 
     "그가 세운 규칙들을 내가 모조리 부수고 다녔으니까."

@@ -243,8 +243,9 @@
 
     "나 또한 그를 뒤따라갔다."
 
-    show char h default emb at top
+    
     scene bg noble work
+    show char h default emb at top
     h "아버지··· 이게 대체 무슨 일입니까!"
 
     hide char
@@ -271,9 +272,10 @@
     Character('레이워스 공작') "너는 자세히 몰랐겠지만, 네 형의 상태가 점점 악화되고 있었다. 언제 세상을 떠나도 이상하지 않았지."
 
     hide char
-    "하지만 황제가 이걸 어떻게 알았는지, 네 형의 목숨을 담보로 나에게 거래를 걸었어."
-
-    "급박했다. 네 형의 목숨이 오가는 상황에서 어쩔 수가 없었어."
+    show char hf default at top
+    Character('레이워스 공작') "하지만 황제가 이걸 어떻게 알았는지, 네 형의 목숨을 담보로 나에게 거래를 걸었어."
+    show char hf default at top
+    Character('레이워스 공작') "급박했다. 네 형의 목숨이 오가는 상황에서 어쩔 수가 없었어."
 
     show char h default bad at top
     h "설마···. 사실입니까?"
@@ -392,7 +394,7 @@
     Character('레이워스 공작') "하···!"
 
     show char hf default at top
-    Character('레이워스 공작') "(기가 차다는 듯한 소리를 냈다. 하지만 썩 나쁜 표정은 아니었다."
+    Character('레이워스 공작') "기가 차다는 듯한 소리를 냈다. 하지만 썩 나쁜 표정은 아니었다."
 
     show char hf default at top
     Character('레이워스 공작') "그게 성공한다면 좋겠군요."
@@ -746,7 +748,7 @@
 
         "조용히, 그의 눈물을 닦아준다.":
             $ persistant.Likeability['hean'] += 5
-            scene bg noble work
+            #scene bg noble work
             play music "bgm/hean2.mp3"
             "나는 그에게 손을 뻗어, 눈물을 닦아주었다."
             "그는 눈물을 닦아주던 내 손에 제 얼굴에 기댔다."

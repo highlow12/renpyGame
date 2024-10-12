@@ -1,8 +1,9 @@
 ﻿label chapter_1:
     "제목 : 에런과 재회하다"
 
-    show char emp at top
+    
     scene bg kingdom throne day
+    show char emp at top
     play music "bgm/ptsd3.mp3"
     Character('황제 다리우스') "에프탈 제국은 지상 최대의 강대국이 될 것이다!"
 
@@ -419,7 +420,7 @@
     "그리고 황후의 옆에는 나에게 가장 소중한 사람이었던···."
 
     show char e default def at top
-    e "(에런 스노우가 서 있었다."
+    "에런 스노우가 서 있었다."
 
     scene black
 

@@ -160,9 +160,9 @@
     show char q default bad at top
     Character('황후 카일리') "반드시 다음에는···."
 
-    hide char
+    
     "그녀는 부릅뜬 눈으로 에런을 쳐다보고 있었다."
-
+    hide char
     show char e default bad at top
     e "당신에게 다음 따윈 존재하지 않습니다."
 
@@ -308,7 +308,7 @@
 
     "사실상 끝난 게 없었다. 제국은 이제부터 시작이었으니까."
 
-    scene bg noble bed yellow day
+    scene bg kingdom throne day
 
     "전쟁이 끝난 직후, 스승님은 감옥에 갇혔다."
 
@@ -645,7 +645,7 @@
 
     s "이것이 제가 당신에게 내리는 제 벌입니다."
 
-    hide char
+    
     "에런은 설명하기 어려운 복잡한 감정을 느꼈다."
 
     "자신을 용서하지 않겠다는 그녀의 말에서 어째선지 사랑이 느껴졌다."
@@ -670,16 +670,16 @@
 
     s "저는 당신을 떠나지 않으니까요."
 
-    show char e default smir at top
+    
     e "···명을 받들겠습니다, 황후 폐하."
 
-    hide char
+    
     "에런은 세레나의 손을 잡으며 고개를 숙였다."
 
     "그것은 그녀를 향한 '경외'의 표현이었다."
 
     "이 둘의 사랑을 이해할 수 있는 건 제국에 단둘뿐일 것이 분명했다."
 
-    $ persistent.ClaerChapter(max(chapter_num,persistent.ClaerChapter))
+    $ persistent.ClaerChapter = max(20,persistent.ClaerChapter)
     $ persistent.IsAllClear = True
     return

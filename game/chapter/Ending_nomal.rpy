@@ -279,20 +279,20 @@ label ending_nomal:
 
     s "그럼, 나야 늘 제정신이지."
 
-    show char a default des at top
+    show char n default des at top
     n "···그렇다면 다행이고."
 
     s "축하해, 마법사의 임무는 끝이겠네."
 
-    show char a default def at top
+    show char n default def at top
     n "뭐 그렇지."
 
-    show char a default def at top
+    show char n default def at top
     n "그 대신, 이제는 마탑주로서의 임무 시작이지."
 
     s "바쁘겠네. 오래 걸리겠고."
 
-    show char a default smi at top
+    show char n default smi at top
     n "네가 무덤에 들어가고 나서일지도."
 
     hide char
@@ -304,7 +304,7 @@ label ending_nomal:
 
     "칼이 맞부딪히는 소리가 내 귓가에서 끊이질 않았다."
 
-    show char a default des at top
+    show char n default des at top
     n "너 괜찮은 거 맞지?"
 
     hide char
@@ -314,12 +314,12 @@ label ending_nomal:
 
     "나는 예민해지고 있었다."
 
-    show char a default des at top
+    show char n default des at top
     n "진짜 나 가도 괜찮겠어?"
 
     s "응."
 
-    show char a default des at top
+    show char n default des at top
     n "···그래, 마법 필요하면 언제든지 부르고."
 
     hide char

@@ -361,7 +361,7 @@
 
     show char s default bad at top
     play sound "sfx/sword_wind.mp3"
-    s "(그때 한 반란군이 내게 기습 공격을 가했다."
+    "그때 한 반란군이 내게 기습 공격을 가했다."
     with shake
 
     hide char

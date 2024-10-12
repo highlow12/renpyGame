@@ -9,8 +9,9 @@
 
     "헤안과 동굴에서 나선 뒤, 나는 그대로 정신을 잃은 모양이었다."
 
-    show char h default def at top
+    
     scene bg forest winter day
+    show char h default def at top
     h "세레나님, 근처에 기지가 있습니다. 얼른 돌아가는 게 좋을 것 같습니다."
 
     s "네, 그러는 게 좋을 것 같습니다···."
@@ -25,8 +26,9 @@
 
     "나는 정신을 차리기 위해 고개를 움직였다. 하지만 피곤한 탓인지 생각대로 되지 않았다."
 
-    show char h default smi at top
+    
     scene bg forest winter day
+    show char h default smi at top
     h "정신이 드셨습니까?"
 
     hide char
@@ -53,8 +55,9 @@
     scene black
     play sound "sfx/horse.mp3"
 
-    show char h default smi at top
+    
     scene bg camp out
+    show char h default smi at top
     play music "bgm/sad3.mp3"
     h "도착했습니다."
 
@@ -152,8 +155,9 @@
     scene black
     "난 씻지도 못하고, 지쳐 잠에 들었다."
 
-    show char h default def at top
+    
     scene bg camp in
+    show char h default def at top
     h "일어나셨습니까?"
 
     s "······?"

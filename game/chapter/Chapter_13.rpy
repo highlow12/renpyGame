@@ -422,7 +422,7 @@
     s "이곳도 참 오랜만에 오네."
 
     "그때 내 막사 앞에서 익숙한 인영이 보였다."
-
+    show char e default def
     play music "bgm/ereon3.mp3"
     "에런 스노우, 내 스승님이었다."
 
@@ -611,8 +611,9 @@
 
     "그렇게 나는, 잠에 들었다."
 
-    show char e default def at top
+    
     scene bg camp in
+    show char e default def at top
     e "······."
 
     hide char

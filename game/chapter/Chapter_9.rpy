@@ -657,7 +657,8 @@
             show char n default def at top
             n "네가 허락한 거다?"
 
-            scene bg cg n kiss
+            scene nox_illust1
+            $ persistent.UnlockImage['nox'][0] = True
             hide char
             "그는 내 볼을 짓누르고, 입을 맞췄다."
 
@@ -676,20 +677,20 @@
             "나는 무의식적으로 그의 혀를 깨물고 말았다."
 
             "그의 혀 끝에서 피비린내 맛이 났다."
-
+            
             n "나를 물라고 한 적은 없는데. 짐승이 따로 없네."
 
             "계속되는 고통과 함께 주변의 빛무리가 더욱더 커졌다."
 
             n "미치겠네···."
-
+    scene bg camp out blood
     "그 또한 당황한 것 같았다."
     n "끝이 안 보여."
 
     "그가 작게 혼잣말했다. 그러고는 내게 정신을 차리라는 듯 볼을 툭툭 건드렸다."
 
     show char n default def at top
-    scene bg camp out blood
+    
     n "야, 네 마력이 끝도 없어."
 
     show char n default def at top
@@ -719,7 +720,7 @@
     
     show white
     play sound "sfx/magic.mp3"
-    play music "bgm/브금 없음.mp3"
+    #play music "bgm/브금 없음.mp3"
     "그 순간 눈앞이 점멸했고, 거대한 빛이 숲 전체를 덮어버렸다."
 
     play music "bgm/peace.mp3"

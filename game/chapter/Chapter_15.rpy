@@ -350,7 +350,7 @@
 
     "그를 버리기로 나 자신과 약속했으니까."
 
-    scene bg camp out
+    scene bg camp in
     play music "bgm/comfort7.mp3"
     "그렇게 하루가 걸려, 약속된 회담 장소에 도착했다."
 

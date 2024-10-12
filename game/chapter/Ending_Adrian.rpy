@@ -213,12 +213,13 @@ label ending_adrian:
     show char q default bad at top
     Character('황후 카일리') "반드시 다음에는···."
 
-    hide char
+    
     "그녀는 부릅 뜬눈으로 나를 쳐다보고 있었다."
-
+    hide char
     s "다음이란 당신에게 없어요."
 
     play sound "sfx/sword_damage2.mp3"
+    show red with fadeInOut
     "나는 그렇게 그녀의 목을 베었다."
     with shake
 

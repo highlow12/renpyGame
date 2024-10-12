@@ -654,8 +654,9 @@
 
     "나는 황궁에 도착하자마자, 기사단을 해체하여 당분간은 휴식을 취하도록 했다."
 
-    show char h default des at top
+    
     scene bg kingdom garden
+    show char h default des at top
     h "푹 쉬셔야 합니다."
 
     show char h default des at top

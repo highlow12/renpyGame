@@ -107,9 +107,9 @@ label ending_hean:
     show char q default bad at top
     Character('황후 카일리') "반드시 다음에는···."
 
-    hide char
+    
     "그녀는 부릅뜬 눈으로 나를 쳐다보고 있었다."
-
+    hide char
     s "다음이란 당신에게 없어요."
 
     "나는 그렇게 그녀의 목을 베었다."
@@ -275,7 +275,7 @@ label ending_hean:
     "내가 황제가 되기에는 제대로 된 교육도 받지 못했고,"
 
     "황궁 자체에 신물이 났기 때문이었다."
-
+    scene black
     show char e default emb at top
     e "그게 무슨 말이야, 세레나."
 
@@ -290,7 +290,7 @@ label ending_hean:
     e "······."
 
     s "당연히, 계속 지켜볼 겁니다."
-
+    scene bg village in
     s "언제든지 그 자리에서 끌어내릴 수 있다는 소리예요."
 
     hide char
