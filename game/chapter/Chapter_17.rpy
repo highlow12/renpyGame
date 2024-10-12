@@ -388,7 +388,7 @@
     "속이 울렁거렸다."
 
     "당신들도 황제와 함께 끝을 봤으면 좋았을 것을."
-    show char q default def
+    show char q default def at top
     Character('황후 카일리') "괜찮단다."
 
     Character('황후 카일리') "슬픈 마음을 추스르는 건 힘들었지만,"
@@ -647,11 +647,11 @@
     "거울 없이는 볼 수 없는 내 모습이 눈앞에 있었으니까."
 
     "마치 꿈을 꾸는 듯했다."
-    show char z
+    show char z at top
     Character('신 에테아룬') "미안해요. 이런 방식으로 당신을 불러내서."
     hide char
     s "···?"
-    show char z
+    show char z at top
     Character('신 에테아룬') "당신의 영혼과 육체를 잠깐 분리한 거예요."
 
     Character('신 에테아룬') "영혼 상태가 아닌 이상, 인간과 소통할 수 없어서요."
@@ -661,7 +661,7 @@
     "형체도, 방향도 알아낼 방법이 없었다."
     
     "하지만 분명한 건, 내게 계속 속삭여왔던 목소리와 똑같다는 것."
-    show char z
+    show char z at top
     Character('신 에테아룬') "저는 에프탈 제국 최초의 신, 에테아룬."
 
     Character('신 에테아룬') "비록 지금은 잊혀졌지만, 과거에도, 현재에도, 미래에도"
@@ -669,7 +669,7 @@
     Character('신 에테아룬') "제국을 수호하고 있었습니다."
     hide char
     s "근데 대체 왜 저를···."
-    show char z
+    show char z at top
     Character('신 에테아룬') "제가 보는 미래에, 제국이 보이지 않기 시작했어요."
 
     Character('신 에테아룬') "그래서 황실의 마지막 아이인, 당신을 선택해 이 제국의 미래를 바꾸고 싶었어요."
@@ -677,13 +677,13 @@
     Character('신 에테아룬') "직접 관여할 수는 없는 몸인 지라···."
     hide char
     s "제가 뭘 할 수 있다고···."
-    show char z
+    show char z at top
     Character('신 에테아룬') "당신밖에 없어요. 다른 아이는 너무 미약하거든요."
     hide char
     "신은 단호했다."
 
     "신이 말하는 다른 아이라는 건, 제정신이 아닌 황태자를 말하는 듯했다."
-    show char z
+    show char z at top
     Character('신 에테아룬') "당신은 여태 잘 해왔고, 앞으로도 잘할 수 있을 겁니다."
 
     Character('신 에테아룬') "제국을 올바르게 이끌어가는 것을요."
@@ -693,7 +693,7 @@
     Character('신 에테아룬') "다만, 인간인 당신에게는 조금 버거울 수 있습니다."
     hide char
     s "···?"
-    show char z
+    show char z at top
     Character('신 에테아룬') "그럼 믿고 있을게요, 세레나."
 
     hide char
