@@ -37,7 +37,7 @@
     play music "bgm/adrian1.mp3"
     q "이봐, 정신이 좀 들어?"
 
-    hide char
+    
     "누군가가 나를 부르는 음성에 눈을 어렵게 떴다."
 
     "차가운 공기가 뺨을 스쳤다."
@@ -482,7 +482,7 @@
     show char h default emb at top
     h "세레나님!"
 
-    hide char
+    
     "헤안은 초췌해진 몰골로 나를 애타게 쳐다보고 있었다."
 
     show char h default bad at top
@@ -524,7 +524,7 @@
     show char a default smi at top
     q "웃긴 여자야, 참."
 
-    hide char
+    
     "그는 혼자서 열매를 따러 동굴 근처 숲길로 빠졌다."
 
     show char hs at top

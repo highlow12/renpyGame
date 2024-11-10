@@ -74,7 +74,7 @@
     "스승님을 보고 싶었던 내 마음을 애써 부정하면서 말이다."
 
 
-    scene bg camp mass
+    scene bg camp in mass
 
     play music "bgm/comfort7.mp3"
     s "스승님, 세레나입니다."

@@ -372,10 +372,10 @@
             show char t default des at top
             T "감사 인사가 늦어서 정말 죄송합니다."
 
-            show char t default defr at top
+            show char t default def at top
             T "세레나님을 찾으려고, 저 멀리까지 나섰다가 늦게 복귀하는 바람에···."
 
-            show char t default defr at top
+            show char t default def at top
             T "아무튼! 일개 병사를 위해, 목숨을 내던지는 단장은 세레나 단장님뿐일 겁니다."
 
             s "타나, 네가 어떻게 일개 병사야. 나는 너를 소중한 친우라고 생각해."
@@ -387,14 +387,14 @@
             play music "bgm/funny1.mp3"
             T "그래서 저는 이 한목숨 평생 세레나님을 위해 쓰기로 했습니다."
 
-            show char t default defr at top
+            show char t default def at top
             play sound "sfx/clothes.mp3"
             T "그리고, 이건 연고입니다. 다치셨다길래 가장 좋은 것으로 가져왔습니다."
 
             hide char
             "그녀가 손에 쥐고 있던 건 나를 위한 연고였다."
 
-            show char t default defr at top
+            show char t default def at top
             T "상처에 덧바르시면 됩니다."
 
             show char t default smir at top

@@ -700,7 +700,7 @@
     "살기 위해서는 도망가야만 했다. 하지만, 저 둘에게서 도망치기란 불가능이었다."
 
     s "흐윽···."
-    show red at fadeInOut
+    #show red at fadeInOut
     show char a default bad at top
     a "야, 일단 여기를 벗어나."
 

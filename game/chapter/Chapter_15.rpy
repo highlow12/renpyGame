@@ -375,7 +375,7 @@
     show char a default def at top
     play music "bgm/adrian1.mp3"
     a "괜찮습니다. 저는 프라타히라 왕국의 왕자, 아드리안 하몬이라고 합니다."
-
+    scene bg camp in
     show char a default def at top
     a "이제 막 도착하신 것 같으니, 잠시 짐이라도 내려놓을 시간을 갖죠."
 
