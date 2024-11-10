@@ -149,7 +149,8 @@
     hide char
     "분하지만, 저 남자의 말이 맞았다."
 
-    "이대로 있다간 정말 동사로 죽을지도 모를 일이었다. 나는 고민 끝에 자리를 옮겨 저 남자의 곁으로 걸음을 옮겼다."
+    "이대로 있다간 정말 동사로 죽을지도 모를 일이었다. "
+    "나는 고민 끝에 자리를 옮겨 저 남자의 곁으로 걸음을 옮겼다."
 
     show char s default badr at top
     s "네 놈의 말을 듣겠다는 게 아니야. 단지 살아남기 위해서···."
@@ -260,8 +261,9 @@
 
     "추워서 그러는 걸까···. 대체 왜···?"
 
-    show char a default def at top
+    
     scene bg cave snow
+    show char a default def at top
     q "야."
 
     show char s default embr at top
@@ -308,12 +310,14 @@
 
     "에프탈 제국은 대륙 통일이라는 거대한 명목하에, 주변의 작고 큰 국가들을 무너뜨렸다."
 
-    "압도적인 기사단의 수와 무력, 셀 수 없을 정도로 많은 부귀와 재물. 모든 왕국을 포함해도 이길 수 없는 제국의 절대적인 권력."
+    "압도적인 기사단의 수와 무력, 셀 수 없을 정도로 많은 부귀와 재물. "
+    "모든 왕국을 포함해도 이길 수 없는 제국의 절대적인 권력."
 
     scene bg village day
     "그러나 계속되는 전쟁에 제국민들의 민심도 들썩이기 시작했다."
 
     show char villager1 at top
+    play sound "sfx/crowd.mp3"
     Character('마을사람1') "전쟁을 멈춰라!"
 
     show char villager2 at top

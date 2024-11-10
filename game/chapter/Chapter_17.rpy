@@ -327,7 +327,7 @@
 
     "거대한 문 너머에는 이제 황제가 아닌, 황후와 황태자가 있을 것이었다."
 
-    scene bg kingdom table
+    scene bg kingdom throne day
     "그렇게 마음을 다잡고, 알현실에 들어섰다."
 
     s "오랜만입니다. 어머니, 오라버니."

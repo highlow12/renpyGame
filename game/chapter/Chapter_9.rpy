@@ -681,7 +681,7 @@
             n "나를 물라고 한 적은 없는데. 짐승이 따로 없네."
 
             "계속되는 고통과 함께 주변의 빛무리가 더욱더 커졌다."
-
+            show char n default def at top
             n "미치겠네···."
     scene bg camp out blood
     "그 또한 당황한 것 같았다."
