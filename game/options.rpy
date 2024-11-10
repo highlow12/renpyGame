@@ -40,7 +40,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Love War"
+define build.name = "Love_War"
 
 
 ## Sounds and music ############################################################
