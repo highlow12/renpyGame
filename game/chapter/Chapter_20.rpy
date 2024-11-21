@@ -91,10 +91,10 @@
     hide char
     "황후는 붙잡아뒀으니, 다른 불씨를 꺼트려야만 했다."
 
-    show char h default emb at top
+    show char h default bad at top
     h "세레나님!"
 
-    show char h default emb at top
+    show char h default bad at top
     h "황후가 탈출했다고 합니다."
 
     show char h default bad at top
@@ -111,7 +111,7 @@
     "녹스에게는 황후가 황궁 밖으로 나가지 않게 감시해달라는 부탁을 남겼다. "
 
     "도망 경로에 도착했을 때, "
-    show char e default def
+    #show char e default def
     "황후는 이미 사라진지 오래였고, 혼자 남아 서 있는 스승님이 보였다."
 
     s "아드리안, 헤안."
@@ -195,8 +195,9 @@
     "나는 분노에 휩싸였다."
 
     play sound "sfx/slap.mp3"
-    "손을 쳐내, 스승님의 뺨을 내리쳤다. "
     with shake
+    "손을 쳐내, 스승님의 뺨을 내리쳤다. "
+    
 
     s "현실을 모르는 건 스승님이겠죠!"
 
@@ -218,9 +219,9 @@
     hide char
     "나는 그의 말을 듣자마자, 아드리안과 헤안이 있는 방향으로 급하게 뛰어갔다."
 
-    scene bg forest fire
     "스승님 또한 나를 뒤따랐다."
-
+    
+    scene bg forest fire
     play music "bgm/ptsd7.mp3"
     "그러나 이미 내가 도착했을 때는, 늦은 후였다."
 
@@ -462,8 +463,9 @@
     "그때 황후가 혼란을 틈타, 기사의 칼을 빼 들어 달려들었다."
 
     show char q default ang at top
+    with shake  
     Character('황후 카일리') "너만 없었어도!"
-    with shake
+    
 
     s "···!"
 

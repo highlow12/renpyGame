@@ -9,8 +9,9 @@
 
     "나는 헤안과 함께 곧바로 공작의 집무실로 향했다."
 
-    show char hf default at top
+    
     scene bg noble work
+    show char hf default at top
     Character('레이워스 공작') "헤안에게 소식을 들으신 모양입니다, 황녀님."
 
     s "네···. 그렇습니다."
@@ -109,7 +110,7 @@
 
     s "황제의 죽음이 지금 밝혀진 건, 이제 숨겨도 상관이 없거나···."
     show char hf default at top
-    Character('레이워스 공작') "황후가 참다못해 밝혔을 수 있겠군요"
+    Character('레이워스 공작') "황후가 참다못해 밝혔을 수 있겠군요."
 
     s "네. 그렇게 되겠군요."
 
@@ -118,8 +119,9 @@
 
     s "어찌 보면 시간을 번 셈이군요."
 
-    play music "bgm/comfort7.mp3"
+    
     hide char
+    play music "bgm/comfort7.mp3"
     "황제의 죽음을 계기로 공작가에겐 기회가 찾아왔다. "
 
     "시간만 있다면, 공작가가 반역을 일으켰다는 누명 자체는 벗을 수 있을 터였다."
@@ -336,7 +338,7 @@
     "나는 그에게 비로소 옅은 웃음을 보일 수 있었다."
 
     "헤안의 얼굴이 이제야 보이기 시작했다."
-    show char h default smi
+    show char h default smi at top
     "그 또한 내게 대답하는 웃음을 보였다."
 
     "하지만 그의 얼굴에는 걱정이 서려있었다. 아마도 나를 향한 것 같았다."
@@ -598,15 +600,15 @@
 
             "오히려 더욱더 서로를 보채듯 달라붙었고, 서로의 허물을 벗겨냈다."
 
-            show char h default defr at top
+            #show char h default defr at top
             h "이상하게도 당신 곁에만 있으면 통제가 되질 않습니다.
 "
 
-            show char h default defr at top
+            #show char h default defr at top
             h "모든 게 다요.
 "
 
-            show char h default defr at top
+            #show char h default defr at top
             h "그러니, 이해해 주세요.
 "
 
@@ -624,6 +626,7 @@
     play sound "sfx/bird.mp3"
     play music "bgm/comfort4.mp3"
     "서늘한 바람이 나를 반겼다."
+    scene black
     "공작가의 두 번째 아침을 맞이했다."
 
     "나는 서둘러 기사단으로 복귀할 채비를 마쳤다."

@@ -111,11 +111,13 @@ label ending_hean:
     "그녀는 부릅뜬 눈으로 나를 쳐다보고 있었다."
     hide char
     s "다음이란 당신에게 없어요."
-
+    scene black
+    with shake
+    play sound "sfx/sword_damage2.mp3"
     "나는 그렇게 그녀의 목을 베었다."
 
     s "있어서도 안 되고."
-
+    scene bg forest night
     play music "bgm/peace.mp3"
     "숨을 들이쉬었다."
 
@@ -244,7 +246,7 @@ label ending_hean:
 
     s "어차피 조금 있다가 관리가 찾아올 텐데."
 
-    show char h default def at top
+    show char h default smi at top
     h "아, 벌써 그렇게 됐나요?"
 
     s "시간 참 빠르죠."

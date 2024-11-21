@@ -65,10 +65,10 @@
     q "어이, 오늘따라 기세가 약한데?"
 
     show char s default bad at top
-    s "타나! 그렇게 얕보다간 큰코다치는 수가 있다?"
+    s "힐다! 그렇게 얕보다간 큰코다치는 수가 있다?"
 
     show char t default smi at top
-    T "알았어, 알았어. 나도 이젠 봐주지 않을 거야!"
+    Character("힐다") "알았어, 알았어. 나도 이젠 봐주지 않을 거야!"
 
     hide char
     "타나는 아주 어릴 적 기사단에 입단했을 때부터 함께했던 동료였다."
@@ -84,7 +84,7 @@
     "그때 유일하게 내 편이 되어준 건 타나뿐이었다."
 
     show char t default bad at top
-    T "사내놈들이 여자애 한 명 가지고 그러는 게 부끄럽지도 않나 봐? 네 놈들이 기사도 정신이란 걸 알기나 하는 거야?"
+    Character("힐다") "사내놈들이 여자애 한 명 가지고 그러는 게 부끄럽지도 않나 봐? 네 놈들이 기사도 정신이란 걸 알기나 하는 거야?"
 
     hide char
     "제국의 사생아로서도, 그 무엇도 아닌 나 자체를 기사단원으로 대해준 사람."
@@ -94,7 +94,7 @@
     "이 아이가 없었더라면 난 이 거지 같은 기사단에서 버티지 못했을지도 모른다."
 
     show char t default bad at top
-    T "세레나! 무슨 생각을 하는 거야?"
+    Character("힐다") "세레나! 무슨 생각을 하는 거야?"
 
     hide char
     "타나는 세레나가 다른 생각을 하는 동안, 기습 공격을 가했다."
@@ -106,25 +106,25 @@
     s "아앗!"
 
     show char t default emb at top
-    T "세레나, 괜찮아?! 어디 다친 곳은 없어?"
+    Character("힐다") "세레나, 괜찮아?! 어디 다친 곳은 없어?"
 
     show char s default bad at top
     s "나는 괜찮은데 검이 부러졌어. 가장 아끼는 검이었는데···."
 
     show char t default def at top
-    T "어차피 오늘 훈련은 이거 말고는 없으니까, 대장간에 가서 검이나 하나 만들어."
+    Character("힐다") "어차피 오늘 훈련은 이거 말고는 없으니까, 대장간에 가서 검이나 하나 만들어."
 
     show char s default def at top
     s "난 거기 이용 못 하잖아. 오랜만에 마을 구경할 겸, 무기점 좀 들리게."
 
     show char t default bad at top
-    T "아, 맞다 그랬지. 미안해 괜한 말 꺼내서."
+    Character("힐다") "아, 맞다 그랬지. 미안해 괜한 말 꺼내서."
 
     show char s default smi at top
-    s "아니야, 기분 전환하러 가는 셈 치려고. 타나, 너는 뭐 필요한 거 없어?"
+    s "아니야, 기분 전환하러 가는 셈 치려고. 힐다, 너는 뭐 필요한 거 없어?"
 
     show char t default def at top
-    T "그럼 목검 몇 개만 우리 기사단 이름으로 주문해 줘. 아까 창고 보니까 남는 게 별로 없더라."
+    Character("힐다") "그럼 목검 몇 개만 우리 기사단 이름으로 주문해 줘. 아까 창고 보니까 남는 게 별로 없더라."
 
     show char s default smi at top
     s "응, 알겠어. 다녀올게!"
@@ -266,27 +266,28 @@
     "나는 오랜만에 외출을 즐겨보려 했다. "
     "하지만 기분이 복잡해져 다른 길로 새지 않고 바로 황궁으로 복귀했다."
 
-    show char s default smi at top
+    
     scene bg camp out
-    s "타나! 부탁했던 목검 주문했어. 이틀 내로 올 거야."
+    show char s default smi at top
+    s "힐다! 부탁했던 목검 주문했어. 이틀 내로 올 거야."
 
     show char t default bad at top
-    T "세레나, 지금 그게 목검이 문제가 아니야! 로더릭 단장님이 너를 찾으셔."
+    Character("힐다") "세레나, 지금 그게 목검이 문제가 아니야! 로더릭 단장님이 너를 찾으셔."
 
     show char s default bad at top
     s "나를? 나 최근에 잘못한 거 없는데."
 
     show char t default bad at top
-    T "그러니까. 최근에는 우리 둘 다 얌전하게 지냈는데, 대체 무슨 일이지?"
+    Character("힐다") "그러니까. 최근에는 우리 둘 다 얌전하게 지냈는데, 대체 무슨 일이지?"
 
     show char s default bad at top
     s "무서운데, 혼자··· 가야겠지?"
 
     show char t default bad at top
-    T "응. 단장님이 딱 너만 집으셔서 찾아오라고 하셨어."
+    Character("힐다") "응. 단장님이 딱 너만 집으셔서 찾아오라고 하셨어."
 
     show char t default smi at top
-    T "아무튼, 행운을 빈다. 별일 아닐 거야. 너무 걱정하지 마."
+    Character("힐다") "아무튼, 행운을 빈다. 별일 아닐 거야. 너무 걱정하지 마."
 
     show char s default smis at top
     s "고마워, 다녀올게!"
@@ -316,8 +317,9 @@
     show char commander at top
     Character('로더릭 단장') "들어와."
 
-    show char s default def at top
+    
     scene bg noble work
+    show char s default def at top
     s "라스엘 기사단 세레나 에프탈. 단장님께서 부르신다는 명 받고, 찾아오게 되었습니다."
 
     show char commander at top
@@ -407,7 +409,7 @@
     "황후는 은은한 미소를 띠고 있었다."
 
     show char q default smi at top
-    Character('황후 카일라') "그러고 보니, 이 자와 오랜만에 보겠구나? 자 인사라도 하지 그래?"
+    Character('황후 카일리') "그러고 보니, 이 자와 오랜만에 보겠구나? 자 인사라도 하지 그래?"
 
     menu .m0:
         q "오랜만입니다, 세레나···."
@@ -467,9 +469,9 @@
             hide char
             "어린 세레나는 허겁지겁 빵을 먹기 시작했다."
 
-            show char villager child2 at top
-        "황궁의 사생아···.":
             
+        "황궁의 사생아···.":
+            show char villager child2 at top
             e "당신이 소문으로만 듣던 사생아군요? 지금까지 혼자 지냈던 건가요?"
             s "맞아. 나 혼자야."
 
@@ -520,35 +522,35 @@
     
     scene bg kingdom garden
     show char q default smi at top
-    Character('황후 카일라') "에런이라는 아이가 사생아인 너를 돌봤더구나. 아니, 돌봤다는 수준도 아니지."
+    Character('황후 카일리') "에런이라는 아이가 사생아인 너를 돌봤더구나. 아니, 돌봤다는 수준도 아니지."
 
     show char q default smi at top
-    Character('황후 카일라') "아예 선생 역할을 자처했던데. 황궁의 사생아에게 너무 많은 지식을 알려 주었어. "
-    Character('황후 카일라') "이는 곧 반역에 해당하지. 이 말이 무슨 말인지 알겠니, 꼬마야?"
+    Character('황후 카일리') "아예 선생 역할을 자처했던데. 황궁의 사생아에게 너무 많은 지식을 알려 주었어. "
+    Character('황후 카일리') "이는 곧 반역에 해당하지. 이 말이 무슨 말인지 알겠니, 꼬마야?"
 
     s "아니요···. 무슨 말인지 모르겠어요."
 
     show char q default bad at top
-    Character('황후 카일라') "만약, 네가 나중에 황제 자리를 차지하겠다고 하면 내가 곤란해지지 않겠어?"
+    Character('황후 카일리') "만약, 네가 나중에 황제 자리를 차지하겠다고 하면 내가 곤란해지지 않겠어?"
 
     show char q default bad at top
-    Character('황후 카일라') "그렇게 되면 아마 그 아이는 반역죄로 처형을 당하겠네."
+    Character('황후 카일리') "그렇게 되면 아마 그 아이는 반역죄로 처형을 당하겠네."
 
     show char q default bad at top
-    Character('황후 카일라') "그동안 반란의 싹을 제거하기 위해 선대 왕들이 어떤 행동을 했는지 모르진 않겠지?"
+    Character('황후 카일리') "그동안 반란의 싹을 제거하기 위해 선대 왕들이 어떤 행동을 했는지 모르진 않겠지?"
 
     show char q default bad at top
-    Character('황후 카일라') "어려서 모르겠다는 핑계는 대지 않길 바라."
+    Character('황후 카일리') "어려서 모르겠다는 핑계는 대지 않길 바라."
 
     show char q default bad at top
-    Character('황후 카일라') "그나마 내 안에서 처리하니까 이 정도란다. 폐하였으면, 그 아이의 목을 성 앞에 매달았어."
+    Character('황후 카일리') "그나마 내 안에서 처리하니까 이 정도란다. 폐하였으면, 그 아이의 목을 성 앞에 매달았어."
 
     s "제, 제발, 스승님을 살려주세요. 제가 잘못했어요.!"
 
     s "제가 돌봐달라고 떼썼어요. 그래서, 그래서 그런 거예요!"
 
     show char q default smi at top
-    Character('황후 카일라') "오, 저런··· 세레나. 생각해 보렴. 그 아이를 위해 네가 할 수 있는 일이 있잖니."
+    Character('황후 카일리') "오, 저런··· 세레나. 생각해 보렴. 그 아이를 위해 네가 할 수 있는 일이 있잖니."
 
     hide char
     "세레나는 눈물을 그쳤다."
@@ -588,7 +590,7 @@
     "대체 스승님께서 어떤 생각을 하는지 상상조차 할 수 없었다."
 
     show char q default smi at top
-    Character('황후 카일라') "자자, 눈물겨운 재회는 이쯤에서 마무리하고. 세레나. 내가 너를 왜 이곳에 불렀는지 알겠니?"
+    Character('황후 카일리') "자자, 눈물겨운 재회는 이쯤에서 마무리하고. 세레나. 내가 너를 왜 이곳에 불렀는지 알겠니?"
 
     show char s default def at top
     s "전혀 모르겠습니다. 황후 폐하."

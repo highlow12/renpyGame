@@ -58,6 +58,7 @@
     
     scene bg camp out
     show char h default smi at top
+    play sound "sfx/horse.mp3"
     play music "bgm/sad3.mp3"
     h "도착했습니다."
 
@@ -561,7 +562,7 @@
     hide char
     "헤안은 망설이는 듯했다. 그가 입술을 깨물었다."
 
-    show char h default def at top
+    show char h default des at top
     h "솔직히 말씀드려도 되나요?"
 
     s "······물론이죠."
@@ -577,7 +578,7 @@
 
     s "그랬군요···."
 
-    show char h default def at top
+    show char h default des at top
     h "늦었지만, 저의 무례를 용서해 주시겠습니까?"
 
     s "용서할 것도 없어요."

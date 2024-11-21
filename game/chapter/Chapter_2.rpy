@@ -312,8 +312,9 @@
 
     show char soldier default at top
     play sound "sfx/war_shout.mp3"
-    Character('병사1') "반란군의 기습이다! 전원 전투 준비!"
     with shake
+    Character('병사1') "반란군의 기습이다! 전원 전투 준비!"
+    
 
     scene bg village fire
     hide char
@@ -370,8 +371,9 @@
 
     show char s default bad at top
     play sound "sfx/sword_wind.mp3"
-    "그때 한 반란군이 내게 기습 공격을 가했다."
     with shake
+    "그때 한 반란군이 내게 기습 공격을 가했다."
+    
 
     hide char
     "나는 가까스로 피했지만, 주변의 기사단원들은 이미 하나둘씩 쓰러지고 있었다. "
@@ -387,7 +389,7 @@
     "반란군의 주동자는 거침없이 기사단을 포위하며, 내 앞으로 당도했다."
 
     show char villager1 at top
-    Character('반란군주동자') "황실의 개들, 오늘 밤이 너희의 마지막이다!"
+    Character('반란군 주동자') "황실의 개들, 오늘 밤이 너희의 마지막이다!"
 
     hide char
     "칼을 들어 반격하려 했지만, 이미 늦었다. 반란군은 무자비하게 기사단원들을 쓰러뜨렸다."
@@ -399,13 +401,13 @@
     show char s default bad at top
     s "내 기사들은 황실에 이용당했을 뿐이다. 너희와 같은 처지야. 그러니, 놓아줘."
 
-    Character('반란군주동자') "내가 왜 그래야 하지? 어쨌든 네놈들 때문에 우리들은··· 매 순간 고통 속에 살고 있단 말이다!"
+    Character('반란군 주동자') "내가 왜 그래야 하지? 어쨌든 네놈들 때문에 우리들은··· 매 순간 고통 속에 살고 있단 말이다!"
 
     show char s default bad at top
     s "······."
 
     show char villager1 at top
-    Character('반란군주동자') "네 놈도 잘 알고 있겠지. 이 죽음에 억울해하지 말고, 곱게 죽어라."
+    Character('반란군 주동자') "네 놈도 잘 알고 있겠지. 이 죽음에 억울해하지 말고, 곱게 죽어라."
 
     play sound "sfx/sword_out.mp3"
     hide char
@@ -443,24 +445,25 @@
     "반란군들은 에런과 기사단의 기세에 밀려 하나둘씩 도망쳤고, 결국 우두머리마저 포획되었다. "
 
     show char villager1 at top
-    Character('반란군주동자') "네놈들, 우리만 잡는다고 이 반란이 끝날 것 같으냐!"
+    Character('반란군 주동자') "네놈들, 우리만 잡는다고 이 반란이 끝날 것 같으냐!"
 
     show char e default bad at top
     e "······."
 
     show char villager1 at top
-    Character('반란군주동자') "대답도 하지 않겠다 이건가. 우리의 죽음은 이제 신호탄일 뿐이야. 매 순간, 황실은 각오하는 게 좋을 거다!"
+    Character('반란군 주동자') "대답도 하지 않겠다 이건가. 우리의 죽음은 이제 신호탄일 뿐이야. 매 순간, 황실은 각오하는 게 좋을 거다!"
 
     show char e default bad at top
     e "처리해."
 
     play sound "sfx/sword_damage2.mp3"
     hide char
-    "에런의 말이 끝나자마자, 그의 부하가 반란군의 목을 내리쳤다."
     with shake
+    "에런의 말이 끝나자마자, 그의 부하가 반란군의 목을 내리쳤다."
+    
 
     show char villager1 at top
-    Character('반란군주동자') "으아아악!!!"
+    Character('반란군 주동자') "으아아악!!!"
 
     s "스승님······."
 
@@ -522,8 +525,8 @@
         "전 더 강해지고 싶어요. 스승님 밑에서 다시 배우고 싶습니다!":
             $ persistant.Likeability["eren"] += 5
             "전 더 강해지고 싶어요. 스승님 밑에서 다시 배우고 싶습니다!"
-        "스승님, 절 다시 제자로 받아주실 수 있나요?.":
-            "스승님, 절 다시 제자로 받아주실 수 있나요?."
+        "스승님, 절 다시 제자로 받아주실 수 있나요?":
+            "스승님, 절 다시 제자로 받아주실 수 있나요?"
     "그래서 난 무례를 무릅쓰고 스승님께 말씀드렸다. 하지만···."
     show char e default bad at top
     e "나는 너를 도와줄 수가 없을 것 같네."

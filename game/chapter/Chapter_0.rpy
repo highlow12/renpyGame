@@ -225,6 +225,7 @@
     with shake
 
     show char s default embr at top
+    with shake
     s "흡!"
 
     show char a default desr at top

@@ -245,7 +245,7 @@
 
     
     scene bg noble work
-    show char h default emb at top
+    show char h default ang at top
     h "아버지··· 이게 대체 무슨 일입니까!"
 
     hide char
@@ -289,7 +289,7 @@
     show char hf default at top
     Character('레이워스 공작') "아무리 황제가 미쳐있어도, 만든 무기를 적국에 팔아넘길 줄은··· 몰랐지만 말이다."
 
-    show char h default des at top
+    show char h default bad at top
     h "미리 막을 순 없었나요?"
 
     show char hf default at top
@@ -486,8 +486,9 @@
     s "그때 보셨잖습니까. 없던 신체도 되돌리는 힘을요."
 
     show char h default bad at top
-    h "대체 무엇을 믿고, 그리 나섭니까!"
     with shake
+    h "대체 무엇을 믿고, 그리 나섭니까!"
+    
 
     hide char
     "결국, 그가 큰 소리를 내었다."
@@ -526,8 +527,9 @@
     hide char
     "조용히 그를 따라갔다."
 
-    show char h default def at top
+    
     scene bg noble bed blue day
+    show char h default def at top
     play music "bgm/sad4.mp3"
     h "여기입니다."
 
