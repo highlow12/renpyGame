@@ -47,9 +47,10 @@
     "어디론가 이동되는 것처럼."
 
     show char n default emb at top
-    q "야!"
     with shake
-
+    q "야!"
+    
+    hide char
     s "녹···스."
 
     hide char
@@ -138,7 +139,7 @@
 
     show char n default def at top
     n "천천히."
-
+    hide char
     s "···덕분에 괜찮아졌어."
 
     show char n default emb at top
@@ -161,7 +162,7 @@
 
     show char n default def at top
     n "신밖에 없어."
-
+    hide char
     s "신···?"
 
     hide char
@@ -188,7 +189,7 @@
 
     show char n default def at top
     n "내가 황궁을 뒤집어엎어서라도 알아내 볼 테니까."
-
+    hide char
     s "···부탁할게."
 
     hide char
@@ -222,7 +223,7 @@
 
             show char n default def at top
             n "막막하기만 했던 거였어."
-
+            hide char
             s "그럼, 다행이다."
 
             hide char
@@ -245,7 +246,7 @@
 
             show char n default def at top
             n "그리고 갑자기 네 마력이 불안정해져서 왔고."
-
+            hide char
             s "아···"
 
             hide char
@@ -394,7 +395,7 @@
     Character('황후 카일리') "슬픈 마음을 추스르는 건 힘들었지만,"
 
     Character('황후 카일리') "그와의 추억이 있다면 평생을 살 수 있을 것 같으니."
-
+    hide char
     "그녀 또한 나와 다를 바 없었다."
 
     "마음에도 없는 소리를 저리도 뻔뻔히 하다니."
@@ -436,7 +437,7 @@
 
     show char q default bad at top
     Character('황후 카일리') "···이제 들어가 보도록 하렴."
-
+    hide char
     s "예. 이만 물러가겠습니다."
 
     scene bg kingdom way
@@ -585,8 +586,8 @@
 
             show char e default des at top
             e "알겠지?"
-
-            s "······."
+            hide char
+            s "······." 
 
             scene black
             hide char
@@ -714,8 +715,9 @@
     "정신이 하나도 없었다."
 
     play music "bgm/dis.mp3"
-    s "윽!"
     with shake
+    s "윽!"
+    
 
     "그때, 심장 부근부터 온몸이 마비되기 시작했다."
 

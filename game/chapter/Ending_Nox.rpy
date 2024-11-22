@@ -60,7 +60,7 @@ label ending_nox:
 
     show char q default bad at top
     Character('황후 카일리') "네년 하나 때문에···."
-
+    hide char
     s "확실하게 말해드릴까요?"
 
     s "나 때문이 아니라, 당신 때문입니다."
@@ -74,7 +74,7 @@ label ending_nox:
 
     show char q default ang at top
     Character('황후 카일리') "불공평해. 이건 불공평하다고!"
-
+    hide char
     s "당신에게 어떤 사정이 있었는지는 알지 못해요. 알고 싶지도 않고."
 
     s "이제 그만 둡시다."
@@ -97,8 +97,9 @@ label ending_nox:
     s "다음이란 당신에게 없어요."
 
     play sound "sfx/sword_damage2.mp3"
-    "나는 그렇게 그녀의 목을 베었다."
     with shake
+    "나는 그렇게 그녀의 목을 베었다."
+    
 
     s "있어서도 안 되고."
 
@@ -153,7 +154,7 @@ label ending_nox:
 
     show char a default smi at top
     a "나는 이제 왕국으로 돌아가서, 이 소식을 알려야겠네."
-
+    hide char
     s "응, 왕국 건에 대해서는 내가 정식으로 찾아갈게."
 
     s "헤안님도 여기까지 오는 데에 고생 많으셨습니다."
@@ -179,7 +180,7 @@ label ending_nox:
 
     show char e default des at top
     e "용서하지 않아도 돼."
-
+    hide char
     s "···스승님의 처분에 대해서는 생각해 보겠습니다."
 
     s "각오하셔야 할 겁니다."
@@ -205,7 +206,7 @@ label ending_nox:
     show char h default def at top
     play music "bgm/comfort7.mp3"
     h "세레나님, 오늘 출궁하시는 날 아니셨습니까?"
-
+    hide char
     s "아 맞다!"
 
     hide char
@@ -215,7 +216,7 @@ label ending_nox:
 
     show char h default def at top
     h "그분이 기다리실 겁니다."
-
+    hide char
     s "기다리고 있진 않을걸요?"
 
     s "이미 도착해서는, 곁에서 음침하게 지켜보고 있을 게 뻔합니다."
@@ -226,7 +227,7 @@ label ending_nox:
 
     show char n default smi at top
     n "여전하네. 실력 하나도 안 녹슬었어, 세레나."
-
+    hide char
     s "좋은 거 맞지?"
 
     show char n default smi at top
@@ -242,7 +243,7 @@ label ending_nox:
     "녹스는 마탑을 완전히 바꿔내는 데에 성공했다."
 
     "모든 마법사가 마탑을 나와, 세상을 누비고 다니기 시작했으니."
-
+    
     s "알겠어, 가자."
 
     "황후를 죽이고, 제국을 갈아엎기 시작한 지 1년은 됐나."
@@ -267,14 +268,14 @@ label ending_nox:
 
     show char e default des at top
     e "나는 그럴 자격 없어."
-
+    hide char
     s "그걸 스스로 알고 계시니까, 스승님에게 맡기는 거예요."
-
+    hide char
     s "책임감과 죄책감이 원동력이 될 테니까요."
 
     show char e default des at top
     e "······."
-
+    hide char
     s "당연히, 계속 지켜볼 겁니다."
 
     s "언제든지 그 자리에서 끌어내릴 수 있다는 소리예요."
@@ -322,7 +323,7 @@ label ending_nox:
 
     show char n default bad at top
     n "이제 와서 싫다고 그러는 건 아니지?"
-
+    hide char
     s "아니야, 잠깐 다른 생각 좀 한 거야."
 
     show char n default def at top
@@ -367,7 +368,7 @@ label ending_nox:
 
     show char n default smi at top
     n "아무튼, 이제 넌 나만 봐야 해."
-
+    hide char
     s "이건 또 무슨 소리래···."
 
     hide char
@@ -381,12 +382,12 @@ label ending_nox:
 
     show char n default bad at top
     n "대답 안 하는 거 봐라?"
-
+    hide char
     s "너 같으면 하겠어? 말할 가치도 없다."
 
     show char n default smi at top
     n "그럼 나만 보겠다고 한 걸로 알고 있는다?"
-
+    hide char
     s "네 맘대로 하세요~"
 
     hide char
@@ -410,7 +411,7 @@ label ending_nox:
 
     show char n default bad at top
     n "마법이 없으면 앞으로 너나 나나 엄청 불편할걸?"
-
+    hide char
     s "마법 빼면 네가 남지. 뭐가 남아."
 
     s "난 너랑 다니고 싶은 거지, 마법이랑 다닐 생각 없어."
@@ -421,7 +422,7 @@ label ending_nox:
 
     show char n default def at top
     n "···그렇지."
-
+    hide char
     s "다 내려놓자. 능력이든 뭐든, 힘들었던 거, 좋았던 거 다."
 
     s "그리고 처음부터 나랑 같이 다시 시작하자."
@@ -436,7 +437,8 @@ label ending_nox:
     "그러다, 자포자기라도 한 듯한 한숨을 내뱉었다."
 
     show char n default smi at top
-    n "나는 강하고, 똑똑해."
+    n "나는 강하고, 똑똑해."   
+    hide char
 
     s "알아. 갑자기 웬 자기 자랑?"
 
@@ -498,7 +500,7 @@ label ending_nox:
 
     show char h default smir at top
     n "···사랑해. "
-
+    hide char
     s "나도."
 
     #hide char

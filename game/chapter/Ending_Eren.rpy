@@ -35,8 +35,9 @@
     "에런은 제게 달려드는 황후의 움직임을 피한 뒤, 역으로 그녀를 밀쳐냈다."
 
     show char q default ang at top
-    Character('황후 카일리') "악!"
     with shake
+    Character('황후 카일리') "악!"
+    
 
     hide char
     "칼을 휘두른 패기와는 달리, 그녀는 힘없이 무너졌다."
@@ -167,9 +168,9 @@
     e "당신에게 다음 따윈 존재하지 않습니다."
 
     play sound "sfx/sword_damage2.mp3"
-    hide char
+    hide char with shake
     "그 말을 끝으로 에런은 황후의 목을 베었다."
-    with shake
+    
 
     show char e default bad at top
     e "······."

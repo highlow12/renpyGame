@@ -236,8 +236,9 @@
 
             show char knight default at top
             play music "bgm/ptsd3.mp3"
-            Character('기사') "단장님!"
             with shake
+            Character('기사') "단장님!"
+            
 
             show char knight default at top
             Character('기사') "그때, 아무런 신호 없이 기사 한 명이 막사로 들이닥쳤다."

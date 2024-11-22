@@ -18,13 +18,13 @@
     "시간이 흐르고, 마침내 아디크 왕국을 정복하는 데 성공했다."
 
     "적의 병사들과 기사들은 차례대로 무너져갔다."
-
-    show char knight default at top
     with shake
+    show char knight default at top
+    
     Character('기사단') "단장님 만세!"
-
-    show char knight default at top
     with shake
+    show char knight default at top
+    
     Character('기사단') "만세!"
 
     hide char
@@ -307,8 +307,9 @@
 
     play sound "sfx/clothes.mp3"
     hide char
-    "헤안은 갑작스레 나를 둘러업었다."
     with shake
+    "헤안은 갑작스레 나를 둘러업었다."
+    
 
     s "헤안? 이게 지금 무슨 행동이죠?"
 
@@ -336,9 +337,11 @@
 
     play sound "sfx/punch.mp3"
     hide char
-    "헤안은 내 목덜미를 세게 내리쳤다."
-    with shake
+    
     show red at fadeInOut
+    with shake
+    "헤안은 내 목덜미를 세게 내리쳤다."
+    
 
     scene black
     "난 그로 인해 기절하고 말았다."
@@ -401,9 +404,9 @@
 
     show char h default bad at top
     h "세, 세레나님···!"
-
-    s "헤안!"
     with shake
+    s "헤안!"
+    
 
     hide char
     "한 황실 기사가 헤안의 뒤로 달려들었다."
@@ -453,9 +456,9 @@
     "황제는 우리를, 정확히는 이 전장에서 나를 죽이려고 하는 것이 틀림없었다."
 
     "정확한 이유는 알 수 없지만, 아마 그의 목적을 이루기 위해서···."
-
-    s "모두 방어 태세를 준비해! 전열을 갖춰!"
     with shake
+    s "모두 방어 태세를 준비해! 전열을 갖춰!"
+    
 
     "나는 큰 목소리로 외쳤다."
 
@@ -494,8 +497,9 @@
     show char knight default at top
     scene bg bf sunset
     play sound "sfx/war_shout.mp3"
-    q "지금이 기회다! 제국민들에게 복수를!"
     with shake
+    q "지금이 기회다! 제국민들에게 복수를!"
+    
 
     show char knight default at top
     q "제국민들에게 복수를!"
@@ -686,8 +690,9 @@
     "모든 게 허무해졌다."
 
     play sound "sfx/sword_damage.mp3"
-    "그렇게 무방비함을 취하고 있을 때, 왕자가 내 옆구리에 단도를 박아 넣었다."
     with shake
+    "그렇게 무방비함을 취하고 있을 때, 왕자가 내 옆구리에 단도를 박아 넣었다."
+    
     show red at fadeInOut
     "순식간이어서, 방어조차도 못 했다."
 

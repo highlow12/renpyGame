@@ -155,9 +155,10 @@
     e "그러니 직접 처리하시는 편이···."
 
     show char q default smi at top
-    Character('황후 카일리') "푸하핫!"
     with shake
 
+    Character('황후 카일리') "푸하핫!"
+    
     hide char
     "황후는 알현실이 울릴 만큼 큰 웃음을 냈다."
 
@@ -189,8 +190,9 @@
     Character('황후 카일리') "그 아이를 건드리는 수밖에."
 
     show char e default bad at top
-    e "···그만!"
     with shake
+    e "···그만!"
+    
 
     hide char
     "에런은 황후의 말을 끊으며, 소리쳤다."

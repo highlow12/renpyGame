@@ -224,7 +224,7 @@
             hide char
             "기사들은 황급히 자리를 떠났다."
 
-            show char t default bad at top
+    show char t default bad at top
     T "세레나님은 저희를 위해서 특별히 여관을 빌려주셨는데··· 은혜도 모르는 놈들이네요."
     show char s default smi at top
     s "아니야, 어떻게 보면 저들의 말이 틀린 것도 없어."
@@ -271,8 +271,9 @@
 
     "세레나는 눈을 감았다. 그리고 아까 기사들이 한 말을 다시 회상했다."
 
-    show char soldier default at top
+    
     scene black
+    show char soldier default at top
     Character('병사1') "여기가 맞으면 이렇게 조용하겠냐? 애초에 기사단장은 그냥 겉치레잖아. 그래서 쓸데없는 곳에 보낸 것 같은데?"
 
     show char soldier default at top
@@ -400,7 +401,7 @@
 
     show char s default bad at top
     s "내 기사들은 황실에 이용당했을 뿐이다. 너희와 같은 처지야. 그러니, 놓아줘."
-
+    show char villager1 at top
     Character('반란군 주동자') "내가 왜 그래야 하지? 어쨌든 네놈들 때문에 우리들은··· 매 순간 고통 속에 살고 있단 말이다!"
 
     show char s default bad at top
@@ -479,8 +480,9 @@
     "오랜만에 느끼는 포근함에 나는 스승님께 감사 인사도 드리지 못하고, 잠에 들었다."
 
 
-    show char s default bad at top
+    
     scene bg noble bed yellow day
+    show char s default bad at top
     s "내가 얼마나 잠들었던 거지?"
 
     hide char

@@ -277,9 +277,9 @@
             "내 심장이 가만히 있지를 못했다."
 
             "미친 게 분명했다. 아드리안도, 나도."
-
-            s "으··· 으아!"
             with shake
+            s "으··· 으아!"
+            
 
             "나는 괜한 쑥스러움에 손을 내빼, 그의 얼굴을 밀어냈다."
 
@@ -513,10 +513,10 @@
     "지금 내 곁엔 헤안과 우리 기사단뿐이다."
 
     "나는 큰 소리로 외쳤다."
-
+    with shake
     s "황후를 끌어내라!!!"
     scene bg kingdom garden
-    with shake
+    
 
     play sound "sfx/war_shout.mp3"
     "우리는 황후가 있는 본궁을 기습했다."
@@ -566,8 +566,9 @@
 
     scene bg noble bed red day
     play sound "sfx/door.mp3"
-    "헤안이 황궁의 문을 열었다."
     with shake
+    "헤안이 황궁의 문을 열었다."
+    
 
     "그곳엔 방심하고 있는 황후의 얼굴과 호위 기사가 보였다."
 

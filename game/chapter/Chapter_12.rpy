@@ -62,7 +62,7 @@
 
     show char n default def at top
     n "내가 저번에 분명 힘 쓰지 말라고 했잖아."
-
+    hide char
     s "나 안 썼는데."
 
     hide char
@@ -75,7 +75,7 @@
 
     show char n default def at top
     n "네가 가져간 내 마력이 어떻게 쓰이는지 정도는 다 알 수가 있다고."
-
+    hide char
     s "···하하."
 
     hide char
@@ -102,7 +102,7 @@
 
     show char n default ang at top
     n "알겠어? 말도 안 듣는 고집쟁이야?"
-
+    hide char
     s "고집쟁이? 이게 자꾸 진짜!"
 
     hide char
@@ -179,7 +179,7 @@
 
     show char n default def at top
     n "내가 됐다고 할 때까지는 그 힘 쓸 생각하지 마. 알겠어?"
-
+    hide char
     s "······."
 
     hide char
@@ -204,6 +204,7 @@
         n "또, 왜."
         "걱정해 준 거냐는 말을 꺼낸다.":
             play music "bgm/sad4.mp3"
+            hide char
             s "혹시, 날 걱정해 준 건가 싶어서."
             hide char
             "아니나 다를까, 그는 어이없다는 듯한 표정을 지었다."
@@ -250,6 +251,7 @@
         "각성 이후, 헤어졌을 때의 이야기를 꺼낸다.":
             $ persistant.Likeability['nox'] += 9
             play music "bgm/sad4.mp3"
+            hide char
             s "그때 기억나?"
             s "네가 인간에 대해서 하나부터 열까지 알려달라고 했던 거."
 
@@ -257,14 +259,14 @@
 
             show char n default def at top
             n "···어."
-
+            hide char
             s "인간에 관해서는 모르겠지만, 나에 관한 이야기라면 말해줄 수 있어."
 
             s "나도 어쨌든 인간이잖아."
 
             show char n default def at top
             n "······."
-
+            hide char
             s "그리고, 방금 눈치챈 건데."
 
             s "네가 아까 말한 '강한 힘에 취해 무뎌지는 것' 말이야, 너에 대한 이야기지?"
@@ -281,6 +283,7 @@
             "녹스는 별다른 말을 하지 않았다. 그는 잘 만들어진 인형처럼 아무런 표정도 짓고 있지 않았다."
 
     play music "bgm/sad5.mp3"
+    hide char
     s "나는 에프탈 제국 황제의 사생아야."
     "나는 먼저 천천히 내 이야기를 시작했다. 주변에 있던 책을 괜히 어루만졌다."
 
@@ -305,7 +308,7 @@
     s "제국민들을 보니 사생아 시절 고통받던 내 모습과 겹쳐 보이더라고."
     show char n default des
     n "전혀 몰랐어. 그런 일이 있을 줄은···."
-
+    hide char
     s "그래서 이 불행들을 없애기로 마음먹었어. 그게 전쟁을 멈추고, 제국을 혁명시키는 거야."
 
     s "이 일은 나만이 할 수 있는 일이니까."
@@ -314,7 +317,7 @@
 
     show char n default def at top
     n "······."
-
+    hide char
     s "물론 인간은 나약하고, 간악해."
 
     s "하지만 그 와중에도, 소중한 것을 지켜내기 위해 강해지고는 하는 것 같아."
@@ -346,7 +349,7 @@
 
     show char n default def at top
     n "세레나."
-
+    hide char
     s "어?"
 
     hide char
@@ -359,12 +362,12 @@
     "예상치 못하게도, 그는 대답이 아니라 질문으로 시작했다."
 
     "하지만, 이 질문이 내 이야기에 대한 대답인 것 같았다."
-
+    hide char
     s "나야 모르지."
 
     show char n default def at top
     n "그럼, 폐쇄적인 마탑에서 어떻게 꾸준히 인재가 나오는지는?"
-
+    hide char
     s "알 길이 없지."
 
     show char n default def at top
@@ -372,7 +375,7 @@
 
     show char n default def at top
     n "실험."
-
+    hide char
     s "실험?"
 
     show char n default def at top
@@ -389,7 +392,7 @@
 
     show char n default def at top
     n "나도 눈을 떴을 때는, 커다란 수조 통 같은 데에 있었거든."
-
+    hide char
     s "대체 왜 그런···."
 
     show char n default def at top
@@ -406,7 +409,7 @@
 
     show char n default def at top
     n "그렇게 마탑에는 온전한 인간 마법사들은 도태되고, 실험체들만으로 채워졌지."
-
+    hide char
     s "말도 안 돼···."
 
     hide char
@@ -514,7 +517,7 @@
             "그렇다면, 새로운 목표가 세워질 테고 잃어가는 자신을 찾을 수 있지 않을까 싶어서."
 
             "마치 나처럼."
-
+            hide char
             s "너 마법 좋아하잖아. 하고 싶은 거 없어?"
 
             show char n default def at top
@@ -522,7 +525,7 @@
 
             show char n default def at top
             n "그나마 최근에는 너 때문에 괜찮았었고."
-
+            hide char
             s "그럼, 지겹지 않은 거 하나 알려줄까?"
 
         "마탑을 바꿔보자는 제안을 한다.":
@@ -533,7 +536,7 @@
             "그에게는 지금 새로운 목표가 필요했다."
 
             "그래서, 나는 그에게 한 가지 제안을 해보기로 했다."
-
+            hide char
             s "지겹지 않은 거 하나 알려줄까?"
 
     play music "bgm/peace2.mp3"
@@ -545,7 +548,7 @@
 
     show char n default def at top
     n "한 번 깨진 유리잔에 물을 담을 수 없듯이 말이야."
-
+    hide char
     s "뭐가 안 돼."
 
     s "너희 마법사잖아."

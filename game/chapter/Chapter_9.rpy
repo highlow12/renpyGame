@@ -118,8 +118,9 @@
             "그리고, 그의 호통이 나를 덮쳐왔다."
 
             show char a default ang at top
-            a "야!"
             with shake
+            a "야!"
+            
 
             show char a default ang at top
             a "상처도 있는 게 왜 자꾸 이래?"
@@ -289,10 +290,11 @@
     "곧바로 몸을 일으켰다."
 
     s "빨리 돌아가야 해. 시간을 너무 지체했어."
-
-    s "윽···."
-    with shake
+    
     show red at fadeInOut
+    with shake
+    s "윽···."
+    
     "여전히 상처 자체에 대한 고통은 남아있었다."
 
     "하지만, 단장이라는 자가 전장을 비우다니. 있어서는 안 되는 일이었다."
@@ -650,9 +652,9 @@
             hide char
             "나는 그의 멱살을 잡고 끌어당겼다."
             "그저 이 힘을 식혀줄 사람이 필요하다고 본능적으로 느꼈기 때문이었다."
-
-            s "뭐가 됐든, 당장 가져가···!"
             with shake
+            s "뭐가 됐든, 당장 가져가···!"
+            
 
             show char n default def at top
             n "네가 허락한 거다?"
@@ -711,8 +713,9 @@
     "하지만 살기 위해, 녹스의 말대로 심장에 집중했다."
 
     play sound "sfx/magic.mp3"
-    "파열음이 들렸다. 나한테만 들린 건지, 모두에게도 들린 건지는 모르겠다."
     with shake
+    "파열음이 들렸다. 나한테만 들린 건지, 모두에게도 들린 건지는 모르겠다."
+    
 
     play sound "sfx/high.mp3"
     s "이거, 생각보다 더 아픈데···."

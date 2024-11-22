@@ -68,8 +68,9 @@
     "나는 급한 마음에 칼은 내던지고 그의 로브를 향해 손을 뻗었다."
 
     play sound "sfx/clothes.mp3"
-    "휘익 - "
     with shake
+    "휘익 - "
+    
 
     "어이없게도, 그는 뒤로 고꾸라지며 순순히 잡혀줬다."
 
@@ -438,8 +439,9 @@
 
     show char t default emb at top
     play music "bgm/ptsd3.mp3"
-    q "살려주세요!"
     with shake
+    q "살려주세요!"
+    
 
     hide char
     "큰 비명과 함께 살려달라는 외침이 들렸다."

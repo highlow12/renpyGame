@@ -10,8 +10,9 @@
     "눈이 덮여 있던 탓에 바닥을 확인하지 못했지 때문이었다."
 
     show char t default emb at top
-    T "살려주세요!"
     with shake
+    T "살려주세요!"
+    
 
     hide char
     "그 순간, 나는 망설임 없이 타나에게 달려들었다."
@@ -23,12 +24,12 @@
     "그런데···"
 
     "내가 떨어지는 건 전혀 예상하지 못했던 일이었다."
-
+    with shake
     T "세레나님!!!"
+    
     with shake
-
     q "세레나!!!"
-    with shake
+    
 
     "이럴 줄 알았으면 조금 더 막 살아볼 걸···."
 
@@ -137,8 +138,9 @@
     s "거절할게. 나는 혼자서도 괜찮···."
 
     hide char
-    "에취!"
     with shake
+    "에취!"
+    
 
     show char a default def at top
     q "네가 없으면 체온유지를 못 해서 나도 죽을지도 몰라."
@@ -220,12 +222,12 @@
     "천천히 그가 있는 쪽으로 조심스럽게 걸어갔다."
 
     "그리고 그의 넓은 어깨 품에 기대어 앉았다. 확실히 차가운 공기보다는 따뜻한 체온이었다."
-
+    with shake
     "그순간, 그가 나를 세게 껴안았다."
+    
     with shake
-
     show char s default embr at top
-    with shake
+    
     s "흡!"
 
     show char a default desr at top

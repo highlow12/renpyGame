@@ -38,7 +38,7 @@
 
     show char n default smi at top
     n "아쉽게도, 우리가 직접적으로 관여할 수는 없어서 말이야."
-
+    hide char
     s "고지식한 마법사들 답네. 이딴 식으로 할 거면 중재 말고, 감시라고 하든가."
 
     show char n default smi at top
@@ -46,7 +46,7 @@
 
     show char n default smi at top
     n "그래서 특별히, 내가 손을 좀 써보려고."
-
+    hide char
     s "손을 쓴다니?"
 
     show char n default smi at top
@@ -57,7 +57,7 @@
 
     hide char
     "그가 대체 무슨 말을 하는지 알 수 없었다."
-
+    hide char
     s "똑바로 설명해."
 
     show char n default def at top
@@ -68,12 +68,12 @@
 
     show char n default def at top
     n "정확히는 마법의 근원인 마력을 흡수해 버리더라고."
-
+    hide char
     s "···? 그게 무슨 말이야?"
 
     show char n default def at top
     n "내가 마법을 사용하면, 네 몸이 무의식적으로 그 마법을 흩트려 놓고 흡수를 한다는 소리야."
-
+    hide char
     s "여태 마도구를 사용할 때는 문제가 없었는데? 마법사들을 만날 때도 그렇고."
 
     show char n default smi at top
@@ -83,7 +83,7 @@
     "그는 한없이 가벼운 말투와 행동을 취했다. "
 
     "때문에, 그의 말을 전혀 믿을 수가 없었다."
-
+    hide char
     s "장난치지 말고."
 
     show char n default def at top
@@ -94,7 +94,7 @@
 
     show char n default def at top
     n "그것 때문인지, 너는 내 특수한 마력에만 반응해."
-
+    hide char
     s "그래서 요점이 뭔데? 내 몸으로 연구라도 해보겠다고?"
 
     s "만약 하더라도, 전쟁을 끝내는 것과 내 몸을 연구하는 게 무슨 상관이야."
@@ -116,7 +116,7 @@
 
     show char n default def at top
     n "너, 전쟁을 끝내고 싶은 거 아니야? 여태 본 거로는 그렇게 보이던데."
-
+    hide char
     s "그건 맞지만, 내가 그 힘을 쓸 수 있다고 확신할 수 있어?"
 
     show char n default smi at top
@@ -195,6 +195,7 @@
 
         "그래서, 그 방법이 뭔데?":
             $ persistant.Likeability['nox'] += 9
+                hide char
             "일단은 그의 말을 더 들어보기로 했다."
             s "하···. 그래서 내 힘을 끌어내려면 어떻게 해야 하는데?"
 
@@ -227,7 +228,7 @@
 
             show char n default smi at top
             n "보통은 접촉을 통해, 마력을 주고받을 수 있어."
-
+            hide char
             s "그렇다고 말도 없이 다짜고짜 입을 맞추는 미친놈이 어딨어?"
 
             show char n default smi at top
@@ -240,7 +241,7 @@
             "일반적인 상식의 선에서 벗어난 미친놈이 따로 없었다."
 
             "그에게 대꾸해 봤자 나만 피곤해지는 일이 될 것 같았다."
-
+    hide char
     play music "bgm/nox2.mp3"
     s "됐다···. 마력 주입이랑 내 힘을 이끄는 거랑 무슨 상관이 있는데?"
     show char n default def at top
@@ -251,7 +252,7 @@
 
     show char n default def at top
     n "방금 마력을 주입 당할 때, 혹시 느껴진 거 뭐 없어?"
-
+    hide char
     s "네가 말한 대로 심장 쪽이 뜨거워졌었어."
 
     show char n default def at top
@@ -267,8 +268,9 @@
     n "계속해서 네 심장이 마력을 축적하게 되면, 어떻게 될지는 나도 잘 몰라. "
 
     show char n default def at top
-    n "뻥!"
     with shake
+    n "뻥!"
+    
 
     show char n default smi at top
     n "터질 수도 있고."
@@ -289,12 +291,12 @@
 
     show char n default smi at top
     n "그러니까, 협조 좀 잘 해주라? 네 목표를 위해서라도 말이야."
-
+    hide char
     s "알겠어. 대신, 점막 접촉은 안 돼. "
 
     show char n default smi at top
     n "하하! 그게 제일 효율이 높은데도?"
-
+    hide char
     s "아무튼 안 돼."
 
     show char n default smi at top
@@ -322,7 +324,7 @@
 
     show char knight default at top
     Character('기사단원') "헤안님과 에런님도 정찰대에 계셨습니다."
-
+    hide char
     s "뭐? 돌아오지 않은 시간은 얼마나 됐지?"
 
     show char knight default at top
@@ -332,7 +334,7 @@
     "국경에서 기사단 절반 정도가 사라졌다는 건, 큰일이었다."
 
     "심지어 주요 인물들까지 말이다."
-
+    hide char
     s "일단, 여기 있는 단원들이라도 먼저 이 자리를 뜨···."
 
     "나는 말을 끝까지 다 잇지 못했다."
@@ -380,6 +382,7 @@
         
         "타나가 멀리서 내게 외쳤다. "
         "도움을 요청한다.":
+            hide char
             s "안 괜찮으니까, 보조 좀 부탁할게!"
             "적과 검을 맞부딪히며, 타나에게 답했다."
 
@@ -390,6 +393,8 @@
             "얼마 지나지 않아, 적이 몰려있는 내 쪽을 향해 타나가 달려왔다."
 
         "도움을 요청하지 않는다.":
+
+            hide char
             $ persistant.Likeability = {key:value+3 for key, value in persistant.Likeability.items()}
             s "난 괜찮으니까, 신경 쓰지 않아도 돼!"
             play sound "sfx/sword_hit.mp3"
@@ -419,7 +424,7 @@
 
     show char hs at top
     q "······."
-
+    hide char
     s "타나!"
 
     hide char
@@ -431,7 +436,7 @@
     "마치 처음부터 나를 노렸던 것처럼."
 
     "생각보다 가까운 거리에서 짧고도 굵은 검이 꽂히려 하고 있었다."
-
+    hide char
     s "이 비겁한 자식이!"
 
     "방어 태세를 갖췄지만 이미 늦은 듯했다."
@@ -452,6 +457,7 @@
     T "윽···."
 
     play music "bgm/dis.mp3"
+    hide char
     s "타나···?"
 
     play sound "sfx/fall.mp3"
@@ -459,7 +465,7 @@
     "흩뿌려진 피와 함께 타나는 땅바닥으로 곤두박질쳤다."
 
     "그녀가 쓰러진 바닥에 피가 흥건했다. 타나의 복부에서 나온 피가 분명했다."
-
+    hide char
     s "타나? 정신 차려봐! 타나!"
 
     "내 간절한 염원과는 반대로 타나는 움직이지 않았다."
@@ -483,9 +489,9 @@
     "타나의 움직임이 멈췄다."
 
     "아무리 몸을 흔들어봐도, 타나는 깨어나지 않았다."
-
-    s "타나!!!"
     with shake
+    s "타나!!!"
+    
 
     play sound "sfx/heart.mp3"
     "분노가 휘몰아쳤다."
@@ -556,9 +562,9 @@
     "나는 그들이 건네는 위로를 뒤로 하고, 기사단원들 앞에 섰다."
 
     s "여기를 정리 후, 사흘 뒤에 우리는 아디크 왕국을 정복하러 간다."
-
-    s "알겠나!"
     with shake
+    s "알겠나!"
+    
 
     "모두가 떨떠름해하면서도, 이해한다는 반응이었다."
 
@@ -567,7 +573,6 @@
     show char h default des at top
     "헤안은 불안한 눈빛으로 나를 쳐다봤다."
 
-    show char h default des at top
     hide char
     "하지만, 나는 그의 눈을 애써 무시했다."
 

@@ -18,8 +18,9 @@ label ending_adrian:
     "아드리안은 그 상태로, 칼을 잡고 있던 황후를 역으로 밀쳐냈다."
 
     show char q default ang at top
-    Character('황후 카일리') "악!"
     with shake
+    Character('황후 카일리') "악!"
+    
 
     hide char
     "아드리안이 있던 곳에서 내가 있는 이곳까지는 상당한 거리가 있었다."
@@ -220,8 +221,9 @@ label ending_adrian:
 
     play sound "sfx/sword_damage2.mp3"
     show red with fadeInOut
-    "나는 그렇게 그녀의 목을 베었다."
     with shake
+    "나는 그렇게 그녀의 목을 베었다."
+    
 
     s "있어서도 안 되고."
 
