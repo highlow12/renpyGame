@@ -195,7 +195,7 @@
 
         "그래서, 그 방법이 뭔데?":
             $ persistant.Likeability['nox'] += 9
-                hide char
+            hide char
             "일단은 그의 말을 더 들어보기로 했다."
             s "하···. 그래서 내 힘을 끌어내려면 어떻게 해야 하는데?"
 
@@ -345,8 +345,9 @@
 
     show char knight default at top
     play sound "sfx/war_shout.mp3"
-    Character('아디크 왕국 기사단') "진격하라!"
     with shake
+    Character('아디크 왕국 기사단') "진격하라!"
+    
 
     hide char
     "아디크 왕국이 우리의 막사까지 쳐들어오기 시작했다."
@@ -375,8 +376,9 @@
     "보아하니, 아디크 왕국을 마주쳐 전투를 치르다 온 모양이었다."
 
     show char t default bad at top
-    T "단장님! 괜찮으십니까?"
     with shake
+    T "단장님! 괜찮으십니까?"
+    
     hide char
     menu .m1:
         
@@ -442,8 +444,9 @@
     "방어 태세를 갖췄지만 이미 늦은 듯했다."
 
     show char t default bad at top
-    T "이 자식이!"
     with shake
+    T "이 자식이!"
+    
 
     hide char
     "타나가 다급하게 내게 칼을 꽂으려던 놈을 제지했다."
