@@ -280,7 +280,7 @@
             show char n default smi at top
             n "내가 잘 정리하고 있으니까."
 
-            show char n default smi at top
+    show char n default smi at top
     n "아무튼, 나도 당분간 황궁에서 지낼 거야."
     show char n default smi at top
     n "그러니까, 필요하면 아무 때나 내 이름 불러. 대충 알아듣고 나올 테니까."
