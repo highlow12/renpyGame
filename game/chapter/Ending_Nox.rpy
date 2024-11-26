@@ -495,10 +495,10 @@ label ending_nox:
 
     "나 또한 참을 수 없을 만큼의 감정이 차올라, 그를 껴안았다."
 
-    show char n default smir at top
+    #show char n default smir at top
     n "어떤 지식과 마법을 끌어와도, 이 단어 외에는 설명 못 할 거야."
 
-    show char n default smir at top
+    #show char n default smir at top
     n "···사랑해. "
     hide char
     s "나도."

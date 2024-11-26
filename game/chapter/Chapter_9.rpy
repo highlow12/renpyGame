@@ -153,7 +153,7 @@
 
             "제대로 삼키기도 힘들었기 때문이었다."
 
-            show char a default des at top
+            #show char a default des at top
             a "이거 봐, 다 흘리잖아. "
 
             hide char
@@ -217,7 +217,8 @@
 
             "하고 싶지 않아 하는 사람치고는 나를 꼭 살려야만 하는 것 같은 몸짓이었으면서."
 
-            show char a default des at top
+    scene black
+    show char a default des at top
     a "일단 쉬어."
     hide char
     "그는 계속해서 나를 돌봤다."
