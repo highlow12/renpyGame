@@ -45,16 +45,16 @@
 
     
     scene bg prison
-    show char q default smi at top
+    show char q default bsmi at top
     Character('황후 카일리') "하하, 네가 오기를 기다리고 있었단다."
 
-    show char q default smi at top
+    show char q default bsmi at top
     Character('황후 카일리') "너라면 알고 있었겠지. 여기서 끝이 아니라는 걸."
 
-    show char q default smi at top
+    show char q default bsmi at top
     Character('황후 카일리') "그 아이, 생각보다 많은 걸 준비해 뒀더구나."
 
-    show char q default smi at top
+    show char q default bsmi at top
     Character('황후 카일리') "이건 나도 놀랐어."
 
     show char e default des at top
