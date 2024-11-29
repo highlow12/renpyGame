@@ -1,4 +1,5 @@
 ﻿label chapter_16:
+    scene black
     "제목: 금빛 여명"
 
     scene bg forest day

@@ -1,4 +1,5 @@
 ﻿label chapter_7:
+    scene black
     "제목 : 갑작스런 습격"
 
     scene bg camp in

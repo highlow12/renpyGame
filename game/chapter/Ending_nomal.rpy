@@ -1,4 +1,5 @@
 label ending_nomal:
+    scene black
     #"제목 : 남겨진 것"
 
     scene bg forest fire

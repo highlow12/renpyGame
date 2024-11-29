@@ -1,4 +1,5 @@
 ﻿label chapter_6:
+    scene black
     "제목 : 알 수 없는 마음"
 
     scene bg camp out night
@@ -371,13 +372,13 @@
     show char t default smir at top
     T "아! 바르시기 어려울 정도라면 제가 직접···!"
     s "아니! 난 괜찮아. 이만 가봐도 좋아."
-    show char t default embr at top
+    show char t default emb at top
     T "단장님, 제가 꼭···!"
     s "고마워, 타나! 그런데 일단 내가 좀 쉬고 싶어서."
     play sound "sfx/clothes.mp3"
     hide char
     "나는 그녀의 등을 막사의 밖으로 떠밀었다."
-    show char t default embr at top
+    show char t default emb at top
     with shake
     T "세레나 단장님!!!"
     

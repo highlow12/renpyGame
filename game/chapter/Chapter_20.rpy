@@ -1,4 +1,5 @@
 ﻿label chapter_20:
+    scene black
     "제목 : 마지막 비호"
 
     scene bg kingdom way

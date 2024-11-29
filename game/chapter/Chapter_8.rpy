@@ -1,4 +1,5 @@
 ﻿label chapter_8:
+    scene black
     "제목 : 전쟁의 민낯"
 
     scene black

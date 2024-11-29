@@ -1,4 +1,5 @@
 ﻿label chapter_4:
+    scene black
     "제목 : 절벽 아래에서"
 
     scene bg forest winter night
@@ -565,8 +566,9 @@
 
     "그렇게 길을 헤매던 중, 세레나를 발견하게 되고 구해주게 된 것이었다."
 
-    show char hs at top
+    
     scene bg cave day
+    show char hs at top
     Character('한스') "아무도 없는 것 같습니다. 왕자님."
 
     hide char

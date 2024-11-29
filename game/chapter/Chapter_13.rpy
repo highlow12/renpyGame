@@ -1,4 +1,5 @@
 ﻿label chapter_13:
+    scene black
     "제목: 최대의 용기"
 
     scene bg tower in
@@ -422,7 +423,7 @@
     s "이곳도 참 오랜만에 오네."
 
     "그때 내 막사 앞에서 익숙한 인영이 보였다."
-    show char e default def
+    show char e default def at top
     play music "bgm/ereon3.mp3"
     "에런 스노우, 내 스승님이었다."
 
@@ -480,8 +481,9 @@
 
     "게다가 저렇게 다정하게 말씀하시면, 나에겐 거부할 수 있는 선택권 따위 있을 리가."
 
-    show char e default smi at top
+    
     scene bg camp in
+    show char e default smi at top
     e "이렇게 대화하는 것도 참 오랜만이구나."
 
     show char e default smi at top

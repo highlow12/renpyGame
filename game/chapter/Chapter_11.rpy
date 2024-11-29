@@ -1,4 +1,5 @@
 ﻿label chapter_11:
+    scene black
     "제목 : 혼란의 씨앗"
 
     play music "bgm/ptsd2.mp3"

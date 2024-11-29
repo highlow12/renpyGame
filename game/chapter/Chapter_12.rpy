@@ -1,4 +1,5 @@
 ﻿label chapter_12:
+    scene black
     "제목 : 마법사의 밤"
 
     scene black

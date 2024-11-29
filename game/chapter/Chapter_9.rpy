@@ -1,4 +1,5 @@
 ﻿label chapter_9:
+    scene black
     "제목 : 도움을 받는다는 것은"
 
     scene black
@@ -145,8 +146,8 @@
 
             "그는 나를 꼭 살려야 하는 것처럼 굴었다."
 
-            scene adrian_illust1
-            $ persistent.UnlockImage['adrian'][0] = True
+            #scene adrian_illust1
+            #$ persistent.UnlockImage['adrian'][0] = True
             "결국 한숨을 쉬더니, 병째로 내 입에 그가 해독제라고 주장하는 것을 천천히 넘겨주기 시작했다."
 
             "해독제는 입안을 가득 채운 걸로도 모자라, 볼을 타고 흘렀다."
@@ -183,7 +184,7 @@
 
             "갑작스러운 고통에 나는 몸을 버둥거렸다."
 
-            show char a default des at top
+            #show char a default des at top
             a "야, 가만히 좀 있어봐···."
 
             hide char
@@ -203,13 +204,13 @@
 
             "무엇이 두려운지, 바들바들 떨고 있는 진동까지도 느껴졌다."
 
-            show char a default des at top
+            #show char a default des at top
             a "아까 말했던 거 기억나지? 다 잊어버리라고."
 
-            show char a default des at top
+            #show char a default des at top
             a "그냥 어쩔 수 없었다고 생각해. "
 
-            show char a default des at top
+            #show char a default des at top
             a "나도 하고 싶어서 한 거 아니니까."
 
             hide char
@@ -660,8 +661,8 @@
             show char n default def at top
             n "네가 허락한 거다?"
 
-            scene nox_illust1
-            $ persistent.UnlockImage['nox'][0] = True
+            #scene nox_illust1
+            #$ persistent.UnlockImage['nox'][0] = True
             hide char
             "그는 내 볼을 짓누르고, 입을 맞췄다."
 

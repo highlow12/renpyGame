@@ -1,4 +1,5 @@
 ﻿label chapter_19:
+    scene black
     "제목 : 발칙한 고백"
 
     scene bg forest night

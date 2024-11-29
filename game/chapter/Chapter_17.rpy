@@ -1,4 +1,5 @@
 ﻿label chapter_17:
+    scene black
     "제목 : 신의 축복"
 
     scene black

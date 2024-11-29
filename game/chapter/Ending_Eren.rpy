@@ -1,5 +1,6 @@
 ﻿label ending_eren:
-    "제목 : 유배된 마음"
+    scene black
+    #"제목 : 유배된 마음"
 
     scene bg forest fire
     play music "bgm/tension5.mp3"
@@ -180,7 +181,7 @@
     "에런은 숨을 들이쉬었다."
 
     show char e default def at top
-    play music "bgm/-.mp3"
+    play music "bgm/peace.mp3"
     e "모든 게 전부 끝이구나."
 
     hide char

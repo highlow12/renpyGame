@@ -1,4 +1,5 @@
 label ending_adrian:
+    scene black
     #"제목 : 머나먼 여행의 종착지"
 
     scene bg forest fire

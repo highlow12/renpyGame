@@ -1,7 +1,8 @@
 ﻿label chapter_3:
+    scene black
     "제목 : 정체불명의 마법사와 공자"
 
-    scene bg kingdom way
+    scene bg kingdom garden
     play sound "sfx/sword_throw1.mp3"
     play music "bgm/nox2.mp3"
     "휘익 - "
@@ -96,7 +97,7 @@
     hide char
     "시끄러운 소리가 났다. "
 
-    "그렇게 어쩌다 보니, 나와 침입자는 황궁 정원에서 잔뜩 얽혀 뒹굴고 말았다."
+    "그렇게 어쩌다 보니, 나와 침입자는 황궁 복도에서 잔뜩 얽혀 뒹굴고 말았다."
 
     "정확히는 내가 그의 멱살을 쥐고, 그의 몸 위에 올라타 있었다."
 
@@ -395,7 +396,7 @@
             "그리고 에런에게는 대충 앞장서라는 눈짓만을 줬다."
 
             show char s default def at top
-        "상황 지휘를 하며, 안전지대로 이동할 준비를 한다.":
+        "상황을 지휘하며 이동할 준비를 한다.":
             $ persistant.Likeability['eren'] += 5
             $ persistant.Likeability['hean'] += 5
             s "그럼, 헤안님은 기사단 전원에게 휴식을 위해 안전지대로 이동할 예정이라고 전해주세요."
@@ -418,7 +419,7 @@
 
     "그렇게, 기사단은 시간을 지체할 틈 없이 안전 지대로 서둘러 움직였다. "
     scene bg camp night
-    play sound "sfx/hammer.mp3"
+    #play sound "sfx/hammer.mp3"
     "안전지대에 도착한 후에는 막사를 설치하기 시작했다."
 
     "다들 분주했고, 여기저기서 곡소리가 들렸다."
@@ -436,7 +437,7 @@
     "정찰대 일행은 그 점에 유의하며, 재빠르게 복귀할 예정이었다."
 
     "하지만 왠지 모를 불안감이 엄습 해오기 시작했다."
-
+    scene bg forest winter night
     show char t default emb at top
     play music "bgm/ptsd3.mp3"
     with shake

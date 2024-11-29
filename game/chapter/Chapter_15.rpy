@@ -1,4 +1,5 @@
 ﻿label chapter_15:
+    scene black
     "제목 : 수면 위의 것들"
 
     scene black
@@ -416,7 +417,7 @@
             "나는 아드리안을 쫓아 밖으로 나갔다."
 
     scene bg forest day
-    play music "bgm/-.mp3"
+    play music "bgm/comfort7.mp3"
     "그렇게 쫓아간 결과, 막사와는 조금 떨어져 아무도 없는 곳에 다다랐다."
     "그가 어색하게 뒤를 돌아서 있었다."
 

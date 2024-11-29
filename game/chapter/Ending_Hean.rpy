@@ -1,4 +1,5 @@
 label ending_hean:
+    scene black
     #"제목 : 귀속된 사람"
 
     scene bg forest fire

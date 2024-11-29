@@ -1,4 +1,5 @@
 ﻿label chapter_5:
+    scene black
     "제목 : 내 진정한 목표는"
 
     scene black

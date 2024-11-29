@@ -1,4 +1,5 @@
 ﻿label chapter_18:
+    scene black
     "제목 : 숨겨진 진실"
 
     
@@ -300,8 +301,9 @@
     show char nobility1 at top
     Character('황후 심복') "알겠습니다."
 
-    show char q default def at top
-    Character('황후 카일리') "(황후의 심복은 알겠다는 대답만 할 뿐이었다."
+    hide char
+    #show char q default def at top
+    "황후의 심복은 알겠다는 대답만 할 뿐이었다."
 
     show char q default def at top
     Character('황후 카일리') "좋은 황제가 되어야 하지 않겠니."

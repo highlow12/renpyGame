@@ -1,4 +1,5 @@
 ﻿label chapter_10:
+    scene black
     "제목 : 예상치 못한 사건"
 
     scene black
@@ -868,6 +869,7 @@
             "마음이 뒤숭숭했다."
 
     play music "bgm/ptsd2.mp3"
+    play sound "sfx/bird.mp3"
     "그렇게, 공작가에 아침이 찾아왔다."
     scene bg noble way
     "준비를 빠르게 마치고, 방을 나섰다."

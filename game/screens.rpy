@@ -1726,14 +1726,6 @@ screen select_chapter():
         yalign .15
         text_size 90
         text_font "DNFForgedBlade-Medium.ttf"
-        
-
-    imagebutton idle "gui/icon_exit.png" :
-        action Hide('select_chapter', dissolve)
-        xalign 0.99
-        yalign 0.01
-
-
 
 #호감도 창
 

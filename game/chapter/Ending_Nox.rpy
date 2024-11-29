@@ -1,4 +1,5 @@
 label ending_nox:
+    scene black
     "제목 : 달이 지지 않는 밤"
 
     scene bg forest fire
@@ -316,7 +317,7 @@ label ending_nox:
     "아, 가장 중요한 앞으로의 내 미래는···."
 
     
-    scene bg tower in
+    scene bg village day
     show char n default bad at top
     play music "bgm/nox3.mp3"
     n "가자며, 자꾸 이렇게 굼실거릴래?"
